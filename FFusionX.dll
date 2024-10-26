@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang='en' dir='ltr' prefix='og: http://ogp.me/ns#'>
+<head>
+<title>Home - Official Home of the PHPFusion CMS</title>
+<meta charset='utf-8'>
+<meta name='description' content='Welcome to the official development and support site of PHPFusion CMS.
+ PHPFusion is an award-winning open source content management system.'>
+<meta name='url' content='https://www.phpfusion.com/'>
+<meta name='keywords' content='PHP-Fusion, PHPFusion, CMS, award-winning, Portal, open source, fusion cms, AGPL, PHP, MySQL, HTML, content management, themes, digital publishing, forums, ddns, dyndns, dns, dynamic dns, hosting,web hosting, webhosting, domains, domain finder, domain suggestions,domain names, SSL, websitebaker, wondercms'>
+<meta name='image' content='https://www.phpfusion.com//images/phpfusion-logo.svg'>
+<link rel='canonical' href='https://www.phpfusion.com/home.php'>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="stylesheet" href="includes/bootstrap/bootstrap5/css/bootstrap.min.css"><link rel='stylesheet' href='includes/fonts/font-awesome-5/css/all.min.css'>
+<link rel='stylesheet' href='includes/fonts/font-awesome-5/css/v4-shims.min.css'>
+<link rel='stylesheet' href='themes/templates/default.min.css?v=1680695355'>
+<link rel='stylesheet' href='includes/fonts/PHPFusion/font.min.css?v2'>
+<link rel='stylesheet' href='themes/FusionTheme/styles.css?v=1728690216' media='all'><link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png"><link rel="manifest" href="images/favicons/site.webmanifest"><link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#262626"><meta name="msapplication-TileColor" content="#262626"><script src='includes/jquery/jquery-2.min.js'></script>
+<script>var site_path = '/';</script><script defer src='includes/jscripts/jscript.min.js?v=1669887171'></script>
+<link rel='stylesheet' href='includes/jquery/confirm/jquery-confirm.min.css?v=1645766478' media='all'>
+<link rel='stylesheet' href='themes/FusionTheme/templates/home/styles.min.css?v=1683623801' media='all'>
+<link rel='stylesheet' href='includes/jscripts/splide/css/splide.min.css?v=1654971666' media='all'>
+<link rel='stylesheet' href='includes/jscripts/splide/css/themes/splide-default.min.css?v=1654971666' media='all'>
+<noscript><div class='alert alert-danger noscript-message admin-message'><strong>Oh no! Where's the JavaScript?<br/>Your Web browser does not have JavaScript enabled or does not support JavaScript.
+Please enable JavaScript on your Web browser to properly view this Web site, or upgrade to a Web browser that does support JavaScript.</strong></div>
+</noscript>
+<!--error_handler-->
+
+<meta property="og:title" content="Home">
+<meta property="og:description" content="Welcome to the official development and support site of PHPFusion CMS.
+ PHPFusion is an award-winning open source content management system.">
+<meta property="og:url" content="https://www.phpfusion.com/">
+<meta property="og:keywords" content="PHP-Fusion, PHPFusion, CMS, award-winning, Portal, open source, fusion cms, AGPL, PHP, MySQL, HTML, content management, themes, digital publishing, forums, ddns, dyndns, dns, dynamic dns, hosting,web hosting, webhosting, domains, domain finder, domain suggestions,domain names, SSL, websitebaker, wondercms">
+<meta property="og:image" content="https://www.phpfusion.com/images/favicons/mstile-150x150.png">
+<meta property="og:site_name" content="Official Home of the PHPFusion CMS">
+<meta property="og:type" content="website">
+</head>
+<body>
+<div data-color-scheme="dark"><header  class="headerBg"> <div id="main" class="navbar navbar-expand-lg bg-dark" role="navigation"> <div class="container"> <!--Menu Header Start--> <div class='d-none d-sm-block d-lg-none'><a href='register.php' class='btn btn-default bordered btn-signup'>Sign up</a></div> <a href='home.php'> <img class='navbar-brand' src='/images/phpfusion-logo.svg' alt='Official Home of the PHPFusion CMS'> </a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu" aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <!--Menu Header End--> <div class="collapse navbar-collapse" id="main_menu"> <div class="navbar-nav primary me-auto mb-2 mb-lg-0 primary"> <!--Menu Item Start--> <li class="nav-item nav-item current-link active dropdown" role="presentation"> <a id='ddlink129' data-toggle='dropdown' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false' role='presentation' data-submenu href='#' class='nav-link dropdown-toggle'> <i class="fad fa-meteor m-r-5"></i><div>Products</div><i class=''></i> </a> <ul id="menu-129" aria-labelledby="ddlink129" class="dropdown-menu"> <li class="nav-item dropdown-submenu" role="presentation"> <a id='ddlink80' data-toggle='dropdown' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false' role='presentation' href='#' class='nav-link dropdown-toggle'> <div>News and Information</div><i class="fas fa-caret-down" ></i> </a> <ul id="menu-80" aria-labelledby="ddlink80" class="dropdown-menu"> <li class="nav-item" role="presentation"> <a href='infusions/news/news.php' class='nav-link'> <i class="fad fa-newspaper m-r-5"></i><div class='menu-description' ><span class='strong'>PHPFusion News</span><span> Our Latest Announcements</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='licensing/licensing.php' class='nav-link'> <i class="fad fa-scroll m-r-5"></i><div class='menu-description' ><span class='strong'>Licensing</span><span> Copyright Removal Protection</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='legal/?page=code_of_conduct' class='nav-link'> <i class="fad fa-head-side-brain m-r-5"></i><div class='menu-description' ><span class='strong'>Code of Conduct</span><span> Actions and Responsibility</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='legal/?page=privacy_policy' class='nav-link'> <i class="fas fa-user-secret m-r-5"></i><div class='menu-description' ><span class='strong'>Our Privacy Policy</span><span> This Privacy Policy applies to all products</span></div> </a> </li> </ul> </li> <li class="nav-item dropdown-submenu" role="presentation"> <a id='ddlink134' data-toggle='dropdown' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false' role='presentation' href='#' class='nav-link dropdown-toggle'> <div>Products and Services</div><i class="fas fa-caret-down" ></i> </a> <ul id="menu-134" aria-labelledby="ddlink134" class="dropdown-menu"> <li class="nav-item" role="presentation"> <a href='infusions/downloads/downloads.php?type=recent' class='nav-link'> <i class="fad fa-arrow-alt-square-down m-r-5"></i><div class='menu-description' ><span class='strong'>Download Archives</span><span>All Previous Releases</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='phpfusion_9_downloads.php' class='nav-link'> <i class="fad fa-galaxy m-r-5"></i><div class='menu-description' ><span class='strong'>PHPFusion 9 </span><span>Full featured PHPFusion</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='phpfusion_8_downloads.php' class='nav-link'> <i class="fad fa-comet m-r-5"></i><div class='menu-description' ><span class='strong'>PHPFusion 8</span><span> Our Lightweight CMS</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='translations' class='nav-link'> <i class="fad fa-language m-r-5"></i><div class='menu-description' ><span class='strong'>Download Translations</span><span>All Language Releases</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='https://demos.phpfusion.com' target='_blank' class='nav-link'> <i class="fad fa-snowflakes m-r-5"></i><div class='menu-description' ><span class='strong'>Live Demos</span><span>Software demonstration</span></div> </a> </li> </ul> </li> <li class="nav-item dropdown-submenu" role="presentation"> <a id='ddlink135' data-toggle='dropdown' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false' role='presentation' href='#' class='nav-link dropdown-toggle'> <div>Key Features</div><i class="fas fa-caret-down" ></i> </a> <ul id="menu-135" aria-labelledby="ddlink135" class="dropdown-menu"> <li class="nav-item" role="presentation"> <a href='#' class='nav-link'> <i class="fad fa-rocket m-r-5"></i><div class='menu-description' ><span class='strong'>Design and Theming</span><span> Customizable theme framework</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='#' class='nav-link'> <i class="fad fa-flux-capacitor m-r-5"></i><div class='menu-description' ><span class='strong'>Maincore</span><span> Full featured core</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='marketplace.php' class='nav-link'> <i class="fad fa-box-full m-r-5"></i><div class='menu-description' ><span class='strong'>PHPFusion Marketplace</span><span> Themes and Addons</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='#' class='nav-link'> <i class="fad fa-magnet m-r-5"></i><div class='menu-description' ><span class='strong'>Infusions</span><span> Expandability without limits</span></div> </a> </li> </ul> </li> <li class="nav-item dropdown-submenu" role="presentation"> <a id='ddlink136' data-toggle='dropdown' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false' role='presentation' href='#' class='nav-link dropdown-toggle'> <div>Web Hosting & VIP</div><i class="fas fa-caret-down" ></i> </a> <ul id="menu-136" aria-labelledby="ddlink136" class="dropdown-menu"> <li class="nav-item" role="presentation"> <a href='hosting.php' class='nav-link'> <i class="fad fa-planet-ringed m-r-5"></i><div class='menu-description' ><span class='strong'>Hosting Plans</span><span>Plans that fits your budget</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='hosting.php?domain' class='nav-link'> <i class="fad fa-brackets-curly m-r-5"></i><div class='menu-description' ><span class='strong'>Domain Name Search</span><span>Find the perfect domain</span></div> </a> </li> </ul> </li> </ul> </li> <li class="nav-item nav-item dropdown" role="presentation"> <a id='ddlink131' data-toggle='dropdown' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false' role='presentation' data-submenu href='#' class='nav-link dropdown-toggle'> <i class="fad fa-user-friends m-r-5"></i><div>Community</div><i class=''></i> </a> <ul id="menu-131" aria-labelledby="ddlink131" class="dropdown-menu"> <li class="nav-item dropdown-submenu" role="presentation"> <a id='ddlink150' data-toggle='dropdown' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false' role='presentation' href='#' class='nav-link dropdown-toggle'> <div>Contribute</div><i class="fas fa-caret-down" ></i> </a> <ul id="menu-150" aria-labelledby="ddlink150" class="dropdown-menu"> <li class="nav-item" role="presentation"> <a href='infusions/staff_application/application.php' class='nav-link'> <i class="fad fa-life-ring m-r-5"></i><div class='menu-description' ><span class='strong'>Staff Application</span><span> Volunteer as Community Staff</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='marketplace.php' class='nav-link'> <i class="fad fa-box-full m-r-5"></i><div class='menu-description' ><span class='strong'>PHPFusion Marketplace</span><span> Themes and Addons</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='https://www.github.com/phpfusion/phpfusion' target='_blank' class='nav-link'> <i class="fab fa-github m-r-5"></i><div class='menu-description' ><span class='strong'>Core Code</span><span> Contribute to our codebase</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='https://translate.phpfusion.com' target='_blank' class='nav-link'> <i class="fad fa-flag-usa m-r-5"></i><div class='menu-description' ><span class='strong'>Translations</span><span> Help translate PHPFusion</span></div> </a> </li> </ul> </li> <li class="nav-item dropdown-submenu" role="presentation"> <a id='ddlink151' data-toggle='dropdown' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false' role='presentation' href='#' class='nav-link dropdown-toggle'> <div>Connect</div><i class="fas fa-caret-down" ></i> </a> <ul id="menu-151" aria-labelledby="ddlink151" class="dropdown-menu"> <li class="nav-item" role="presentation"> <a href='https://phpfusion.com/infusions/forum/index.php?section=tracked' class='nav-link'> <i class="fad fa-wifi m-r-5"></i><div class='menu-description' ><span class='strong'>Tracked Threads</span><span> Your Tracked Threads</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='https://phpfusion.com/infusions/forum/index.php?section=latest' class='nav-link'> <i class="fad fa-stream m-r-5"></i><div class='menu-description' ><span class='strong'>Latest Threads</span><span> In our Support Forum</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='https://phpfusion.com/infusions/forum/index.php' class='nav-link'> <i class="fad fa-waveform-path m-r-5"></i><div class='menu-description' ><span class='strong'>PHPFusion Forums</span><span> Our Support Forum</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='infusions/partners/partners.php' class='nav-link'> <i class="fad fa-globe-europe m-r-5"></i><div class='menu-description' ><span class='strong'>PHPFusion Partner Network</span><span> Our International Partner Network</span></div> </a> </li> </ul> </li> <li class="nav-item dropdown-submenu" role="presentation"> <a id='ddlink152' data-toggle='dropdown' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false' role='presentation' href='#' class='nav-link dropdown-toggle'> <div>Learn</div><i class="fas fa-caret-down" ></i> </a> <ul id="menu-152" aria-labelledby="ddlink152" class="dropdown-menu"> <li class="nav-item" role="presentation"> <a href='infusions/wiki' class='nav-link'> <i class="fad fa-book m-r-5"></i><div class='menu-description' ><span class='strong'>User Guides</span><span>Manual for PHP-Fusion</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='infusions/faq/faq.php' class='nav-link'> <i class="fad fa-question-square m-r-5"></i><div class='menu-description' ><span class='strong'>FAQ</span><span>Frequent Asked Questions</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='addon_generator/' class='nav-link'> <i class="fad fa-book-spells m-r-5"></i><div class='menu-description' ><span class='strong'>Addon Generator</span><span> v9 Addon SDK Generator</span></div> </a> </li> <li class="nav-item" role="presentation"> <a href='infusions/downloads/downloads.php?file_id=601' target='_blank' class='nav-link'> <i class="fad fa-download m-r-5"></i><div class='menu-description' ><span class='strong'>PHPFusion SDK</span><span>Self Development Kit</span></div> </a> </li> </ul> </li> </ul> </li> <li class="nav-item nav-item" role="presentation"> <a href='search.php' class='nav-link'> <i class="fad fa-search m-r-5"></i><div>Search</div> </a> </li> <!--Menu Item End--> </div> <div class="navbar-nav secondary"> <!--Menu Item Start--> <li class="nav-item nav-item current-link active" role="presentation"> <a href='login.php' class='d-none d-sm-none d-lg-block'> <div>Sign In</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='register.php' class='bordered'> <div>Sign up</div> </a> </li> <!--Menu Item End--> </div> </div> </div> </div></header><main class="mainbody">        <div class='row main-wrapper'>
+            <div class='col-xs-12 col-sm-12 p0'>
+                <noscript><div class='alert alert-danger noscript-message admin-message'><strong>Oh no! Where's the JavaScript?<br/>Your Web browser does not have JavaScript enabled or does not support JavaScript.
+Please enable JavaScript on your Web browser to properly view this Web site, or upgrade to a Web browser that does support JavaScript.</strong></div>
+</noscript>
+<!--error_handler-->
+<svg style="position: absolute;"> <clipPath id="clip"> <path d="M1175.65 35.7644C962.846 -46.1285 865.751 35.6288 643.768 54.6084C421.786 73.588 391.68 33.0436 226.292 14.4975C60.9034 -4.0486 11.1228 90.8729 -67.9998 110.654C-67.9998 198.586 -67.9998 516 -67.9998 516L1508.19 516L1508.19 8.45359C1508.19 8.45359 1388.84 117.807 1175.65 35.7644Z"></path> </clipPath></svg><section class="home"> <!---//website-hero---> <div class="home-hero"> <div class="wave-hero"> <div class="wave-wrapper"> <div class="wave-1"></div> <div class="wave-filter"></div> <div class="wave-2"></div> <div class="wave-3"></div> </div> <div class="home-content"> <div class="content"> <h1>Infuse our <span class="txt-rotate" data-period="2000" data-rotate='["CMS","addons","hosting","support"]'>CMS</span> <br>for your online presence. </h1> <p>Discover the best way to make your personal or commercial websites with one of the most robust development environment. We've got everything that you'll ever need for your web building experience.</p> <a class="download-block btn btn-primary" href="phpfusion_9_downloads.php"> <div class="icon"><i class="fas fa-cloud-download-alt"></i></div> <div class="text-left"><span class="strong">Download</span> <div>Latest Stable Releases</div> </div> </a> </div> <div class="content-mockup"> <div class="mockup3"><img src="themes/FusionTheme/assets/images/mockup-window.svg" loading="lazy" alt=""> </div> <div class="mockup-card1"> <img src="themes/FusionTheme/assets/images/mockup-card1.gif" loading="lazy" alt=""></div> <div class="mockup-card2"> <img src="themes/FusionTheme/assets/images/mockup-card2.gif" loading="lazy" alt=""></div> <div class="mockup-card3"> <img src="themes/FusionTheme/assets/images/mockup-card3.gif" loading="lazy" alt=""></div> </div> </div> </div> </div> <div class="intro"> <div class="container"> <div class="start-card"> <div class="start-fore"> <div class="start-text"> <h3>PHPFusion</h3> <h4>Leading Open Source CMS</h4> <p> Take advantage of PHPFusion features to easily create, edit and manage content for websites. Keep your site under control with a powerful backend web administration panel. PHPFusion comes in 2 version, one lightweight and the other a full-suite with latest feature implementations for your choosing. </p> </div> <div class="start-grid"> <div class="item"> <span>1 Solution Suite</span> </div> <div class="item"> <span>Modular custom design</span> </div> <div class="item"> <span>SEO friendly</span> </div> <div class="item"> <span>Responsive design</span> </div> <div class="item"> <span>Modular system</span> </div> <div class="item"> <span>Fast performant</span> </div> <div class="item"> <span>Security</span> </div> <div class="item"> <span>Multi-language</span> </div> </div> </div> <div class="start-bg"> <div class="start-bg1 orb"></div> <div class="start-bg2 orb"></div> <div class="start-bg3 orb"></div> </div> </div> </div> </div> <!---//marketplace-hero---> <div class="mp-hero hero-section"> <div class="mp-hero-block stackdown"> <div class="mp-content-hero"> <h5>Marketplace</h5> <h3>Expand with the best ADDONS & THEMES with Marketplace</h3> <p>The Marketplace can prepare you for your website needs. When you need help with them, you can check out our community forum.</p> </div> <div class="mp-content-meta"> <div id="mpTypesSlide" class="splide" aria-label="Marketplace Types"> <div class="splide__track"> <div class="splide__list"> <a href="#" class="mp-types splide__slide"> <div class="list-group-item"> <h4> <span class="icon"><img src="themes/FusionTheme/images/icons/infusion.svg" alt="Infusion" loading="lazy"></span>Infusion </h4> <p>These addons to expands the functionality and features of your website with just a simple install</p> </div> </a> <a href="#" class="mp-types splide__slide"> <div class="list-group-item"> <h4> <span class="icon"><img src="themes/FusionTheme/images/icons/theme.svg" alt="Theme" loading="lazy"></span> Themes </h4> <p>Discover more themes and templates that can change the outlook of your website</p> </div> </a> <a href="#" class="mp-types splide__slide"> <div class="list-group-item"> <h4> <span class="icon"><img src="themes/FusionTheme/images/icons/panel.svg" alt="Panels" loading="lazy"></span>Panels </h4> <p>These addons to brings snapshots of information for display in any pages you prefer</p> </div> </a> <a href="#" class="mp-types splide__slide"> <div class="list-group-item"> <h4> <span class="icon"><img src="themes/FusionTheme/images/icons/userfield.svg" alt="User Fields" loading="lazy"></span>User Fields </h4> <p>Add custom field inputs to for your user to expand their portfolio</p> </div> </a> <a href="#" class="mp-types splide__slide"> <div class="list-group-item"> <h4> <span class="icon"><img src="themes/FusionTheme/images/icons/bbcode.svg" alt="BBCodes" loading="lazy"></span>BBCodes </h4> <p>Add custom BBCodes to expand input macro that your site can use</p> </div> </a> </div> </div> </div> </div> </div> </div> <div class="os-opinion hero-section"> <div class="opinion"> <h5>Products</h5> <h3>Choose the solution that fits your needs</h3> <div class="row equal-height"> <div class="col-xs-12 col-sm-12 col-md-6"> <div class="list-group-item os-system"> <div class="title"><strong>PHPFusion 9</strong> Andromeda</div> <p> If you need a powerful system to build an <strong>enterprise</strong> grade platform, more powerful features and do not mind spending time to web development </p> <div class="group-item mt-auto"> <a href="https://phpfusion.com/phpfusion_9_downloads.php" class="btn btn-warning btn-md">Download CMS <i class="fas fa-angle-right fa-lg"></i></a> </div> </div> </div> <div class="col-xs-12 col-sm-12 col-md-6"> <div class="list-group-item os-system"> <div class="title"><strong>PHPFusion 8</strong> Tesseract</div> <p>If you need a <strong>lightweight</strong> system to setup your website with a simple yet robust content management system, the classical phpfusion cms might be more fitted to your requirement </p> <div class="group-item mt-auto"> <a href="https://phpfusion.com/phpfusion_8_downloads.php" class="btn btn-warning bordered btn-md">Download CMS <i class="fas fa-angle-right fa-lg"></i></a> </div> </div> </div> </div> <div class="btn-row"> <span>Explore our demo servers to see which one is right for you!</span> <a href="https://demos.phpfusion.com" target="_blank" class="btn btn-warning">Visit our Demos</a> </div> </div> <div class="opinion-bg"></div> </div> <div class="os-features hero-section"> <div class="row"> <div class="col-xs-12 col-sm-12"> <div class="text"> <h5>Product Features</h5> <h3>PHPFusion has many powerful features that make it an ideal CMS for many businesses and organizations.</h3> </div> </div> <div class="col-xs-12 col-sm-12"> <div class="row"> <div class="col-xs-12 col-sm-4"> <div class="feature equal-height"> <div class="card card-1"> <h3><i class="fab fa-uikit"></i> Seamless Experience</h3> <h4>Easy installation & customization</h4> <p>With PHPFusion, you can get your website up and running in no time at all. Our installation process is quick and easy, and you can be up and running with a fully functional website in just a few clicks.</p> </div> <div class="card card-2"> <h3><i class="fad fa-search"></i> Search Engine</h3> <h4>SEO URLs and metadata</h4> <p> PHPFusion is designed to help you get the most out of your SEO efforts. Our platform generates clean, readable URLs that are optimized for search engines, and our metadata fields make it easy to include relevant keywords and descriptions that will help your site stand out in search results. </p> </div> </div> </div> <div class="col-xs-12 col-sm-4"> <div class="feature"> <div class="card card-1"> <h3><i class="fad fa-magnet"></i> Addons</h3> <h4>Plugin and theme ecosystem</h4> <p> With PHPFusion, you're not limited by the default features of the platform. Our plugin and theme ecosystem makes it easy to add new functionality, such as social media integration, e-commerce capabilities, and more, to your website without needing to write any code. </p> </div> <div class="card card-2"> <h3><i class="fad fa-external-link"></i> Connectivity</h3> <h4>Support multiple database</h4> <p> PHPFusion's support for multiple databases doesn't just benefit you, either. By offering support for multiple databases, we're also making it easier for your website to integrate with other tools and systems. With PHPFusion, you can create a more seamless and integrated online experience for your users. </p> </div> </div> </div> <div class="col-xs-12 col-sm-4"> <div class="feature"> <div class="card card-1"> <h3><i class="fad fa-user-circle"></i> Scaling participation</h3> <h4>User management</h4> <p> Whether you're running a small blog or a large online store, PHPFusion's user management and permission system is designed to scale with your needs. Our platform can handle thousands of users and groups, all while ensuring that your site remains secure and accessible to those who need it. </p> </div> <div class="card card-2"> <h3><i class="fad fa-globe"></i> Globalization</h3> <h4>Multi-language support</h4> <p> PHPFusion's multi-language support isn't just for front-end content, either. Our platform includes powerful tools for managing multi-language admin interfaces, so you can manage your website in the language that's most comfortable for you. With PHPFusion, you can truly create a website that speaks your language, no matter what that language may be. </p> </div> </div> </div> </div> </div> </div> <div class="os-bg"></div> </div> <div class="os-about hero-section"> <div class="well"> <h3>Our Mission</h3> <ul class="nav nav-tabs" id="myTab" role="tablist"> <li class="nav-item" role="presentation"> <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Unify</button> </li> <li class="nav-item" role="presentation"> <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Empower</button> </li> <li class="nav-item" role="presentation"> <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Innovate</button> </li> </ul> <div class="tab-content" id="myTabContent"> <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"> <h4> We will build technology that is accessible, affordable and easy to use for everyone. The PHPFusion's roadmap is to <strong>unify</strong> the tools they need to create a professional and engaging website, regardless of their technical skills or budget. </h4> </div> <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"> <h4> We'll <strong>empower</strong> our users to create engaging and impactful online experiences that help them achieve their goals. Whether you're building a website to promote your business, share your creativity, or connect with your community, PHPFusion is here to help you make it happen. </h4> </div> <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0"> <h4> PHPFusion's <strong>innovative</strong> approach is to constantly improving and updating our platform to ensure that our users have access to the latest tools and technology, so they can create the website of their dreams. </h4> </div> </div> </div> <div class="about-bg"></div> </div> <div class="os-config hero-section"> <div class="well text-center"> <h3>Quick installations</h3> <p>With PHPFusion CMS everything becomes simple — point your browser to the installer file and run the guided installation process.</p> </div> </div> <div class="os-signup hero-section"> <h3>Ready to take your online presence to the next level</h3> <h4>But don't just take our word for it - sign up today and see for yourself why so many users choose PHPFusion for their website needs. Our platform is affordable, customizable, and backed by a dedicated support team who are always here to help you succeed.</h4> <div class="signup-buttons"> <a class="btn btn-lg btn-default-alt" href="register.php">Sign up for PHPFusion <i class="far fa-angle-right"></i></a> </div> </div> <!--//phpfusion-cms---> <!----// Hosting -----> <!----// Developer Experience -----> <div class="sponsor-hero hero-section"> <h3>Links of Interests</h3> <div class="k"> <a href="https://venue.nu/" target="blank" title="Venue">Venue</a> &middot;<a href="https://kryahem.se/" target="blank" title="Krya Hem">Krya Hem</a><br /><a href="https://justuk.club/" target="blank" title="Justuk.club">Justuk.club</a> &middot; <!-- 04/04/2023 --><a href="https://kiesgroener.nl/" target="blank" title="Kies Groener">Kies Groener</a> &middot; <!-- 23/04/2023 --><a href="https://acceptgiro-shops.nl/" target="blank" title="Acceptgiro betalen">acceptgiro betalen</a> &middot; <!-- 23/04/2023 --><a href="https://aliternetworks.com/" target="blank" title="Aliter Networks">Aliter Networks</a> <!-- 23/04/2023 --><br /><a href="https://www.creon-ramen.be/" target="blank" title="Ramen en deuren">Ramen en deuren</a> &middot; <!-- 20/03/2023 --><a href="https://www.body-supplies.nl/vitamine/vitamine-d/" target="blank" title="Vitamine D">Vitamine D</a> &middot; <!-- 20/03/2023 --><a href="https://damp-e.nl/e-sigaret/" target="blank" title="E sigaret">E sigaret</a> &middot; <!-- 20/03/2023 --><a href="https://casinoer.org/" target="blank" title="casinoer">casinoer</a> <!-- 20/01/2023 --> </div> </div></section>            </div>
+                    </div>
+        </main><footer>
+        <div class="breadcrumb-wrapper">
+            <div class="container"><ol class="breadcrumb"><li class="breadcrumb-item crumb"><a title="Home" href="home.php">Home</a></li></ol></div>        </div>
+        <div class="footer">
+            <div class="container">            <div class="mb-3">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-9">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                                <h5>PHPFusion</h5>
+                                 <div id="footer_3" class="navbar navbar-expand-lg footer" role="navigation"> <!--Menu Header Start--> <!--Menu Header End--> <div class="navbar-nav primary me-auto mb-2 mb-lg-0 flex-column"> <!--Menu Item Start--> <li class="nav-item nav-item current-link active" role="presentation"> <a href='contact_us.php' class='nav-link'> <div>Contact us</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='about/about.php' class='nav-link'> <div>About PHPFusion CMS</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='infusions/news/news.php' class='nav-link'> <div>News</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='about/cms.php' class='nav-link'> <div>CMS Explained</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='about/company.php' class='nav-link'> <div>About PHP Fusion Inc</div> </a> </li> <!--Menu Item End--> </div> </div>                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                                <h5>Resources</h5>
+                                 <div id="footer_1" class="navbar navbar-expand-lg footer" role="navigation"> <!--Menu Header Start--> <!--Menu Header End--> <div class="navbar-nav primary me-auto mb-2 mb-lg-0 flex-column"> <!--Menu Item Start--> <li class="nav-item nav-item current-link active" role="presentation"> <a href='infusions/partners/partners.php' class='nav-link'> <div>PHPFusion Partners</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='hosting.php' class='nav-link'> <div>PHPFusion Hosting</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='infusions/staff_application/application.php' class='nav-link'> <div>Team Application</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='infusions/crv_report/crv_report.php' class='nav-link'> <div>CRV Report</div> </a> </li> <!--Menu Item End--> </div> </div>                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                                <h5>Community</h5>
+                                 <div id="footer_4" class="navbar navbar-expand-lg footer" role="navigation"> <!--Menu Header Start--> <!--Menu Header End--> <div class="navbar-nav primary me-auto mb-2 mb-lg-0 flex-column"> <!--Menu Item Start--> <li class="nav-item nav-item current-link active" role="presentation"> <a href='infusions/forum/index.php?section=participated' class='nav-link'> <div>Participated Discussions</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='https://phpfusion.com/infusions/forum/index.php?section=unanswered' class='nav-link'> <div>Unanswered Threads</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='https://phpfusion.com/infusions/forum/index.php?section=unsolved' class='nav-link'> <div>Unsolved Questions</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='infusions/forum/index.php?section=latest' class='nav-link'> <div>Latest Discussions</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='https://phpfusion.com/infusions/forum/index.php?section=tracked' class='nav-link'> <div>Tracked Threads</div> </a> </li> <!--Menu Item End--> </div> </div>                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                                <h5>Development</h5>
+                                 <div id="footer_5" class="navbar navbar-expand-lg footer" role="navigation"> <!--Menu Header Start--> <!--Menu Header End--> <div class="navbar-nav primary me-auto mb-2 mb-lg-0 flex-column"> <!--Menu Item Start--> <li class="nav-item nav-item current-link active" role="presentation"> <a href='addon_generator/' class='nav-link'> <div>Addon Generator (v9)</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='https://www.php-fusion.co.uk/infusions/wiki/index.php?cat_id=1' class='nav-link'> <div>Dev Documentation</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='https://www.php-fusion.co.uk/infusions/downloads/downloads.php?file_id=601' target='_blank' class='nav-link'> <div>Download SDK (v9)</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='https://translate.phpfusion.com' target='_blank' class='nav-link'> <div>Translate PHPFusion</div> </a> </li> <li class="nav-item nav-item" role="presentation"> <a href='https://github.com/PHPFusion' target='_blank' class='nav-link'> <div>PHPFusion on Github</div> </a> </li> <!--Menu Item End--> </div> </div>                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3">
+                        <h5>Project Sponsors</h5>
+                        <div class="spacer-xs">
+                            <a class="spacer-xs" href="https://partners.a2hosting.com/solutions.php?id=5169&url=554" target="_blank"
+                               title="A2 Hosting">
+                                <img src="images/sponsors/a2125x125.gif" height="100" alt="A2 Hosting">
+                            </a>
+                            <a class="spacer-xs" href="seo.php" target="_blank" title="SEO">
+                                <img src="images/sponsors/SEOTECH3.png" height="100" alt="SEO">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>        </div>
+                <section class="copyright">
+                    <div class='social-media'>
+            <div class="container">            <img src="/images/phpfusion-logo.svg" alt="Official Home of the PHPFusion CMS" style="max-height: 58px;">
+            <!--                    <a class="top pull-right" href="#top" aria-label="top navigation"><i class="far fa-angle-up"></i></a>-->
+            <div class="social-network">
+                <a target='_blank' href="https://www.facebook.com/PHPFusion" title='Official PHPFusion Facebook Page'><i class='fab fa-facebook-square'></i></a>
+                <a target='_blank' href='https://www.twitter.com/PHPFusion' title='Official PHPFusion Twitter Account'><i class='fab fa-twitter'></i></a>
+                <a href="https://discord.gg/M8f4TbNaTX" title='Official PHPFusion Discord Channel'><i class='fab fa-discord'></i></a>
+            </div>
+            </div>        </div>
+                            <div class="copyright-wrapper">
+            <div class="container">            <div class='footer-copyright'>
+                <a href='home.php'>Copyright &copy; 2024 PHPFusion Inc.</a> Published without warranties under
+                <a class="m-l-5" target='_blank' href='home.phplicensing/?epal' title='Enduser PHP-Fusion Addon License'><strong>EPAL</strong></a>
+            </div>
+            <div class='footer-links'>
+                <a href="legal/?page=privacy_policy">Privacy Policy</a>
+                <a href='legal/?page=terms_of_service'>Terms of Service</a>
+                <a href='legal/?page=code_of_conduct'>Code of Conduct</a>
+                <a href='licensing/licensing.php'>Licensing</a>
+                <a href='#top'>Back to Top</a>
+            </div>
+            </div>        </div>
+                </section>
+        </footer></div><script defer src="includes/bootstrap/bootstrap5/js/bootstrap.bundle.min.js"></script><script defer src='includes/jquery/notify.min.js'></script>
+<script src='includes/jquery/confirm/jquery-confirm.min.js?v=1655633055'></script>
+<script src='includes/jscripts/splide/js/splide.min.js?v=1657978195'></script>
+<script src='themes/FusionTheme/assets/loader/loader.min.js?v=1670231428'></script>
+<script src='themes/FusionTheme/theme.min.js?v=1670231428'></script>
+<script>$(function(){
+    var TxtRotate = function(el, toRotate, period) {
+      this.toRotate = toRotate;
+      this.el = el;
+      this.loopNum = 0;
+      this.period = parseInt(period, 10) || 2000;
+      this.txt = '';
+      this.tick();
+      this.isDeleting = false;
+    };
+    
+    TxtRotate.prototype.tick = function() {
+      var i = this.loopNum % this.toRotate.length;
+      var fullTxt = this.toRotate[i];
+    
+      if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+      } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+      }
+    
+      this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+    
+      var that = this;
+      var delta = 300 - Math.random() * 100;
+    
+      if (this.isDeleting) { delta /= 2; }
+    
+      if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+      } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+      }
+    
+      setTimeout(function() {
+        that.tick();
+      }, delta);
+    };
+    
+    window.onload = function() {
+      var elements = document.getElementsByClassName('txt-rotate');
+      for (var i=0; i<elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-rotate');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtRotate(elements[i], JSON.parse(toRotate), period);
+        }
+      }
+      // INJECT CSS
+      var css = document.createElement("style");
+      css.type = "text/css";
+      css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid rgba(255,255,255,.0) }";
+      document.body.appendChild(css);
+    };
+    
+    new Splide('#mpTypesSlide', {
+        type   : 'loop',
+        direction: 'ttb',
+        height   : '400px',
+        padding: '30px',
+        perPage: 3,
+        perMove: 1,
+        autoplay:true,                   
+        pagination:false,
+    }).mount({});
+  
+    new Splide('#appSlide', {
+        autoplay:true,      
+        speed:20000,
+        type   : 'loop',
+        padding: '30px',
+        drag: false,
+        easing: 'linear',
+        arrows:false,
+        pagination:false,
+        perMove: 1,
+        clones:20,
+    }).mount({});
+
+ 
+    
+            //window.FontAwesomeConfig = { searchPseudoElements: true }
+            showhide();
+
+            //$('[data-toggle="tooltip"]').tooltip();
+            
+            // Remove WOW dependancy
+            if ( typeof WOW === 'function' && !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
+                // Initialize WOW
+                wow = new WOW({
+                    boxClass:     'anim',
+                    animateClass: 'animated', // default
+                    offset:       0          // default
+                });
+                wow.init();
+            }
+            /*window.onscroll = function (e) {
+                // called when the window is scrolled.
+                $('.dropdown.open').removeClass('open');
+            } */
+            
+        let _m = $('#main');
+        
+        // _m.on( 'show.bs.dropdown', function () { $('#menu-overlay').show() } );
+        // _m.on( 'hidden.bs.dropdown', function () { $('#menu-overlay').hide() } );
+        
+        // $('.search-toggle').bind( 'click', function ( e){
+        //     e.preventDefault();
+        //     var search_frm = $('#searchform');
+        //     $('#main .navbar-nav.primary').toggleClass( 'display-none' );
+        //     search_frm.toggleClass( 'display-none' );
+        // });
+        //$('#search_text').focus(function() { $(this).animate({ width: '+=250' }, 'slow'); }).blur(function(){ $(this).animate({ width: '-=250' }, 'slow'); });
+        // Automatic open submenus
+
+        // enable tooltip for bootstrap
+        // REMEMBER TO ENABLE
+        //$('[data-toggle="tooltip"]').tooltip();
+        });</script>
+</body>
+</html>
