@@ -1,0 +1,1941 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<title>Planner 5D: House Design Software | Home Design in 3D</title>
+<meta property="og:title" content="Planner 5D: House Design Software | Home Design in 3D" />
+<meta name="description" content="An advanced and easy-to-use 2D/3D house design tool. Create your dream home design with powerful but easy software by Planner 5D." />
+<meta property="og:description" content="An advanced and easy-to-use 2D/3D house design tool. Create your dream home design with powerful but easy software by Planner 5D." />
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://planner5d.com/">
+
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+
+<meta name="msApplication-ID" content="9nblggh4mp71">
+<meta name="msApplication-PackageFamilyName" content="UABPlanner5D.Planner5D-HomeInteriorDesign_ab7xzjg59kkje">
+
+<meta name="twitter:card" content="summary">
+<meta name="verify-admitad" content="2fcb2ee3bb">
+
+<link rel="canonical" href="https://planner5d.com/">
+<link rel="alternate" hreflang="en" href="https://planner5d.com">
+<link rel="alternate" hreflang="pt" href="https://planner5d.com/pt">
+<link rel="alternate" hreflang="es" href="https://planner5d.com/es">
+<link rel="alternate" hreflang="fr" href="https://planner5d.com/fr">
+<link rel="alternate" hreflang="it" href="https://planner5d.com/it">
+<link rel="alternate" hreflang="pl" href="https://planner5d.com/pl">
+<link rel="alternate" hreflang="lt" href="https://planner5d.com/lt">
+<link rel="alternate" hreflang="de" href="https://planner5d.com/de">
+<link rel="alternate" hreflang="zh" href="https://planner5d.com/zh_hans">
+<link rel="alternate" hreflang="sv" href="https://planner5d.com/sv">
+<link rel="alternate" hreflang="ru" href="https://planner5d.com/ru">
+
+<link rel="shortcut icon" href="/favicon.ico?v=6.236.1" type="image/x-icon">
+	<link href="https://static.planner5d.com/assets/css/core.css?ux=6.236.1" rel="stylesheet">
+	<link href="https://static.planner5d.com/assets/css/modals.css?ux=6.236.1" rel="stylesheet">
+
+	<script src="/js/6/fastboot.js?v=6.236.1"  nonce="975f6f0287b2f7a89f069826f4a7f708" ></script>
+<script  nonce="975f6f0287b2f7a89f069826f4a7f708" >fastboot(0,'LT', false, false, false,false, false, true,'3616f7ea-1487-4ee0-924a-378542f4542d', 'false', '975f6f0287b2f7a89f069826f4a7f708')</script>
+<script src="/js/6/vendors/jquery-3.6.0.min.js?v=6.236.1"  nonce="975f6f0287b2f7a89f069826f4a7f708" ></script>
+<script src="/js/6/vendors/popper.min.js?v=6.236.1"  nonce="975f6f0287b2f7a89f069826f4a7f708" ></script>
+<script src="/js/6/vendors/tippy.min.js?v=6.236.1"  nonce="975f6f0287b2f7a89f069826f4a7f708" ></script>
+<script  nonce="975f6f0287b2f7a89f069826f4a7f708"  src="/js/6.236.1/build/old.js"></script>
+<script  nonce="975f6f0287b2f7a89f069826f4a7f708"  src="/js/6.236.1/build/app.js" type="module"></script>
+<script type="module"  nonce="975f6f0287b2f7a89f069826f4a7f708" >
+	const user = window.P5D.getContext().getUser()
+	window.P5D.nonce = '975f6f0287b2f7a89f069826f4a7f708'
+	window.P5D.bootstrap(it => it.language('en')
+		.user(0, null, 'LT', user.isAuthorized(), user.isPaid(), user.canPlanRecognition(), 0, user.paidInteriorDesign, user.paidHomePlans, false, false)
+				.googleOneTap('188179007127-dngq0kal33n7bd8pprgrg637snfa0mfk.apps.googleusercontent.com')
+				.api(["https:\/\/planner5d.com","https:\/\/planner5d.pro","https:\/\/beta.planner5d.pro","https:\/\/dev.planner5d.pro:4000","https:\/\/tool.planner5d.com"])
+				.supportWidget('cgehqyie', '')
+				.analytics(
+			true, "p5d-Vak6sngf9EpjBinHJbuTwo", 1729960698,
+			"6884e2ad-65cb-0b62-b40a-c195b892d2e5",
+			"bcgjB7azoEBPxvj9XNeKWNhaaA59W9yZqBfdxF4rAPFo32e500aa697f7401a6d19dfd6061f2f37e0b0c722943787125d557aa9be49bdd", "60bc0e7f65acae83ad83",
+			"GTM-K8563DV","G-61SD1N9JH1",
+			null, '381617732764221', true,
+			'9havbh1yuu4g', '9068a9877b443411b102fe588fbd1638'
+			,
+		)
+		.app('6.236.1')
+		.recaptcha('6Ldovm4UAAAAAKHQTj8nlMkV1Dzcj9Jyq-1GRCQu', '6LfuHqscAAAAAGP41r6itGF2Cj7TBCRJUUw2gS5h')
+			);
+		</script>
+			<link rel="stylesheet" href="https://static.planner5d.com/assets/css/home.css?ux=6.236.1">
+	<link rel="stylesheet" href="https://static.planner5d.com/assets/vendors/swiper-bundle.min.css?ux=6.236.1">
+	</head>
+	<body class="has-header">
+
+	<header id="header-main" class="header-main " data-menu="false"
+	data-float="false">
+	<div class="header-main-container">
+		<div id="header-main-burger" class="header-burger-icon" data-target="#header-menu" tabindex="0">
+			<svg>
+				<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--header-main-burger"></use>
+			</svg>
+		</div>
+		<a class="header-main-logo" href="https://planner5d.com">
+			<svg>
+				<use xlink:href="https://planner5d.com/assets/sprite/main.svg#ui--p5d-logo"></use>
+			</svg>
+		</a>
+		
+		<div class="header-main-sidebar" id="header-main-menu">
+			<div class="header-main-sidebar-modal"></div>
+			<div>
+				<nav role="menu">
+															
+																			<div class="header-main-link header-main-dropdown-item">
+					<b role="menuitem" tabindex="0">Products</b>
+							<div class="header-main-dropdown-wrapper header-main-nav-submenu column-2">
+				<div class="header-main-dropdown header-main-nav-submenu-container">
+					<div class="submenu-header">
+						<button class="back">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--header-back"></use>
+							</svg>
+						</button>
+						Products
+					</div>
+					<div role="group" class="submenu-block">
+													<div>
+																											<b role="menuitem" tabindex="1">Products</b>
+																																		<a href="/editor"
+										class=" "
+									>Interior Design Software</a>
+																	<a href="/pro"
+										class="is-new "
+									>Planner 5D Pro</a>
+																	<a href="/use/ai-interior-design"
+										class=" "
+									>AI Interior Design Tools</a>
+																	<a href="/pro/moodboards"
+										class=" "
+									>Mood Boards</a>
+																	<a href="/pro/360walkthrough"
+										class=" "
+									>360 Walkthrough</a>
+																	<a href="/ai"
+										class=" "
+									>AI Floor Plan Converter</a>
+																	<a href="/experts"
+										class=" "
+									>Hire a Designer</a>
+															</div>
+													<div>
+																											<b role="menuitem" tabindex="1">Platforms</b>
+																																		<a href="/mobile/ios"
+										class=" "
+									>iOS</a>
+																	<a href="/mobile/android"
+										class=" "
+									>Android</a>
+																	<a href="/promo/windows"
+										class=" "
+									>Windows</a>
+																	<a href="/promo/macos"
+										class=" "
+									>macOS</a>
+																	<a href="/applevisionpro"
+										class=" "
+									>VisionOS</a>
+															</div>
+											</div>
+				</div>
+			</div>
+			</div>
+
+														<div class="header-main-link header-main-dropdown-item">
+					<b role="menuitem" tabindex="0">Use cases</b>
+							<div class="header-main-dropdown-wrapper header-main-nav-submenu column-4">
+				<div class="header-main-dropdown header-main-nav-submenu-container">
+					<div class="submenu-header">
+						<button class="back">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--header-back"></use>
+							</svg>
+						</button>
+						Use cases
+					</div>
+					<div role="group" class="submenu-block">
+													<div>
+																											<b role="menuitem" tabindex="1">House</b>
+																																		<a href="/use/home-design-software"
+										class=" "
+									>Home Design</a>
+																	<a href="/use/home-remodeling-software"
+										class=" "
+									>Home Remodeling</a>
+															</div>
+													<div>
+																											<b role="menuitem" tabindex="1">Floor plan</b>
+																																		<a href="/use/free-floor-plan-creator"
+										class=" "
+									>Floor Plan Creator</a>
+																	<a href="/use/2d-floor-plan"
+										class=" "
+									>2D Floor Plan</a>
+																	<a href="/use/3D-floor-plan"
+										class=" "
+									>3D Floor Plan</a>
+																	<a href="/use/real-estate-floor-plan"
+										class=" "
+									>Real Estate Floor Plan</a>
+															</div>
+													<div>
+																											<b role="menuitem" tabindex="1">Kitchen</b>
+																																		<a href="/use/kitchen-planner-tool"
+										class=" "
+									>Kitchen Planner</a>
+																	<a href="/use/kitchen-remodeling"
+										class=" "
+									>Kitchen Remodeling</a>
+															</div>
+													<div>
+																											<b role="menuitem" tabindex="1">Bathroom</b>
+																																		<a href="/use/bathroom-planner-tool"
+										class=" "
+									>Bathroom Planner</a>
+																	<a href="/use/bathroom-remodeling-tool"
+										class=" "
+									>Bathroom Remodeling</a>
+															</div>
+													<div>
+																											<b role="menuitem" tabindex="1">Room</b>
+																																		<a href="/use/room-planner-tool"
+										class=" "
+									>Room Planner</a>
+																	<a href="/use/ai-room-design"
+										class=" "
+									>AI Room Design</a>
+																	<a href="/use/kids-room-layout"
+										class=" "
+									>Kids Room Layout</a>
+															</div>
+													<div>
+																											<b role="menuitem" tabindex="1">Exterior</b>
+																																		<a href="/use/landscape-design-software"
+										class=" "
+									>Landscape Design Software</a>
+																	<a href="/use/deck-design"
+										class=" "
+									>Deck Design</a>
+																	<a href="/use/garden-planner"
+										class=" "
+									>Garden Planner</a>
+																	<a href="/use/garage-plans"
+										class=" "
+									>Garage Planner</a>
+															</div>
+													<div>
+																											<b role="menuitem" tabindex="1">Architecture</b>
+																																		<a href="/use/architecture-design-software"
+										class=" "
+									>Architecture Design Software</a>
+																	<a href="/use/blueprint-maker"
+										class=" "
+									>Blueprint Maker</a>
+															</div>
+													<div>
+																											<b role="menuitem" tabindex="1">Office</b>
+																																		<a href="/use/office-design"
+										class=" "
+									>Office Planner</a>
+																	<a href="/use/home-office-design"
+										class=" "
+									>Home Office Design</a>
+																	<a href="/use"
+										class=" general-link"
+									>See all solutions</a>
+															</div>
+											</div>
+				</div>
+			</div>
+			</div>
+
+														<div class="header-main-link header-main-dropdown-item">
+					<b role="menuitem" tabindex="0">Resources</b>
+							<div class="header-main-dropdown-wrapper header-main-nav-submenu column-2">
+				<div class="header-main-dropdown header-main-nav-submenu-container">
+					<div class="submenu-header">
+						<button class="back">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--header-back"></use>
+							</svg>
+						</button>
+						Resources
+					</div>
+					<div role="group" class="submenu-block">
+													<div>
+																											<b role="menuitem" tabindex="1">Learn</b>
+																																		<a href="/interior-design-courses"
+										class=" "
+									>Online Interior Design School</a>
+																	<a href="/blog"
+										class=" "
+									>Interior Design Blog</a>
+																	<a href="/contests"
+										class=" "
+									>Design Battle</a>
+																	<a href="https://support.planner5d.com/"
+										class=" "
+									>Help Center</a>
+															</div>
+													<div>
+																											<b role="menuitem" tabindex="1">Explore</b>
+																																		<a href="/experts"
+										class=" "
+									>Hire an Interior Designer</a>
+																	<a href="/gallery/floorplans"
+										class=" "
+									>Floor Plans Gallery</a>
+																	<a href="https://shop.planner5d.com/"
+										class=" "
+									>Furniture Shop</a>
+																	<a href="/repairestimator"
+										class=" "
+									>Home Repair Estimator</a>
+															</div>
+											</div>
+				</div>
+			</div>
+			</div>
+
+																
+											<div class="header-main-item-group-wrapper">
+							<div class="header-main-item-group-icon"></div>
+							<div class="header-main-item-group">
+								<div class="header-main-item-group-container">
+																				<div class="header-main-link header-main-dropdown-item">
+					<b role="menuitem" tabindex="0">Enterprise</b>
+							<div class="header-main-dropdown-wrapper header-main-nav-submenu column-1">
+				<div class="header-main-dropdown header-main-nav-submenu-container">
+					<div class="submenu-header">
+						<button class="back">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--header-back"></use>
+							</svg>
+						</button>
+						Enterprise
+					</div>
+					<div role="group" class="submenu-block">
+													<div>
+																									<a href="/business"
+										class=" "
+									>Enterprise Solutions</a>
+																	<a href="/education"
+										class=" "
+									>Solutions for Schools</a>
+																	<a href="/partners"
+										class=" "
+									>Partner Program</a>
+															</div>
+											</div>
+				</div>
+			</div>
+			</div>
+
+																				<div class="header-main-link header-main-dropdown-item">
+					<a role="menuitem" tabindex="0" href="/pricing">Pricing</a>
+					</div>
+
+																				<div class="header-main-link header-main-dropdown-item">
+					<a role="menuitem" tabindex="0" href="/contests">Design Battle</a>
+					</div>
+
+																	</div>
+							</div>
+						</div>
+									</nav>
+				
+				<div class="header-main-link header-main-lang-block header-main-dropdown-item">
+					<b tabindex="0">Language</b>
+					<div class="header-main-dropdown-wrapper header-main-nav-submenu">
+						<div class="header-main-dropdown header-main-nav-submenu-container">
+							<div class="submenu-header">
+								<button class="back" tabindex="0">
+									<svg>
+										<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--header-back"></use>
+									</svg>
+								</button>
+								Language
+							</div>
+							<div class="submenu-block">
+								<div>
+										<a lang="en" href="https://planner5d.com" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;en&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>English</a>
+	<a lang="pt" href="https://planner5d.com/pt" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;pt&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>‪Português</a>
+	<a lang="es" href="https://planner5d.com/es" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;es&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>‪Español‬</a>
+	<a lang="fr" href="https://planner5d.com/fr" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;fr&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Français‬</a>
+	<a lang="it" href="https://planner5d.com/it" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;it&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>‪Italiano‬</a>
+	<a lang="pl" href="https://planner5d.com/pl" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;pl&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Polski</a>
+	<a lang="lt" href="https://planner5d.com/lt" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;lt&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Lietuviškai</a>
+	<a lang="de" href="https://planner5d.com/de" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;de&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Deutsch‬</a>
+	<a lang="zh_hans" href="https://planner5d.com/zh_hans" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;zh_hans&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>中国</a>
+	<a lang="sv" href="https://planner5d.com/sv" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;sv&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Sverige</a>
+	<a lang="ru" href="https://planner5d.com/ru" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;ru&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Русский</a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="header-main-app-block">
+					<b>Download Planner 5D App</b>
+					Get started with the app to boost your experience and unlock all the mobile features
+					<div class="header-app-badges">
+						<a class="badge-googleplay" href="/go?from=mainPage&amp;to=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.planner5d.planner5d" target="_blank"></a>
+						<a class="badge-appstore" href="/go?from=mainPage&amp;to=https%3A%2F%2Fapps.apple.com%2Fapp%2Fapple-store%2Fid1310584536%3Fpt%3D2019088%26ct%3Dweb%26mt%3D8" target="_blank"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="header-main-controls">
+						<div class="header-main-lang-selector header-main-dropdown-item dropdown-icon">
+				<div class="header-main-lang-icon" tabindex="0"></div>
+				<div class="header-main-dropdown-wrapper">
+					<div class="header-main-dropdown">
+							<a lang="en" href="https://planner5d.com" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;en&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>English</a>
+	<a lang="pt" href="https://planner5d.com/pt" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;pt&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>‪Português</a>
+	<a lang="es" href="https://planner5d.com/es" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;es&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>‪Español‬</a>
+	<a lang="fr" href="https://planner5d.com/fr" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;fr&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Français‬</a>
+	<a lang="it" href="https://planner5d.com/it" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;it&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>‪Italiano‬</a>
+	<a lang="pl" href="https://planner5d.com/pl" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;pl&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Polski</a>
+	<a lang="lt" href="https://planner5d.com/lt" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;lt&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Lietuviškai</a>
+	<a lang="de" href="https://planner5d.com/de" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;de&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Deutsch‬</a>
+	<a lang="zh_hans" href="https://planner5d.com/zh_hans" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;zh_hans&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>中国</a>
+	<a lang="sv" href="https://planner5d.com/sv" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;sv&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Sverige</a>
+	<a lang="ru" href="https://planner5d.com/ru" data-analytics="language_changed"
+		data-analytics-params={&quot;from&quot;:&quot;en&quot;,&quot;to&quot;:&quot;ru&quot;,&quot;method&quot;:&quot;dropdown&quot;}
+	>Русский</a>
+
+					</div>
+				</div>
+			</div>
+			
+						
+							<button class="button button-bordered" data-sign-in
+					data-analytics-button-placement="header">Sign In</button>
+				<button class="button button-primary" data-sign-up
+					data-analytics-button-placement="header">Sign Up</button>
+				<button class="button button-bordered get-started-button" data-sign-up-slider
+					data-analytics-button-placement="header">
+					Get started
+				</button>
+					</div>
+	</div>
+</header>
+
+<script  nonce="975f6f0287b2f7a89f069826f4a7f708" >
+	P5D.getContext().addOnLoadedListener(context => {
+		context.getHeaderMain()
+	})
+</script>
+
+	
+		<main style="overflow-x: hidden">
+		<section class="hero-new">
+	<h1>Design your dream <span>home</span></h1>
+	<p>Draw a floor plan and create a 3D home design in 10 minutes using our all-in-one AI-powered home design software. Visualize your design with realistic 4K renders.</p>
+	<button data-sign-up-slider data-analytics-button-placement="main_page_1">Get Started</button>
+	<div id="swiper1">
+		<div
+			class="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden">
+			<div class="swiper-wrapper" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+				<div class="swiper-slide swiper-slide-visible swiper-slide-active" role="group" aria-label="1 / 6"
+					style="margin-right: 48px;">
+					<a href="https://planner5d.com/use/floor-plan-software">
+						<span>Create a floor plan</span>
+						<picture>
+							<img class="hero-card-img" src="https://static.planner5d.com/assets/images/home/cards/create-floor-plans.webp?ux=6.236.1" alt=""
+								width="288" height="288" loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide swiper-slide-visible swiper-slide-next" role="group" aria-label="2 / 6"
+					style="margin-right: 48px;">
+					<a href="https://planner5d.com/use/room-planner-tool">
+						<span>Design your room</span>
+						<picture>
+							<img class="hero-card-img" src="https://static.planner5d.com/assets/images/home/cards/design-your-room.webp?ux=6.236.1" alt=""
+								width="288" height="288" loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide swiper-slide-visible" role="group" aria-label="3 / 6" style="margin-right: 48px;">
+					<a href="https://planner5d.com/use/home-design-software">
+						<span>Design your home</span>
+						<picture>
+							<img class="hero-card-img" src="https://static.planner5d.com/assets/images/home/cards/design-you-home.webp?ux=6.236.1" alt=""
+								width="288" height="288" loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide swiper-slide-visible" role="group" aria-label="4 / 6" style="margin-right: 48px;">
+					<a href="https://shop.planner5d.com/">
+						<span>Furnish and decorate</span>
+						<picture>
+							<img class="hero-card-img" src="https://static.planner5d.com/assets/images/home/cards/furnish–and-decorate.webp?ux=6.236.1" alt=""
+								width="288" height="288" loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide" role="group" aria-label="5 / 6" style="margin-right: 48px;">
+					<a href="https://planner5d.com/use/ai-interior-design">
+						<span>Design with AI</span>
+						<picture>
+							<img class="hero-card-img" src="https://static.planner5d.com/assets/images/home/cards/design-with-ai.webp?ux=6.236.1" alt=""
+								width="288" height="288" loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide" role="group" aria-label="6 / 6" style="margin-right: 48px;">
+					<a href="/blog">
+						<span>Get inspired</span>
+						<picture>
+							<img class="hero-card-img" src="https://static.planner5d.com/assets/images/home/cards/default.webp?ux=6.236.1" alt="" width="288"
+								height="288" loading="lazy">
+						</picture>
+					</a>
+				</div>
+			</div>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+		</div>
+		<div class="swiper-button swiper-button-prev swiper-button-prev-hero swiper-button-disabled" tabindex="-1"
+			role="button" aria-label="Previous slide"
+			aria-disabled="true"></div>
+		<div class="swiper-button swiper-button-next swiper-button-next-hero" tabindex="0" role="button"
+			aria-label="Next slide" aria-disabled="false"></div>
+	</div>
+</section>
+
+		<section class="media marquee-carousel">
+	<div>
+		<img src="https://static.planner5d.com/assets/images/home/media/tnyt.svg?ux=6.236.1" alt="" width="199" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/business-insider.svg?ux=6.236.1" alt="" width="88" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/architecture-design.webp?ux=6.236.1" alt="" width="104" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/boh.webp?ux=6.236.1" alt="" width="65" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/techradar.svg?ux=6.236.1" alt="" width="130" height="21" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/twp.svg?ux=6.236.1" alt="" width="206" height="32" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/forbes.svg?ux=6.236.1" alt="" width="104" height="26" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/techcrunch.svg?ux=6.236.1" alt="" width="182" height="26" loading="lazy">
+	</div>
+	<div>
+		<img src="https://static.planner5d.com/assets/images/home/media/tnyt.svg?ux=6.236.1" alt="" width="199" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/business-insider.svg?ux=6.236.1" alt="" width="88" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/architecture-design.webp?ux=6.236.1" alt="" width="104" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/boh.webp?ux=6.236.1" alt="" width="65" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/techradar.svg?ux=6.236.1" alt="" width="130" height="21" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/twp.svg?ux=6.236.1" alt="" width="206" height="32" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/forbes.svg?ux=6.236.1" alt="" width="104" height="26" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/techcrunch.svg?ux=6.236.1" alt="" width="182" height="26" loading="lazy">
+	</div>
+	<div>
+		<img src="https://static.planner5d.com/assets/images/home/media/tnyt.svg?ux=6.236.1" alt="" width="199" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/business-insider.svg?ux=6.236.1" alt="" width="88" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/architecture-design.webp?ux=6.236.1" alt="" width="104" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/boh.webp?ux=6.236.1" alt="" width="65" height="28" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/techradar.svg?ux=6.236.1" alt="" width="130" height="21" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/twp.svg?ux=6.236.1" alt="" width="206" height="32" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/forbes.svg?ux=6.236.1" alt="" width="104" height="26" loading="lazy">
+		<img src="https://static.planner5d.com/assets/images/home/media/techcrunch.svg?ux=6.236.1" alt="" width="182" height="26" loading="lazy">
+	</div>
+</section>
+
+		<section class="text-image text-image-base">
+	<div class="text-image-info">
+		<h2>Create a floor plan from scratch or upload an existing one</h2>
+		<p>Design your ideal layout from scratch, or use our advanced tools to get your floor plan recognized in minutes! Create a fully customizable floor plan—whether it’s a simple room, an entire house or a commercial building</p>
+	</div>
+	<div class="text-image-content">
+		<video src="https://static.planner5d.com/assets/video/home/floor-plan.mp4?ux=6.236.1" autoplay="" muted="" playsinline="" loop="" width="709" height="427"></video>
+	</div>
+</section>
+
+		<section class="text-image text-image-base text-image-top-right">
+	<div class="text-image-info">
+		<h2>Furnish and decorate with our 3D house design tool</h2>
+		<p>Elevate your space with more than 8,000 items from our library. Explore an extensive collection of furniture and decor items to style your home exactly to your taste. From trendy furnishings to timeless accents, find everything you need to transform your space into your personal oasis.</p>
+	</div>
+	<div class="text-image-content">
+		<video src="https://static.planner5d.com/assets/video/home/3d-design-tool.mp4?ux=6.236.1" autoplay="" muted="" playsinline="" loop="" width="709" height="427"></video>
+	</div>
+</section>
+
+		<section class="text-image text-image-base text-image-bottom-left">
+	<div class="text-image-info">
+		<h2>Visualize your results <br>with 4K renders</h2>
+		<p>Bring your design to life with our advanced 4K renders. Adjust light, shadows and colors to get a realistic preview of your space.</p>
+	</div>
+	<div class="text-image-content">
+		<video src="https://static.planner5d.com/assets/video/home/renders.mp4?ux=6.236.1" autoplay="" muted="" playsinline="" loop="" width="709"
+			height="427"></video>
+	</div>
+</section>
+
+		<section class="text-image text-image-base text-image-bottom-right">
+	<div class="text-image-info">
+		<h2>Discover endless possibilities with AI interior design</h2>
+		<p>AI-powered 3D rendering tools allow you to experience your design virtually before committing to starting the project. This enables you to make informed decisions and avoid costly decorating mistakes.</p>
+	</div>
+	<div class="text-image-content">
+		<video src="https://static.planner5d.com/assets/video/home/ai-design.mp4?ux=6.236.1" autoplay="" muted="" playsinline="" loop="" width="709"
+			height="427"></video>
+	</div>
+</section>
+
+		<section class="block-button-marquee">
+	<div class="overview">
+		<h2>Users love the ease of use and functionality</h2>
+		<h2 class="mobile">Reviews</h2>
+		<p>
+			<b>4.4</b> Based on over 645 user reviews in <b>G2</b> and <b>Trustpilot</b>
+			<span class="stars-review">
+        <i style="clip-path: inset(0 10% 0 0);"></i>
+      </span>
+		</p>
+	</div>
+	<div class="marquee-carousel">
+		<ul>
+			<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>Timi,It is amazing all of the things that offers, turned my actual 2D blueprints, not hand drawn prints ..into editable 3-D , it gives you design school and design guidance, it has AR for your home, it has AI for automatic decor</p>
+   <p>Misty, US</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>Been using this software for a few years now and with all the updates and pro addition it’s just terrific!!</p>
+   <p>NYX2010, United Kingdom</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>By far the best value for what you are paying for compared to other 3D house planning softwares. I love the UI and all of the customizable options, plus not glitchy at all and runs smoothly on all platforms.</p>
+   <p>Alex, US</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>Planner 5d helps me draw out my dream home using different tools, colours, and layouts. I like how you can hire a designer to help you with your build, and use your imagination and creativity to build your personal building.</p>
+   <p>Josie, Australia</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>I reproduced my house in the program and managed to do in hours what I couldn't in months. The fact that it has real measurements is spectacular!!! I could see ready-made dream construction ideas and walk through them!!!</p>
+   <p>Marcos, Brazil</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>This is a great resource for both personal and professional use. As a professional, look forward to using this as a tool for my design concepts and plans</p>
+   <p>Marly, US</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>Great product so far, even with no design skills you can quickly put something together! Love the interface and the library seems quite extensive as well.</p>
+   <p>Sabrina, Canada</p>
+</li>
+</ul>
+<ul>
+   <li>
+      <span class="stars-review star-4">
+      <i></i>
+      </span>
+      <p>Timi,It is amazing all of the things that offers, turned my actual 2D blueprints, not hand drawn prints ..into editable 3-D , it gives you design school and design guidance, it has AR for your home, it has AI for automatic decor</p>
+      <p>Misty, US</p>
+   </li>
+   <li>
+      <span class="stars-review star-4">
+      <i></i>
+      </span>
+      <p>Been using this software for a few years now and with all the updates and pro addition it’s just terrific!!</p>
+      <p>NYX2010, United Kingdom</p>
+   </li>
+   <li>
+      <span class="stars-review star-4">
+      <i></i>
+      </span>
+      <p>By far the best value for what you are paying for compared to other 3D house planning softwares. I love the UI and all of the customizable options, plus not glitchy at all and runs smoothly on all platforms.</p>
+      <p>Alex, US</p>
+   </li>
+   <li>
+      <span class="stars-review star-4">
+      <i></i>
+      </span>
+      <p>Planner 5d helps me draw out my dream home using different tools, colours, and layouts. I like how you can hire a designer to help you with your build, and use your imagination and creativity to build your personal building.</p>
+      <p>Josie, Australia</p>
+   </li>
+   <li>
+      <span class="stars-review star-4">
+      <i></i>
+      </span>
+      <p>I reproduced my house in the program and managed to do in hours what I couldn't in months. The fact that it has real measurements is spectacular!!! I could see ready-made dream construction ideas and walk through them!!!</p>
+      <p>Marcos, Brazil</p>
+   </li>
+   <li>
+      <span class="stars-review star-4">
+      <i></i>
+      </span>
+      <p>This is a great resource for both personal and professional use. As a professional, look forward to using this as a tool for my design concepts and plans</p>
+      <p>Marly, US</p>
+   </li>
+   <li>
+      <span class="stars-review star-4">
+      <i></i>
+      </span>
+      <p>Great product so far, even with no design skills you can quickly put something together! Love the interface and the library seems quite extensive as well.</p>
+      <p>Sabrina, Canada</p>
+   </li>
+</ul>
+<ul>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>Timi,It is amazing all of the things that offers, turned my actual 2D blueprints, not hand drawn prints ..into editable 3-D , it gives you design school and design guidance, it has AR for your home, it has AI for automatic decor</p>
+   <p>Misty, US</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>Been using this software for a few years now and with all the updates and pro addition it’s just terrific!!</p>
+   <p>NYX2010, United Kingdom</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>By far the best value for what you are paying for compared to other 3D house planning softwares. I love the UI and all of the customizable options, plus not glitchy at all and runs smoothly on all platforms.</p>
+   <p>Alex, US</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>Planner 5d helps me draw out my dream home using different tools, colours, and layouts. I like how you can hire a designer to help you with your build, and use your imagination and creativity to build your personal building.</p>
+   <p>Josie, Australia</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>I reproduced my house in the program and managed to do in hours what I couldn't in months. The fact that it has real measurements is spectacular!!! I could see ready-made dream construction ideas and walk through them!!!</p>
+   <p>Marcos, Brazil</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>This is a great resource for both personal and professional use. As a professional, look forward to using this as a tool for my design concepts and plans</p>
+   <p>Marly, US</p>
+</li>
+<li>
+   <span class="stars-review star-4">
+   <i></i>
+   </span>
+   <p>Great product so far, even with no design skills you can quickly put something together! Love the interface and the library seems quite extensive as well.</p>
+   <p>Sabrina, Canada</p>
+</li>
+		</ul>
+	</div>
+</section>
+
+		<section class="features-new">
+	<h2>Advanced features</h2>
+	<p>The All-in-one home solution for everyone.</p>
+	<div>
+		<div>
+			<picture>
+				<img src="https://static.planner5d.com/assets/images/home/features/walkthrough.webp?ux=6.236.1" alt="" width="408" height="255"
+					loading="lazy">
+			</picture>
+			<b>360º Walkthrough</b>
+			<span>Immerse your clients in a realistic and interactive 360º tour of your projects.</span>
+		</div>
+		<div>
+			<picture>
+				<img src="https://static.planner5d.com/assets/images/home/features/moodboards.webp?ux=6.236.1" alt="" width="408" height="255"
+					loading="lazy">
+			</picture>
+			<b>Mood boards</b>
+			<span>Collect images, ideas and inspiration easily to personalize your space.</span>
+		</div>
+		<div>
+			<picture>
+				<img src="https://static.planner5d.com/assets/images/home/features/cross-platforms.webp?ux=6.236.1" alt="" width="408" height="255"
+					loading="lazy">
+			</picture>
+			<b>Cross-platform</b>
+			<span>Enjoy our home design tool on Windows, Android and iOS. Start creating on your laptop and finish on your phone or tablet.</span>
+		</div>
+		<div>
+			<picture>
+				<img src="https://static.planner5d.com/assets/images/home/features/shopping-list.webp?ux=6.236.1" alt="" width="408" height="255"
+					loading="lazy">
+			</picture>
+			<b>Shopping list</b>
+			<span>Get insights into your project’s cost estimate. Easily switch between budget and luxury widget options.</span>
+		</div>
+		<div>
+			<picture>
+				<img src="https://static.planner5d.com/assets/images/home/features/recognition.webp?ux=6.236.1" alt="" width="408" height="255"
+					loading="lazy">
+			</picture>
+			<b>AI Floorplan recognition</b>
+			<span>Save time! Create professional floor plans with advanced AI recognition tool.</span>
+		</div>
+		<div>
+			<picture>
+				<img src="https://static.planner5d.com/assets/images/home/features/import-3d.webp?ux=6.236.1" alt="" width="408" height="255"
+					loading="lazy">
+			</picture>
+			<b>Import 3D models</b>
+			<span>Easily import custom 3D models to enrich your designs with personalized elements.</span>
+		</div>
+	</div>
+</section>
+
+		<section class="text-image">
+	<div class="text-image-info">
+		<h2>Apple Vision Pro</h2>
+		<p>A new way of communicating between interior designers and their clients.</p>
+	</div>
+	<div class="text-image-content">
+		<img alt="" loading="lazy" src="https://static.planner5d.com/assets/images/home/visionPro.webp?ux=6.236.1">
+	</div>
+</section>
+
+		<section class="hero-new hero-2-new">
+	<h2>Apartment and house design for everyone</h2>
+	<p>Explore your creativity with tools tailored for every need.</p>
+	<div id="swiper2">
+		<div
+			class="swiper2 swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden">
+			<div class="swiper-wrapper" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+				<div class="swiper-slide swiper-slide-visible swiper-slide-active" role="group" aria-label="1 / 7"
+					style="margin-right: 48px;">
+					<a href="https://planner5d.com/gallery">
+						<span>Home decor</span>
+						<picture>
+							<img src="https://static.planner5d.com/assets/images/home/cards-2/homeowner.webp?ux=6.236.1" alt="" width="288" height="384"
+								loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide swiper-slide-visible swiper-slide-next" role="group" aria-label="2 / 7"
+					style="margin-right: 48px;">
+					<a href="https://planner5d.com/experts">
+						<span>Interior design</span>
+						<picture>
+							<img src="https://static.planner5d.com/assets/images/home/cards-2/interior-designer.webp?ux=6.236.1" alt="" width="288" height="384"
+								loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide swiper-slide-visible" role="group" aria-label="3 / 7" style="margin-right: 48px;">
+					<a href="https://planner5d.com/use/architecture-design-software">
+						<span>Architecture</span>
+						<picture>
+							<img src="https://static.planner5d.com/assets/images/home/cards-2/architecture.webp?ux=6.236.1" alt="" width="288" height="384"
+								loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide swiper-slide-visible" role="group" aria-label="4 / 7" style="margin-right: 48px;">
+					<a href="https://planner5d.com/business">
+						<span>Enterprise</span>
+						<picture>
+							<img src="https://static.planner5d.com/assets/images/home/cards-2/enterprise.webp?ux=6.236.1" alt="" width="288" height="384"
+								loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide" role="group" aria-label="5 / 7" style="margin-right: 48px;">
+					<a href="https://planner5d.com/education">
+						<span>Schools</span>
+						<picture>
+							<img src="https://static.planner5d.com/assets/images/home/cards-2/schools.webp?ux=6.236.1" alt="" width="288" height="384"
+								loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide" role="group" aria-label="6 / 7" style="margin-right: 48px;">
+					<a href="https://planner5d.com/use/virtual-staging-software">
+						<span>Real estate</span>
+						<picture>
+							<img src="https://static.planner5d.com/assets/images/home/cards-2/real-estate.webp?ux=6.236.1" alt="" width="288" height="384"
+								loading="lazy">
+						</picture>
+					</a>
+				</div>
+				<div class="swiper-slide" role="group" aria-label="7 / 7" style="margin-right: 48px;">
+					<a href="https://planner5d.com/use/building-layout-software">
+						<span>Commercial property management</span>
+						<picture>
+							<img src="https://static.planner5d.com/assets/images/home/cards-2/commercial-building.webp?ux=6.236.1" alt="" width="288" height="384"
+								loading="lazy">
+						</picture>
+					</a>
+				</div>
+			</div>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+		</div>
+		<div class="swiper-button swiper-button-prev swiper-button-prev-hero-2 swiper-button-disabled" tabindex="-1"
+			role="button" aria-label="Previous slide" aria-disabled="true"></div>
+		<div class="swiper-button swiper-button-next swiper-button-next-hero-2" tabindex="0" role="button"
+			aria-label="Next slide" aria-disabled="false"></div>
+	</div>
+</section>
+
+		<div class="get-started-block">
+	<div class="get-started-block-wrap">
+		<div class="get-started-block-text">
+			<h2>Start designing your house with Planner 5D</h2>
+			<p>Draw a floor plan and create a 3D home design in 10 min.</p>
+			<button class="button" data-sign-up-slider data-analytics-button-placement="main_page_2">
+				Get Started For Free
+			</button>
+		</div>
+		<img
+			srcset="https://static.planner5d.com/assets/images/home/get-started/home-banner-sm@2x.webp?ux=6.236.1 2x,https://static.planner5d.com/assets/images/home/get-started/home-banner-sm.webp?ux=6.236.1 1x"
+			media="(max-width: 767px)" src="https://static.planner5d.com/assets/images/home/get-started/home-banner.webp?ux=6.236.1" height="408" alt=""
+			loading="lazy">
+	</div>
+</div>
+
+		<div class="gallery-block">
+	<h2>Created by 100M+ users</h2>
+	<p>Join a vibrant community of over 100 million users who trust and create with our platform.</p>
+	<div class="gallery-wrap">
+		<div>
+			<div class="gallery-column">
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/1.webp?ux=6.236.1" alt="" class="img-square">
+					<div class="gallery-item-info">
+						<b>Backyard with pool</b>
+						<span>Liam Rem</span>
+					</div>
+				</div>
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/2.webp?ux=6.236.1" alt="" class="img-portrait">
+					<div class="gallery-item-info">
+						<b>Studio</b>
+						<span>Mandy C</span>
+					</div>
+				</div>
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/3.webp?ux=6.236.1" alt="" class="img-landscape">
+					<div class="gallery-item-info">
+						<b>Living Room</b>
+						<span>MiaJ</span>
+					</div>
+				</div>
+			</div>
+			<div class="gallery-column">
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/4.webp?ux=6.236.1" alt="" class="img-portrait">
+					<div class="gallery-item-info">
+						<b>Home office</b>
+						<span>MarkRoomPlanner</span>
+					</div>
+				</div>
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/5.webp?ux=6.236.1" alt="" class="img-landscape">
+					<div class="gallery-item-info">
+						<b>Bedroom</b>
+						<span>SilverBrook</span>
+					</div>
+				</div>
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/6.webp?ux=6.236.1" alt="" class="img-square">
+					<div class="gallery-item-info">
+						<b>Bathroom</b>
+						<span>starryGlen</span>
+					</div>
+				</div>
+			</div>
+			<div class="gallery-column">
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/7.webp?ux=6.236.1" alt="" class="img-landscape">
+					<div class="gallery-item-info">
+						<b>Kitchen</b>
+						<span>AlexInteriors</span>
+					</div>
+				</div>
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/8.webp?ux=6.236.1" alt="" class="img-square">
+					<div class="gallery-item-info">
+						<b>Kidsroom</b>
+						<span>Olivia M.</span>
+					</div>
+				</div>
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/9.webp?ux=6.236.1" alt="" class="img-portrait">
+					<div class="gallery-item-info">
+						<b>Home office</b>
+						<span>MistyGrove</span>
+					</div>
+				</div>
+			</div>
+			<div class="gallery-column">
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/10.webp?ux=6.236.1" alt="" class="img-landscape">
+					<div class="gallery-item-info">
+						<b>Bedroom</b>
+						<span>AnnaAtHome</span>
+					</div>
+				</div>
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/11.webp?ux=6.236.1" alt="" class="img-portrait">
+					<div class="gallery-item-info">
+						<b>Bathroom</b>
+						<span>JamesW</span>
+					</div>
+				</div>
+				<div>
+					<img src="https://static.planner5d.com/assets/images/home/gallery/12.webp?ux=6.236.1" alt="" class="img-square">
+					<div class="gallery-item-info">
+						<b>Teenager playroom</b>
+						<span>Imogene</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		<div class="block-button-text">
+	<h2>Start designing your house with Planner 5D</h2>
+	<p>Draw a floor plan and create a 3D home design in 10 min.</p>
+	<button data-sign-up-slider data-analytics-button-placement="main_page_3">
+		Get Started For Free
+	</button>
+</div>
+
+	</main>
+
+	    <footer class="cross-footer cross-footer-container" data-element="footer">
+	<div class="cross-footer-menu">
+		<div><input id="footer-company" type="checkbox" /> <label for="footer-company">Company</label>
+<ul>
+  <li><a data-analytics="info_page" data-analytics-params="{&quot;name&quot;:&quot;company_about_us&quot;}" href="https://planner5d.com/pages/about">About Us</a></li>
+  <li><a href="https://planner5d.com/pricing">Pricing</a></li>
+  <li><a data-analytics="info_page" data-analytics-params="{&quot;name&quot;:&quot;company_newsroom&quot;}" href="https://planner5d.com/newsroom">Newsroom</a></li>
+ <li><a data-analytics="info_page" data-analytics-params="{&quot;name&quot;:&quot;company_support&quot;}" href="https://planner5d.com/interior-design-council">Design Council</a></li>
+ <li><a data-analytics="info_page" data-analytics-params="{&quot;name&quot;:&quot;company_terms&quot;}" href="https://planner5d.com/legal-information">Legal Information</a></li>
+  <li><a href="http://planner5d.com/partners">Partner Program</a></li>
+  <li><a data-analytics="info_page" data-analytics-params="{&quot;name&quot;:&quot;company_jobs&quot;}" href="https://planner5d.multiscreensite.com" target="_blank">Career</a></li>
+  <li><a data-analytics="info_page" data-analytics-params="{&quot;name&quot;:&quot;company_support&quot;}" href="https://support.planner5d.com">Help Center</a></li>
+  <li><a href="https://planner5d.com/contacts">Contacts</a></li>
+</ul>
+</div>
+
+<div><input id="footer-use-cases" type="checkbox" /> <label for="footer-use-cases">Use cases</label>
+
+<ul>
+ <li><a href="/use/garden-planner">3D Garden Planner</a></li>
+  <li><a href="/use/gym-design-planner">Gym Floor Plan</a></li>
+ <li><a href="/use/landscape-design-software">Landscape Design Software</a></li>
+ <li><a href="/use/home-design-software">Home Design Software</a></li>
+ <li><a href="/use/bathroom-planner-tool">Bathroom Planner</a></li>
+  <li><a href="/use/room-planner-tool">Room Planner</a></li>
+  <li><a href="/use/kitchen-planner-tool">Kitchen Planner</a></li>
+  <li><a href="/use/office-design">Office Design</a></li>
+ <li><a href="/use/floor-plan-software">Floor Plan Software</a></li>
+ <li><a href="/use/free-floor-plan-creator">Floor Plan Creator</a></li>
+  <li><a href="https://planner5d.com/costs/cost-of-metal-roofing">Cost Calculator for Metal Roofing</a></li>
+  <li><a href="https://planner5d.com/costs/concrete-driveways-cost">Cost of Concrete Driveways</a></li>
+ <li><a href="https://planner5d.com/costs/cost-of-attic-insulation">Attic Insulation Cost per Square Foot</a></li>
+</ul>
+</div>
+
+<div><input id="footer-platforms" type="checkbox" /> <label for="footer-platforms">Platforms</label>
+
+<ul>
+  <li><a href="https://planner5d.com/promo/web">Web</a></li>
+  <li><a href="https://planner5d.com/mobile/ios">iOS</a></li>
+ <li><a href="https://planner5d.com/mobile/android">Android</a></li>
+ <li><a href="https://planner5d.com/promo/macos">macOS</a></li>
+  <li><a href="https://planner5d.com/promo/windows">Windows</a></li>
+  <li><a href="https://planner5d.com/applevisionpro">visionOS </a></li>
+</ul>
+</div>
+
+<div><input id="footer-features" type="checkbox" /> <label for="footer-features">Features</label>
+
+<ul>
+ <li><a href="https://planner5d.com/smart-wizard">Automatic Room Generator</a></li>
+  <li><a href="https://planner5d.com/ai">AI Plan Recognition</a></li>
+ <li><a href="https://planner5d.com/ar">AR-Driven 3D Interior Projecting Feature</a></li>
+  <li><a href="https://planner5d.com/afa">Automated Furniture Arrangement</a></li>
+  <li><a href="https://planner5d.com/business">Enterprise Solutions</a></li>
+  <li><a href="https://planner5d.com/configurator">Product Configurator</a></li>
+  <li><a href="https://planner5d.com/education">Solutions for Schools</a></li>
+  <li><a href="https://planner5d.com/repairestimator">Home Repair Estimator</a></li>
+  <li><a href="https://planner5d.com/costs">Home Improvement and Repair Costs</a></li>
+</ul>
+</div>
+
+<div><input id="footer-design-ideas" type="checkbox" /> <label for="footer-design-ideas">Design Ideas</label>
+
+<ul>
+  <li><a href="https://planner5d.com/experts">Online Interior Design Services</a></li>
+  <li><a href="https://planner5d.com/blog/">Interior Design Blog</a></li>
+ <li><a href="https://planner5d.com/interior-design-courses">Interior Design School</a></li>
+ <li><a href="https://planner5d.com/contests">Interior Design Contests</a></li>
+  <li><a href="https://planner5d.com/gallery/floorplans">Floor Plans Gallery</a></li>
+ <li><a href="/gallery/ideas">3D Renders Gallery</a></li>
+  <li><a href="/pro/moodboards">Mood boards</a></li>
+  <li><a href="https://shop.planner5d.com">Furniture shop</a></li>
+  <li><a href="https://planner5d.com/costs/cost-of-tiling-a-bathroom-floor">Tiling a Bathroom Floor Cost</a></li>
+</ul>
+</div>
+	</div>
+	<div class="cross-footer-content">
+		<div class="cross-footer-copyright">
+			<div>
+				<b>Planner 5D</b> ® © 2011—2024
+			</div>
+			<div class="copyright-address" itemscope="" itemtype="http://schema.org/Organization">
+				<span itemprop="name">Planner5D UAB</span>, <span itemprop="address" itemscope=""
+					itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">Antakalnio St.17</span>, <span itemprop="addressLocality">Vilnius</span>
+          <span itemprop="postalCode">10312</span>, <span itemprop="addressCountry">Lithuania</span>
+        </span>
+			</div>
+		</div>
+		<div class="cross-footer-social-wrap">
+			<div>Follow:</div>
+			<ul class="cross-footer-social">
+									<li>
+						<a href="/go?from=mainPage&amp;to=https%3A%2F%2Fwww.instagram.com%2FPlanner5D%2F" target="_blank" class="social-item-instagram">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--social-instagram"></use>
+							</svg>
+						</a>
+					</li>
+									<li>
+						<a href="/go?from=mainPage&amp;to=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC6WZGzWb30NKcU-QK2ldy7w" target="_blank" class="social-item-youtube">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--social-youtube"></use>
+							</svg>
+						</a>
+					</li>
+									<li>
+						<a href="/go?from=mainPage&amp;to=https%3A%2F%2Fwww.tiktok.com%2F%40planner5d" target="_blank" class="social-item-tiktok">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--social-tiktok"></use>
+							</svg>
+						</a>
+					</li>
+									<li>
+						<a href="/go?from=mainPage&amp;to=https%3A%2F%2Fwww.facebook.com%2FPlanner5D%2F" target="_blank" class="social-item-facebook">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--social-facebook"></use>
+							</svg>
+						</a>
+					</li>
+									<li>
+						<a href="/go?from=mainPage&amp;to=https%3A%2F%2Fx.com%2FPlanner5D%2F" target="_blank" class="social-item-x">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--social-x"></use>
+							</svg>
+						</a>
+					</li>
+									<li>
+						<a href="/go?from=mainPage&amp;to=https%3A%2F%2Fwww.pinterest.com%2Fplanner5d%2F" target="_blank" class="social-item-pinterest">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--social-pinterest"></use>
+							</svg>
+						</a>
+					</li>
+									<li>
+						<a href="/go?from=mainPage&amp;to=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fplanner-5d%2F" target="_blank" class="social-item-linkedin">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--social-linkedin"></use>
+							</svg>
+						</a>
+					</li>
+									<li>
+						<a href="/go?from=mainPage&amp;to=https%3A%2F%2Fwww.reddit.com%2Fr%2Fplanner5d%2F" target="_blank" class="social-item-reddit">
+							<svg>
+								<use xlink:href="https://planner5d.com/assets/sprite/tool.svg#ui--social-reddit"></use>
+							</svg>
+						</a>
+					</li>
+							</ul>
+		</div>
+		<div class="cross-footer-app">
+			<div>Apps:</div>
+			<div class="app-badges">
+				<a class="badge-googleplay" href="/go?from=mainPage&amp;to=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.planner5d.planner5d" target="_blank"></a>
+				<a class="badge-appstore" href="/go?from=mainPage&amp;to=https%3A%2F%2Fapps.apple.com%2Fapp%2Fapple-store%2Fid1310584536%3Fpt%3D2019088%26ct%3Dweb%26mt%3D8" target="_blank"></a>
+				<a class="badge-microsoft" href="/go?from=mainPage&amp;to=https%3A%2F%2Fwww.microsoft.com%2Fstore%2Fapps%2F9nblggh4mp71%3Focid%3Dbadge%26cid%3Dwebsite_p5d" target="_blank"></a>
+			</div>
+		</div>
+		<div class="cross-footer-language">
+			<div class="cross-footer-select">
+				<select id="jsCrossFooterSelectLanguage" data-current-locale="en" tabindex="-1">
+											<option value="https://planner5d.com"
+							 selected="selected" 						>
+							English
+						</option>
+											<option value="https://planner5d.com/pt"
+													>
+							‪Português
+						</option>
+											<option value="https://planner5d.com/es"
+													>
+							‪Español‬
+						</option>
+											<option value="https://planner5d.com/fr"
+													>
+							Français‬
+						</option>
+											<option value="https://planner5d.com/it"
+													>
+							‪Italiano‬
+						</option>
+											<option value="https://planner5d.com/pl"
+													>
+							Polski
+						</option>
+											<option value="https://planner5d.com/lt"
+													>
+							Lietuviškai
+						</option>
+											<option value="https://planner5d.com/de"
+													>
+							Deutsch‬
+						</option>
+											<option value="https://planner5d.com/zh_hans"
+													>
+							中国
+						</option>
+											<option value="https://planner5d.com/sv"
+													>
+							Sverige
+						</option>
+											<option value="https://planner5d.com/ru"
+													>
+							Русский
+						</option>
+									</select>
+			</div>
+		</div>
+	</div>
+	<div class="cross-footer-captcha "> This site is protected by reCAPTCHA and the Google <a
+			href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms
+			of Service</a> apply.<br /><br />
+	</div>
+</footer>
+<script src="/js/6/vendors/jquery.selectric.min.js?v=6.236.1"  nonce="975f6f0287b2f7a89f069826f4a7f708" ></script>
+<script  nonce="975f6f0287b2f7a89f069826f4a7f708" >
+	P5D.getContext().addOnLoadedListener(context => {
+		context.createLanguageChooser(window)
+		window.footerTrigger = -150
+	})
+</script>
+
+		<div id="modal-alert" class="modal is-small">
+	<div class="modal-background"></div>
+	<div class="modal-card">
+		<div class="modal-card-head">
+			<div class="modal-card-title">Alert</div>
+			<button class="js-modal-ok delete" aria-label="close"></button>
+		</div>
+		<div class="modal-card-body"></div>
+		<div class="modal-card-foot has-text-right">
+			<button class="js-modal-ok button">OK</button>
+		</div>
+	</div>
+</div>
+
+<div id="modal-confirm" class="modal is-small">
+	<div class="modal-background"></div>
+	<div class="modal-card">
+		<div class="modal-card-head">
+			<div class="modal-card-title"></div>
+			<button class="js-modal-no delete"></button>
+		</div>
+		<div class="modal-card-body"></div>
+		<div class="modal-card-foot has-text-right">
+			<button class="js-modal-yes button is-primary">Yes</button>
+			<button class="js-modal-no button">No</button>
+		</div>
+	</div>
+</div>
+
+<div id="modal-success" class="modal is-small">
+	<div class="modal-background"></div>
+	<div class="modal-card">
+		<div class="modal-card-head">
+			<div class="modal-card-title"></div>
+		</div>
+		<div class="modal-card-body"></div>
+		<div class="modal-card-foot has-text-right">
+			<button class="js-modal-yes button is-primary">OK</button>
+		</div>
+	</div>
+</div>
+<div id="modal-error" class="modal is-small">
+	<div class="modal-background"></div>
+	<div class="modal-card">
+		<div class="modal-card-head">
+			<div class="modal-card-title"></div>
+		</div>
+		<div class="modal-card-body"></div>
+		<div class="modal-card-foot has-text-right">
+			<button class="js-modal-yes button is-primary">OK</button>
+		</div>
+	</div>
+</div>
+
+<div id="modal-confirm-danger" class="modal is-medium">
+	<div class="modal-background"></div>
+	<div class="modal-card is-rounded">
+		<div class="modal-card-head">
+			<div class="modal-card-title"></div>
+			<button class="js-modal-no delete"></button>
+		</div>
+		<div class="modal-card-body"></div>
+		<div class="modal-card-foot has-text-right">
+			<button class="js-modal-no button">Cancel</button>
+			<button class="js-modal-yes button is-danger">Confirm</button>
+		</div>
+	</div>
+</div>
+
+<div id="modal-prompt" class="modal is-small">
+	<div class="modal-background"></div>
+	<div class="modal-card">
+		<div class="modal-card-head">
+			<div class="js-modal-title modal-card-title">Enter your name please</div>
+			<button class="js-modal-no delete" aria-label="close"></button>
+		</div>
+		<div class="modal-card-body">
+			<div class="field content" style="display: none">
+				<div id="content"></div>
+			</div>
+			<div class="field">
+				<div class="control">
+					<input type="text" class="js-modal-field input" eaction="clickButton"
+					       eadata="#modal-prompt .js-modal-yes.button" placeholder="">
+				</div>
+			</div>
+		</div>
+		<div class="modal-card-foot has-text-right">
+			<button class="js-modal-yes button is-primary">OK</button>
+			<button class="js-modal-no button">Cancel</button>
+		</div>
+	</div>
+</div>
+
+<div id="modal-prompt2" class="modal is-medium">
+	<div class="modal-background"></div>
+	<div class="modal-card">
+		<div class="modal-card-head">
+			<div class="js-modal-title modal-card-title">Enter your name please</div>
+			<button class="js-modal-no delete" aria-label="close"></button>
+		</div>
+		<div class="modal-card-body">
+			<div class="js-modal-message field"></div>
+			<div class="field">
+				<div class="control">
+					<input type="text" class="js-modal-field input" eaction="clickButton"
+					       eadata="#modal-prompt .js-modal-yes.button" placeholder="">
+				</div>
+			</div>
+		</div>
+		<div class="modal-card-foot has-text-right">
+			<button class="js-modal-yes button is-primary">OK</button>
+			<button class="js-modal-no button">Cancel</button>
+		</div>
+	</div>
+</div>
+
+		<div id="modal-signup-choose-account-type" class="modal pro-choose">
+	<div class="modal-card">
+		<button class="close js-modal-close" data-dismiss="modal"></button>
+		<div>
+			<div>
+				<b>Personal use</b>
+				<p>Find inspiration and visualize your ideas with a simple home design tool to make your dream home a reality</p>
+				<button data-modal="#modal-signup">Sign up</button>
+			</div>
+			<div>
+				<b>Professional use</b>
+				<p>Attract clients, bring their space to life with visualization tools, 4K renders, and stunning AI design technologies</p>
+				<button data-modal="#modal-signup-pro-user">Sign up</button>
+			</div>
+		</div>
+		<p>Already have an account? <a href="#" data-modal="#modal-signin">Sign in</a></p>
+	</div>
+</div>
+
+<div class="modal authorization-modal authorization-modal--full--1 authorization-modal--full--2 signup-full-modal" id="modal-signup">
+			<div>
+			<picture>
+				<source
+					srcset="https://static.planner5d.com/assets/images/authorization-modals/en/signup@2.webp?ux=6.236.1 2x, https://static.planner5d.com/assets/images/authorization-modals/en/signup@1.33.webp?ux=6.236.1 1.33x, https://static.planner5d.com/assets/images/authorization-modals/en/signup.webp?ux=6.236.1 1x">
+				<img src="https://static.planner5d.com/assets/images/authorization-modals/en/signup.webp?ux=6.236.1" alt="">
+			</picture>
+		</div>
+		<div>
+		<div class="modal-card">
+			<button class="delete" data-dismiss="modal"></button>
+		<b>Get started</b><span>Already have an account?&nbsp;
+	<a data-modal="#modal-signin">Sign in</a></span>
+	<form data-onsubmit="P5D.Actions.signup(this); return false;" data-sitekey2="6Ldovm4UAAAAAKHQTj8nlMkV1Dzcj9Jyq-1GRCQu"
+	      data-sitekey3="6LfuHqscAAAAAGP41r6itGF2Cj7TBCRJUUw2gS5h"
+			>
+		<div class="form__input form__input-email">
+			<input required="" name="email" type="text" placeholder="" autocomplete="off">
+			<label>Email</label>
+			<span class="error-message"></span>
+		</div>
+		<div class="form__input form__input-password view-message">
+			<input required="" name="password" type="password" placeholder="" autocomplete="off">
+			<label>Password</label>
+			<button class="view-password__btn active" type="button"></button>
+			<span class="message">Must be at least 6 characters long</span>
+			<span class="error-message"></span>
+		</div>
+		<label class="form__checkbox">
+			<input class="visually-hidden" type="checkbox" name="newsletters-agreement"><span class="checkbox"></span><span
+				class="label">I agree to receive newsletters and other marketing communication, including discounts.</span>
+		</label>
+		<div class="recaptcha"></div>
+		<button class="button is-primary is-fullwidth" type="submit">Sign up with Email</button>
+		<div class="modal-separator">
+			<div class="modal-separator__text" data-text-id="OR">or</div>
+		</div>
+		<div class="modal-auth-socials">
+			<a class="btn-social is-large btn-social--apple" data-onclick="P5D.Actions.social('appleid', true, false)">Sign up with Apple</a>
+			<a class="btn-social is-large btn-social--google-plus" data-onclick="P5D.Actions.social('google', true, false)">Sign up with Google</a>
+		</div>
+		<input name="accountType" type="hidden" value="regular">
+	</form>
+	<small>By Signing up you agree to our <a href="https://planner5d.com/pages/terms" target="_blank">Terms of Service</a>, <a href="https://planner5d.com/pages/privacy" target="_blank">Privacy Policy</a> and <a href="https://planner5d.com/pages/cookies" target="_blank">Cookies Policy</a>.</small>
+</div>
+
+	</div>
+</div>
+
+<div class="modal authorization-modal authorization-modal--full--3 signup-full-modal pro-signup" id="modal-signup-pro-user">
+	<div>
+		<span>Roberta Johnson, Interior Designer</span>
+		<div>
+			<b>All-in-one solution for design pros </b>
+			<p>Ultimate interior design platform to help you create stunning projects, wow your customers and win new
+				clients.</p>
+		</div>
+	</div>
+	<div>
+		<div class="modal-card">
+			<button class="delete" data-dismiss="modal"></button>
+		<b>Get started</b><span>Already have an account?&nbsp;
+	<a data-modal="#modal-signin">Sign in</a></span>
+	<form data-onsubmit="P5D.Actions.signup(this); return false;" data-sitekey2="6Ldovm4UAAAAAKHQTj8nlMkV1Dzcj9Jyq-1GRCQu"
+	      data-sitekey3="6LfuHqscAAAAAGP41r6itGF2Cj7TBCRJUUw2gS5h"
+			>
+		<div class="form__input form__input-email">
+			<input required="" name="email" type="text" placeholder="" autocomplete="off">
+			<label>Email</label>
+			<span class="error-message"></span>
+		</div>
+		<div class="form__input form__input-password view-message">
+			<input required="" name="password" type="password" placeholder="" autocomplete="off">
+			<label>Password</label>
+			<button class="view-password__btn active" type="button"></button>
+			<span class="message">Must be at least 6 characters long</span>
+			<span class="error-message"></span>
+		</div>
+		<label class="form__checkbox">
+			<input class="visually-hidden" type="checkbox" name="newsletters-agreement"><span class="checkbox"></span><span
+				class="label">I agree to receive newsletters and other marketing communication, including discounts.</span>
+		</label>
+		<div class="recaptcha"></div>
+		<button class="button is-primary is-fullwidth" type="submit">Sign up with Email</button>
+		<div class="modal-separator">
+			<div class="modal-separator__text" data-text-id="OR">or</div>
+		</div>
+		<div class="modal-auth-socials">
+			<a class="btn-social is-large btn-social--apple" data-onclick="P5D.Actions.social('appleid', true, true)">Sign up with Apple</a>
+			<a class="btn-social is-large btn-social--google-plus" data-onclick="P5D.Actions.social('google', true, true)">Sign up with Google</a>
+		</div>
+		<input name="accountType" type="hidden" value="pro">
+	</form>
+	<small>By Signing up you agree to our <a href="https://planner5d.com/pages/terms" target="_blank">Terms of Service</a>, <a href="https://planner5d.com/pages/privacy" target="_blank">Privacy Policy</a> and <a href="https://planner5d.com/pages/cookies" target="_blank">Cookies Policy</a>.</small>
+</div>
+
+	</div>
+</div>
+
+
+	<div class="modal authorization-modal authorization-modal--full--1 authorization-modal--full--2 signin-full-modal signin-modal" id="modal-signin">
+			<div>
+			<picture>
+				<source
+					srcset="https://static.planner5d.com/assets/images/authorization-modals/en/signup@2.webp?ux=6.236.1 2x, https://static.planner5d.com/assets/images/authorization-modals/en/signup@1.33.webp?ux=6.236.1 1.33x, https://static.planner5d.com/assets/images/authorization-modals/en/signup.webp?ux=6.236.1 1x">
+				<img src="https://static.planner5d.com/assets/images/authorization-modals/en/signup.webp?ux=6.236.1" alt="">
+			</picture>
+		</div>
+		<div>
+		<div class="modal-card">
+			<button class="delete" data-dismiss="modal"></button>
+			<b>Sign in</b><span>Don’t have an account yet?&nbsp;<a data-action="showCurrentSignUpModal">Sign up</a></span>
+			<form data-onsubmit="P5D.Actions.signin(this); return false;" data-sitekey2="6Ldovm4UAAAAAKHQTj8nlMkV1Dzcj9Jyq-1GRCQu" data-sitekey3="6LfuHqscAAAAAGP41r6itGF2Cj7TBCRJUUw2gS5h">
+				<div class="form__input form__input-email">
+					<input required="" name="email" type="text" placeholder="" autocomplete="off">
+					<label>Email</label>
+					<span class="error-message"></span>
+				</div>
+				<div class="form__input form__input-password">
+					<input required="" name="password" type="password" placeholder="" autocomplete="off">
+					<label>Password</label>
+					<button class="view-password__btn active" type="button"></button>
+					<span class="error-message"></span>
+				</div><a class="link-invert" data-modal="#modal-forgot">Forgot Password?</a>
+				<div class="recaptcha"></div>
+				<button class="button is-primary is-fullwidth" type="submit">Sign in with Email</button>
+				<div class="modal-separator">
+					<div class="modal-separator__text" data-text-id="OR">or</div>
+				</div>
+				<div class="modal-auth-socials">
+					<a class="btn-social is-large btn-social--apple" data-onclick="P5D.Actions.social('appleid')">Sign in with Apple</a>
+					<a class="btn-social is-large btn-social--google-plus" data-onclick="P5D.Actions.social('google')">Sign in with Google</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+	<div class="modal authorization-modal authorization-modal--full--1 forgot-password-full-modal forgot-pass-modal" id="modal-forgot">
+	<div>
+				<picture>
+			<source srcset="https://static.planner5d.com/assets/images/authorization-modals/signin-modal@2x.webp?ux=6.236.1 2x, https://static.planner5d.com/assets/images/authorization-modals/signin-modal.webp?ux=6.236.1 1x">
+			<img loading="lazy" src="https://static.planner5d.com/assets/images/authorization-modals/signin-modal.webp?ux=6.236.1" alt="">
+		</picture>
+			</div>
+	<div>
+		<div class="modal-card">
+			<button class="delete" data-dismiss="modal"></button><a id="forgot-back-to-sign-in"></a>
+			<b>Forgot password</b>
+			<span>Please enter your e-mail and we&#039;ll send you a new password</span>
+			<form data-onsubmit="P5D.Actions.forgot(this); return false;">
+				<div class="form__input form__input-email">
+					<input required="" name="email" type="text" placeholder="" autocomplete="off">
+					<label>Email</label>
+					<span class="error-message"></span>
+				</div>
+				<button class="button is-primary is-fullwidth" type="submit">Send</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+	<div class="modal authorization-modal authorization-modal--full--1" id="modal-password-sent">
+	<div>
+		<picture>
+			<source srcset="https://static.planner5d.com/assets/images/authorization-modals/signin-modal@2x.webp?ux=6.236.1 2x, https://static.planner5d.com/assets/images/authorization-modals/signin-modal.webp?ux=6.236.1 1x">
+			<img loading="lazy" src="https://static.planner5d.com/assets/images/authorization-modals/signin-modal.webp?ux=6.236.1" alt="">
+		</picture>
+	</div>
+	<div>
+		<div class="modal-card">
+			<button class="delete" data-dismiss="modal"></button>
+			<b>New password sent</b>
+			<span>New password has been sent to your email. Sign in using your new password.</span>
+			<div><img loading="lazy" src="https://static.planner5d.com/assets/images/modal/modal-success-message.svg?ux=6.236.1" alt=""><a id="password-sent-back-to-sign-in" class="button is-primary is-fullwidth">Sign in</a></div>
+		</div>
+	</div>
+</div>
+
+	
+	
+		<div id="modal-signup-choose-account-type" class="modal pro-choose">
+	<div class="modal-card">
+		<button class="close js-modal-close" data-dismiss="modal"></button>
+		<div>
+			<div>
+				<b>Personal use</b>
+				<p>Find inspiration and visualize your ideas with a simple home design tool to make your dream home a reality</p>
+				<button data-modal="#modal-signup">Sign up</button>
+			</div>
+			<div>
+				<b>Professional use</b>
+				<p>Attract clients, bring their space to life with visualization tools, 4K renders, and stunning AI design technologies</p>
+				<button data-modal="#modal-signup-pro-user">Sign up</button>
+			</div>
+		</div>
+		<p>Already have an account? <a href="#" data-modal="#modal-signin">Sign in</a></p>
+	</div>
+</div>
+
+<div class="modal authorization-modal authorization-modal--full--1 authorization-modal--full--2 signup-full-modal" id="modal-signup">
+			<div>
+			<picture>
+				<source
+					srcset="https://static.planner5d.com/assets/images/authorization-modals/en/signup@2.webp?ux=6.236.1 2x, https://static.planner5d.com/assets/images/authorization-modals/en/signup@1.33.webp?ux=6.236.1 1.33x, https://static.planner5d.com/assets/images/authorization-modals/en/signup.webp?ux=6.236.1 1x">
+				<img src="https://static.planner5d.com/assets/images/authorization-modals/en/signup.webp?ux=6.236.1" alt="">
+			</picture>
+		</div>
+		<div>
+		<div class="modal-card">
+			<button class="delete" data-dismiss="modal"></button>
+		<b>Get started</b><span>Already have an account?&nbsp;
+	<a data-modal="#modal-signin">Sign in</a></span>
+	<form data-onsubmit="P5D.Actions.signup(this); return false;" data-sitekey2="6Ldovm4UAAAAAKHQTj8nlMkV1Dzcj9Jyq-1GRCQu"
+	      data-sitekey3="6LfuHqscAAAAAGP41r6itGF2Cj7TBCRJUUw2gS5h"
+			>
+		<div class="form__input form__input-email">
+			<input required="" name="email" type="text" placeholder="" autocomplete="off">
+			<label>Email</label>
+			<span class="error-message"></span>
+		</div>
+		<div class="form__input form__input-password view-message">
+			<input required="" name="password" type="password" placeholder="" autocomplete="off">
+			<label>Password</label>
+			<button class="view-password__btn active" type="button"></button>
+			<span class="message">Must be at least 6 characters long</span>
+			<span class="error-message"></span>
+		</div>
+		<label class="form__checkbox">
+			<input class="visually-hidden" type="checkbox" name="newsletters-agreement"><span class="checkbox"></span><span
+				class="label">I agree to receive newsletters and other marketing communication, including discounts.</span>
+		</label>
+		<div class="recaptcha"></div>
+		<button class="button is-primary is-fullwidth" type="submit">Sign up with Email</button>
+		<div class="modal-separator">
+			<div class="modal-separator__text" data-text-id="OR">or</div>
+		</div>
+		<div class="modal-auth-socials">
+			<a class="btn-social is-large btn-social--apple" data-onclick="P5D.Actions.social('appleid', true, false)">Sign up with Apple</a>
+			<a class="btn-social is-large btn-social--google-plus" data-onclick="P5D.Actions.social('google', true, false)">Sign up with Google</a>
+		</div>
+		<input name="accountType" type="hidden" value="regular">
+	</form>
+	<small>By Signing up you agree to our <a href="https://planner5d.com/pages/terms" target="_blank">Terms of Service</a>, <a href="https://planner5d.com/pages/privacy" target="_blank">Privacy Policy</a> and <a href="https://planner5d.com/pages/cookies" target="_blank">Cookies Policy</a>.</small>
+</div>
+
+	</div>
+</div>
+
+<div class="modal authorization-modal authorization-modal--full--3 signup-full-modal pro-signup" id="modal-signup-pro-user">
+	<div>
+		<span>Roberta Johnson, Interior Designer</span>
+		<div>
+			<b>All-in-one solution for design pros </b>
+			<p>Ultimate interior design platform to help you create stunning projects, wow your customers and win new
+				clients.</p>
+		</div>
+	</div>
+	<div>
+		<div class="modal-card">
+			<button class="delete" data-dismiss="modal"></button>
+		<b>Get started</b><span>Already have an account?&nbsp;
+	<a data-modal="#modal-signin">Sign in</a></span>
+	<form data-onsubmit="P5D.Actions.signup(this); return false;" data-sitekey2="6Ldovm4UAAAAAKHQTj8nlMkV1Dzcj9Jyq-1GRCQu"
+	      data-sitekey3="6LfuHqscAAAAAGP41r6itGF2Cj7TBCRJUUw2gS5h"
+			>
+		<div class="form__input form__input-email">
+			<input required="" name="email" type="text" placeholder="" autocomplete="off">
+			<label>Email</label>
+			<span class="error-message"></span>
+		</div>
+		<div class="form__input form__input-password view-message">
+			<input required="" name="password" type="password" placeholder="" autocomplete="off">
+			<label>Password</label>
+			<button class="view-password__btn active" type="button"></button>
+			<span class="message">Must be at least 6 characters long</span>
+			<span class="error-message"></span>
+		</div>
+		<label class="form__checkbox">
+			<input class="visually-hidden" type="checkbox" name="newsletters-agreement"><span class="checkbox"></span><span
+				class="label">I agree to receive newsletters and other marketing communication, including discounts.</span>
+		</label>
+		<div class="recaptcha"></div>
+		<button class="button is-primary is-fullwidth" type="submit">Sign up with Email</button>
+		<div class="modal-separator">
+			<div class="modal-separator__text" data-text-id="OR">or</div>
+		</div>
+		<div class="modal-auth-socials">
+			<a class="btn-social is-large btn-social--apple" data-onclick="P5D.Actions.social('appleid', true, true)">Sign up with Apple</a>
+			<a class="btn-social is-large btn-social--google-plus" data-onclick="P5D.Actions.social('google', true, true)">Sign up with Google</a>
+		</div>
+		<input name="accountType" type="hidden" value="pro">
+	</form>
+	<small>By Signing up you agree to our <a href="https://planner5d.com/pages/terms" target="_blank">Terms of Service</a>, <a href="https://planner5d.com/pages/privacy" target="_blank">Privacy Policy</a> and <a href="https://planner5d.com/pages/cookies" target="_blank">Cookies Policy</a>.</small>
+</div>
+
+	</div>
+</div>
+
+
+	<div class="modal authorization-modal authorization-modal--full--1 authorization-modal--full--2 signin-full-modal signin-modal" id="modal-signin">
+			<div>
+			<picture>
+				<source
+					srcset="https://static.planner5d.com/assets/images/authorization-modals/en/signup@2.webp?ux=6.236.1 2x, https://static.planner5d.com/assets/images/authorization-modals/en/signup@1.33.webp?ux=6.236.1 1.33x, https://static.planner5d.com/assets/images/authorization-modals/en/signup.webp?ux=6.236.1 1x">
+				<img src="https://static.planner5d.com/assets/images/authorization-modals/en/signup.webp?ux=6.236.1" alt="">
+			</picture>
+		</div>
+		<div>
+		<div class="modal-card">
+			<button class="delete" data-dismiss="modal"></button>
+			<b>Sign in</b><span>Don’t have an account yet?&nbsp;<a data-action="showCurrentSignUpModal">Sign up</a></span>
+			<form data-onsubmit="P5D.Actions.signin(this); return false;" data-sitekey2="6Ldovm4UAAAAAKHQTj8nlMkV1Dzcj9Jyq-1GRCQu" data-sitekey3="6LfuHqscAAAAAGP41r6itGF2Cj7TBCRJUUw2gS5h">
+				<div class="form__input form__input-email">
+					<input required="" name="email" type="text" placeholder="" autocomplete="off">
+					<label>Email</label>
+					<span class="error-message"></span>
+				</div>
+				<div class="form__input form__input-password">
+					<input required="" name="password" type="password" placeholder="" autocomplete="off">
+					<label>Password</label>
+					<button class="view-password__btn active" type="button"></button>
+					<span class="error-message"></span>
+				</div><a class="link-invert" data-modal="#modal-forgot">Forgot Password?</a>
+				<div class="recaptcha"></div>
+				<button class="button is-primary is-fullwidth" type="submit">Sign in with Email</button>
+				<div class="modal-separator">
+					<div class="modal-separator__text" data-text-id="OR">or</div>
+				</div>
+				<div class="modal-auth-socials">
+					<a class="btn-social is-large btn-social--apple" data-onclick="P5D.Actions.social('appleid')">Sign in with Apple</a>
+					<a class="btn-social is-large btn-social--google-plus" data-onclick="P5D.Actions.social('google')">Sign in with Google</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+	<div class="modal authorization-modal authorization-modal--full--1 forgot-password-full-modal forgot-pass-modal" id="modal-forgot">
+	<div>
+				<picture>
+			<source srcset="https://static.planner5d.com/assets/images/authorization-modals/signin-modal@2x.webp?ux=6.236.1 2x, https://static.planner5d.com/assets/images/authorization-modals/signin-modal.webp?ux=6.236.1 1x">
+			<img loading="lazy" src="https://static.planner5d.com/assets/images/authorization-modals/signin-modal.webp?ux=6.236.1" alt="">
+		</picture>
+			</div>
+	<div>
+		<div class="modal-card">
+			<button class="delete" data-dismiss="modal"></button><a id="forgot-back-to-sign-in"></a>
+			<b>Forgot password</b>
+			<span>Please enter your e-mail and we&#039;ll send you a new password</span>
+			<form data-onsubmit="P5D.Actions.forgot(this); return false;">
+				<div class="form__input form__input-email">
+					<input required="" name="email" type="text" placeholder="" autocomplete="off">
+					<label>Email</label>
+					<span class="error-message"></span>
+				</div>
+				<button class="button is-primary is-fullwidth" type="submit">Send</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+	<div class="modal authorization-modal authorization-modal--full--1" id="modal-password-sent">
+	<div>
+		<picture>
+			<source srcset="https://static.planner5d.com/assets/images/authorization-modals/signin-modal@2x.webp?ux=6.236.1 2x, https://static.planner5d.com/assets/images/authorization-modals/signin-modal.webp?ux=6.236.1 1x">
+			<img loading="lazy" src="https://static.planner5d.com/assets/images/authorization-modals/signin-modal.webp?ux=6.236.1" alt="">
+		</picture>
+	</div>
+	<div>
+		<div class="modal-card">
+			<button class="delete" data-dismiss="modal"></button>
+			<b>New password sent</b>
+			<span>New password has been sent to your email. Sign in using your new password.</span>
+			<div><img loading="lazy" src="https://static.planner5d.com/assets/images/modal/modal-success-message.svg?ux=6.236.1" alt=""><a id="password-sent-back-to-sign-in" class="button is-primary is-fullwidth">Sign in</a></div>
+		</div>
+	</div>
+</div>
+
+
+<div id="modal-support" class="modal is-middle">
+	<div class="modal-background"></div>
+	<div class="modal-card">
+		<div class="modal-card-head">
+			<p class="modal-card-title">Help Center</p>
+			<button class="delete" data-dismiss="modal"></button>
+		</div>
+		<div class="modal-card-body">
+			<form class="modal__form" action="">
+				<input type="hidden" name="uid" value="0">
+
+				<div class="columns">
+
+					<div class="column is-6">
+						<div class="field">
+							<label class="label">Full Name</label>
+							<div class="control">
+								<input required type="text" class="input name" placeholder="Full Name"
+								       value="">
+							</div>
+						</div>
+					</div>
+
+					<div class="column is-6">
+						<div class="field">
+							<label class="label">Email</label>
+							<div class="control">
+								<input required type="text" class="input email" placeholder="Email">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="columns">
+
+					<div class="column is-6">
+						<div class="field">
+							<label class="label">Platform</label>
+							<div class="control">
+								<div class="select is-fullwidth">
+									<select required class="platforms">
+										<option value="Web">Web</option>
+										<option value="iOS">iOS</option>
+										<option value="Android">Android</option>
+										<option value="Windows">Windows</option>
+										<option value="MacOS">MacOS</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="column is-6">
+						<div class="field">
+							<label class="label">Subject</label>
+							<div class="control">
+								<div class="select is-fullwidth">
+									<select required class="subject">
+																					<option value="2">General question</option>
+																					<option value="3">Feature request</option>
+																					<option value="10">Problem - payments</option>
+																					<option value="11">Problem - synchronization</option>
+																					<option value="12">Problem - crash</option>
+																					<option value="13">Problem - rendering</option>
+																					<option value="14">Problem - resources download</option>
+																					<option value="15">Problem - other</option>
+																					<option value="16">Education question</option>
+																			</select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="field">
+					<label class="label">Message</label>
+					<div class="control">
+						<textarea required rows="6" class="textarea" placeholder=""></textarea>
+					</div>
+					<div style="padding-top: 1em;">
+						<div class="g-recaptcha" data-sitekey="6Ldovm4UAAAAAKHQTj8nlMkV1Dzcj9Jyq-1GRCQu"></div>
+						<script async src="https://www.google.com/recaptcha/api.js"  nonce="975f6f0287b2f7a89f069826f4a7f708" ></script>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="modal-card-foot has-text-centered">
+			<button type="submit" class="button is-primary">Submit</button>
+			<a class="button is-default" data-dismiss="modal">Cancel</a>
+		</div>
+	</div>
+</div>
+
+<div class="modal modal-independent noClose is-not-closable modal-already-trial">
+	<div class="modal-card">
+		<button class="close js-modal-close"></button>
+		<b>We can only offer one free trial per person</b>
+		<p>You previously signed up with these emails:</p>
+		<ul class="email-list"></ul>
+		<p><b>We appreciate your enthusiasm for our product, so we’re offering you <span>50% off</span> your first year.</b></p>
+		<button class="pay">Continue to pay now</button>
+	</div>
+</div>
+
+<div class="langData">
+	<span></span>
+	<span></span>
+</div>
+
+<script async src="https://www.google.com/recaptcha/api.js?render=6LfuHqscAAAAAGP41r6itGF2Cj7TBCRJUUw2gS5h"  nonce="975f6f0287b2f7a89f069826f4a7f708" ></script>
+
+		
+		<script  nonce="975f6f0287b2f7a89f069826f4a7f708" >
+		P5D.getContext().addOnLoadedListener(context => {
+			context.createNewHomePage()
+		})
+	</script>
+	</body>
+</html>
