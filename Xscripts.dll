@@ -1,0 +1,556 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cheat Engine</title>
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;/
+	padding: 0;
+	text-align: center;
+	color: #000000;
+    background-color: #eeeeee;
+}
+
+.thrColHyb #container { 
+	width: 100%;
+	background: #eeeeee;
+	/*margin: 0 auto;  the auto margins (in conjunction with a width) center the page if needed */
+	text-align: left; 
+	
+} 
+
+.thrColHyb #sidebar1 {
+	float: left;
+	width: 11.5em; 
+	padding-top: 15px;
+	padding-right: 0;
+	padding-bottom: 15px;
+	padding-left: 0;
+	background-color: #CCCCCC;
+	bottom: 100%;
+}
+.thrColHyb #sidebar2 {
+	float: right;
+	width: 160px; 
+	padding-top: 15px;
+	padding-right: 0;
+	padding-bottom: 15px;
+	padding-left: 0;
+	height: 100%;
+	background-color: #eeeeee;
+}
+.thrColHyb #sidebar1 h3, .thrColHyb #sidebar1 p, .thrColHyb #sidebar2 p, .thrColHyb #sidebar2 h3 {
+	margin-left: 10px; 
+	margin-right: 10px;
+}
+
+.thrColHyb #mainContent {
+	margin-top: 0;
+	margin-right: 12em;
+	margin-bottom: 0;
+	margin-left: 11em;
+	padding-top: 0;
+	padding-right: 2em;
+	padding-bottom: 0;
+	padding-left: 2em;
+} 
+.thrColHyb #mainContent h1 { 
+	/*margin-top: 0;  */
+}
+
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+	background-color: #dddddd;
+}
+.style1 {
+	color: #FF0000
+}
+
+.refs {
+  height: 114px;
+  text-align: center;
+}
+
+.refs img{
+  vertical-align: middle;
+}
+
+--> 
+</style>
+<!--[if IE]>
+<style type="text/css">
+.thrColHyb #sidebar1, .thrColHyb #sidebar2 { padding-top: 30px; }
+.thrColHyb #mainContent { zoom: 1; padding-top: 15px; }
+</style>
+<![endif]-->
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "theme": "classic",
+  "position": "top",
+  "content": {
+    "message": "This site makes use of the Google services Adsense Analytics, and other third party advertisers which use Cookies to collect data about you, and which will be shared with third parties. By continuing to use this site you consent to the storage of these cookies",
+    "dismiss": "I Agree",
+    "href": "http://www.google.com/intl/en/policies/privacy/partners/"
+  }
+})});
+</script>
+<!-- End Cookie Consent plugin -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6655534-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M7T9WGQ');</script>
+<!-- End Google Tag Manager -->
+
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5613023"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5613023&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+<script>
+var trackOutboundLink = function(url, secondary) {
+    if (secondary==null) 
+    {
+	secondary=url;
+        ev=0;
+    }
+    else
+	{
+      ev=3;
+}
+    window.uetq = window.uetq || []; window.uetq.push({ 'ec': 'CE1', 'ea': 'CELINK', 'el': secondary, 'ev': ev }); 
+
+    ga('send', 'event', 'outbound', 'click', secondary, {
+      'transport': 'beacon',
+      'hitCallback': function(){document.location = url;}
+    });
+
+ } 
+ </script> 
+
+
+</head>
+
+<body class="thrColHyb">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7T9WGQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="container">
+  <div id="sidebar1">
+    <h3>Cheat Engine</h3>
+    <p><a href="index.php"><font color="#FF0000">Main</font></a></p><p><a href="http://forum.cheatengine.org" onclick="trackOutboundLink('http://forum.cheatengine.org'); return false;">Forum</a></p><p><a href="aboutce.php">About Cheat Engine</a></p><p><a href="aboutdbvm.php">About DBVM</a></p><p><a href="https://github.com/cheat-engine/cheat-engine/issues" onclick="trackOutboundLink('https://github.com/cheat-engine/cheat-engine/issues'); return false;">Bugtracker</a></p><p><a href="downloads.php">Downloads</a></p><p><a href="tutorials.php">Tutorials</a></p><p><a href="https://github.com/cheat-engine/cheat-engine/" onclick="trackOutboundLink('https://github.com/cheat-engine/cheat-engine/'); return false;">GIT</a></p><p><a href="http://forum.cheatengine.org/viewforum.php?f=130" onclick="trackOutboundLink('http://forum.cheatengine.org/viewforum.php?f=130'); return false;">Lua Extensions</a></p><p><a href="https://twitter.com/_cheatengine" onclick="trackOutboundLink('https://twitter.com/_cheatengine'); return false;">Twitter</a></p><p><a href="faq.php">FAQ</a></p><p><a href="contribute.php">Contribute</a></p><p><a href="http://wiki.cheatengine.org/" onclick="trackOutboundLink('http://wiki.cheatengine.org/'); return false;">Cheat Engine Wiki</a></p><center>
+<br>
+<br>
+<a href="https://www.patreon.com/bePatron?u=23244396" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<a href="https://www.patreon.com/cheatengine">Check it out</a>
+<br>
+<br>
+<br>
+<br>
+<a href="https://www.patreon.com/jobs" onclick="trackOutboundLink('https://www.patreon.com/jobs'); return false;">Know programming?<br>Looking for a job?<br>Try patreon!</a>
+</center>
+
+    <!-- end #sidebar1 --></div>
+  <div id="sidebar2">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Main website 160x600 rightside -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-2965724121945476"
+     data-ad-slot="9664298636"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br>
+<br>
+<br>
+<br><br>
+<font size=-1><a href="privacy.htm">Privacy Policy</a><br>
+
+<a href="/cdn-cgi/l/email-protection#761217041d29140f0213361e19021b171f1a5815191b">Contact</a>
+</font>
+<br><br>
+</center>
+    <!-- end #sidebar2 --></div>
+  <div id="mainContent">
+    <h1> Cheat Engine</h1>
+    <p><meta name="referrer" content="origin">
+
+
+
+
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript"> 
+UserWidth = window.screen.width;
+if (UserWidth <= 800)
+  fontsize=3
+else
+if (UserWidth <= 1024)
+  fontsize=5
+else
+  fontsize=7;
+
+
+document.write('<center><TABLE CELLPADDING=0 CELLSPACING=0 height=128px onmouseover="this.style.cursor=\'pointer\'" onclick="location.href=\'https://d27825u686rxd6.cloudfront.net/installer/8832319/2529723186757741905\';" ><TR> <TD WIDTH=68px BACKGROUND="images/left.png"></TD><td BACKGROUND="images/center.png"><font size=' + fontsize + '><a class="download_link" href="https://d27825u686rxd6.cloudfront.net/installer/8832319/2529723186757741905" onclick=\"trackOutboundLink(\'https://d27825u686rxd6.cloudfront.net/installer/8832319/2529723186757741905\',\'cedownloadmain\'); return false;" ><b>Download Cheat Engine</b></a></font></td><td WIDTH=62px BACKGROUND="images/right.png"></td> </TR></TABLE></center>');
+</Script>
+<center>
+<small><a class="download_link" href="nope" onclick="trackOutboundLink('nope','nope' ); return false;" ></a></small><br>
+</center>
+<p>Trouble installing/running Cheat Engine? Check out the <a href="https://github.com/cheat-engine/cheat-engine/issues/2099">known github issue</a> here on how to solve it, or join the <a href="https://www.patreon.com/cheatengine">cheat engine patreon</a></p>
+
+<p><font size="-1">Read before download: You must be 18 years or older, or deemed an adult, to install Cheat Engine. Cheat engine is for private and educational purposes only. Before you attach Cheat Engine to a process, please make sure that you are not violating the EULA/TOS of the specific game/application. cheatengine.org does not condone the illegal use of Cheat Engine</font></p>
+
+<p><b>February 14 2023:</b>Cheat Engine 7.5 Released for public:</p>
+<p><b>February 8 2023:</b>Cheat Engine 7.5 Released for Windows for <a href="https://www.patreon.com/posts/cheat-engine-7-5-78402157">Patreons</a> (Mac and public will be here soon):</p>
+<p>
+I'm glad to announce the release of Cheat Engine 7.5 which has some really neat improvements over 7.4<br>
+My patreon members can get it <a href="https://www.patreon.com/posts/cheat-engine-7-5-78402157">here</a><br> 
+<br>
+(The public release will be here any day now. Waiting for the advertisers / network owners to accept it) <br>
+<br>
+Please reports bugs and give suggestions to improve Cheat Engine so next version can be even greater!<br>
+<br>
+<b>Changes</b>:<br>
+<i>from patreon 7.4.3 to public 7.5</i>:
+<li>removed the driver requirement for the access memory regions tool</li>
+<li>added 1 byte jmp instructions (that will install an exeption handler and place an int3 at the location)</li>
+<li>added a scanoption so you can skip unpaged memory. (should prevent targets from eating up RAM when scanned)</li>
+<li>reassemble() now rewrites an instruction using multiple lines when needed </li>
+<li>make some error messages more descriptive</li>
+<li>added an option to center the highlighted disassembler code to the center</li>
+<li>added an explanation why the driver won't load and a link with info on how to get it to load for now</li>
+<li>memoryrecord hotkeys can now be disabled individually</li>
+<li>codefilter: unwind info now gives less bad results</li>
+<li>added support for pseudo-ops like cmpss/sd/ps/pd</li>
+<li>lua: added ceserver commands</li>
+<li>lua: show a stacktrace on execution error</li>
+<li>lua: added convertToUTF8(stringbytetable, regioncode)</li>
+<li>made loading CT files with signatures possible under wine and proton</li>
+<i>from patreon 7.4.2 to patreon 7.4.3:</i>
+<li>ceserver: pipe support (mono data dissector)</li>
+<li>ceserver: added change memory protection capability</li>
+<li>ceserver: Available options can now be sent to the CE GUI</li>
+<li>.netinfo: Replaced the fields view with a tree</li>
+<li>network config: The processlist now has focus after opening a server</li>
+<li>lua: added virtualstringtree</li>
+<li>lua: added invertColor</li>
+<li>lua: added disassembleBytes(bytestring)</li>
+<li>autoassembler: now a visual warning is shown when nearby allocation fails</li>
+<li>autoassembler: the templates now generate 14 byte jmp safe original code blocks as well</li>
+<li>pointerscan now has a deviation option for "pointer must end with offset" to help find pointers back after update</li>
+<li>ultimap: added copy selected results to clipboard</li>
+<i>from patreon 7.4.1 to patreon 7.4.2</i>
+<li>ipt: Added intel process trace feature provided by microsoft.</li>
+<li>ceserver: Improve the modulelist fetch speed, more stable</li>
+<li>ceserver: option to disconnect from closed ceservers</li>
+<li>ceserver: the discovery list is now also a history list</li>
+<li>ceserver: implement injection on arm64 as well</li>
+<li>ceserver: also gets the fpu registers now</li>
+<li>assembler x86_64: prefer mov rax,[rip+xxx] over mov rax,[imm64] </li>
+<li>disasembler x86_64: switch from r#l to r#b because why not</li>
+<li>mono: the dll now has a versioncheck so that you don't accidentally mix monodatacollector dll's</li>
+<li>mono: deal with situations where there is no mainform</li>
+<li>mono/.net: the methodlist is now sorted by name</li>
+<li>better arm disassembler and assembler</li>
+<li>better arm64 disassembler and assembler  </li>
+<li>the scanregions can be saved/loaded upon close/start ce (seperate option in settings)</li>
+<li>added an option to skip loading .PDB files</li>
+<li>a lot more functions are exposed to newstate threads</li>
+<li>added ranges scans to groupscan</li>
+<li>freeze+allow increase/decrease now also looks if the value is signed</li>
+<li>trainers: Forms and controls now scale based on DPI</li>
+<li>changing record showassigned/showashex now also applies to other selected entries</li>
+<li>texttraces now don't save as .cetrace but as .txt now</li>
+<li>ccode: #include now searches table files for files there as well</li>
+<li>ccode: the internal symbolhandler can now deal with stdcalled function symbols</li>
+<li>lua: added ImageIndex property to TTreeNode</li>
+<li>lua: added OnValuechanged and OnValueChangedByUser callbacks to MemoryRecord objects</li>
+<li>lua: added getOpenedFileSize()</li>
+<li>lua: added onHelpEvent callback</li>
+<li>lua: added releaseDebugFiles()</li>
+<li>lua: added enumRegisteredSymbolLists() and enumRegisteredSymbols()</li>
+<li>lua: added getBitmap method to ImageList objects</li>
+<i>from public 7.4 to patreon 7.4.1:</i>
+<li>added .Visible property to treenode entries</li>
+<li>added .VisibleRowCount and .TopItem to listviews</li>
+<li>added arm64 disassembling and assembling</li>
+<li>added lua function "runCommand"</li>
+<li>added a radiobutton to select if the generated script will use 5 or 14 byte jmps.</li>
+<li>conditional jumps can now deal 2gb+ destinations (will get rewritten)</li>
+<li>dotnetinfo: Performance improvement</li>
+<li>memory record hotkeys now have a "Only while down" option</li>
+<li>Updated the dbghelp to a more recent version which can better handle nowadys pdb symbols</li>
+<li>different memory allocations now get placed within the initial allocation block. Protection is changed afterwards</li>
+<li>tracer can now step over rep instructions</li>
+<li>lua stringstream now inherits from memorystream, so you have access to the Memory field</li>
+<li>lua: Added a callback for whenever the structure list is modified</li>
+<li>added architecture distinguishing to ceserver</li>
+<li>pressing escape in the hotkey form will now close it</li>
+<li>added nested structure support</li>
+<li>added string based custom types</li>
+<li>ctrl+enter in the disassembler now shows relative addresses from that point</li>
+<li>the diffcount in "find out what accessess/writes" will now stay even when disabling the option to find the number of different addresses an instruction accesses</li>
+<br>
+<b>Fixes</b>:<br>
+<i>from patreon 7.4.3 to public 7.5:</i>
+<li>vehdebug: Fixed a case where a new thread creation or other event would cause another event that would trigger at exactly the same time to get the exception ignored and just continued</li>
+<li>monodatacollector: fixed invoke method</li>
+<li>dotnetdatacollector: Fixed issue of loading a wrong version of dbgshim.dll</li>
+<li>fixed disassembling cvtdq2pd</li>
+<i>from patreon 7.4.2 to patreon 7.4.3:</i>
+<li>ceserver: Fixed extension loading in some cases</li>
+<li>ceserver: fixed stepping on x86 targets</li>
+<li>fixed the name showing as [physical memory] instead of the filename when opening a file</li>
+<li>fixed a rare error when scanning using specific options</li>
+<li>fixed some documentation in celua at some points</li>
+<li>fixed stackview in "more info" being garbage/access violation</li>
+<li>fixed tracer search for instructions ending with ]</li>
+<li>fixed enumExports lua function</li>
+<li>fixed issue where vehdebug would crash</li>
+<li>fixed the assembler from handing [rex+reg*x] as a symbol when debugging</li>
+<li>fixed the disassembler backlist</li>
+<li>fixed termination issue on the memscan object</li>
+<i>from patreon 7.4.1 to patreon 7.4.2</i>
+<li>Fixed the tracer search for instructions ending with a ]</li>
+<li>VEH debug: Fixed the potential of invalid handles being used</li>
+<li>Kernelmode debug and VEH debug: Fixed setting context on non suspended threads</li>
+<li>fixed the lua_pcallk delegate in the c# plugin example</li>
+<li>fixed speedhack on wine 7.0</li>
+<li>fixed high dpi issue of structure dissect on first view</li>
+<li>fixed high dpi issue on find what access/writes dialogs</li>
+<li>restored the anchor editor (was gone in 7.4.1)</li>
+<li>fixed .net info instance lookup issue</li>
+<li>fixed customtypes getting marked as string (bug introduced in 7.4.1)</li>
+<li>fixed runcommand</li>
+<li>fixed modalforms from losing their text color internally (bug introduced in 7.4.1)</li>
+<li>mac: fixed some progressbars not properly updating</li>
+<i>from public 7.4 to patreon 7.4.1:</i>
+<li>fixed the all type not finding 4 types when double was deselected</li>
+<li>fixed the "all" type when not using double</li>
+<li>fixed ccode esp access in 32-bit and "reg"f types</li>
+<li>fixed disassembling when using binutils for disassembly</li>
+<li>fixed the tablefiles menulist eating memory because they didn't get deleted properly</li>
+<li>fixed .net issues that use obfoscated modules and missing metadata</li>
+<li>fixed paring value starting with a - or +</li>
+<li>fixed assembling pmovmskb</li>
+<li>fixed disassembling vgather* vex256 instructions and allow usage of xmm/ymm registers as address (for instructions that allow it. Like this one)</li>
+<li>fixed the addresslist not giving a proper error when using multiple enable or disable section</li>
+<li>fixed error when using ctrl for speedhack hotkeys</li>
+<li>fixed the groupscan command parser from assigning wildcard to the wrong combobox</li>
+<li>fixed disassembling xchg eax/rax,xxx</li>
+<li>fixed lua custom type registering as float when using the non lua function method</li>
+<li>fixed small memoryscan issue for data at the end of a memoryblock</li>
+<li>ccode doesn't register useless symbols anymore</li>
+<br>
+</p>
+
+
+<p><b>January 18 2022:</b>Cheat Engine 7.4 Released for Windows and Mac for everyone:</p>
+<p><b>January 2 2022:</b>Cheat Engine 7.4 Released for Windows and Mac for Patreons (public will be here soon):</p><p>
+Happy 2022. To start of this year good here's the official release of Cheat Engine 7.4 <br>
+My patreon members can get it <a href="https://www.patreon.com/posts/cheat-engine-7-4-60641229">here</a><br> 
+(The public release will be here any day now. Waiting for the advertisers / network owners to accept it) <br>
+<br>
+Please reports bugs and give suggestions to improve Cheat Engine.<br>
+<br>
+<b>Additions and changes:</b><br>
+<li>AA templates now generate 14 byte jmp scripts when holding down ctrl</li>
+<li>Foundcode dialog: Replace now toggles between nop and original.  Also prevents duplicates</li>
+<li>improved keyboard control to the hexview in memoryview. You can now hold shift while using the cursors to move</li>
+<li>laststate isn't saved in tables anymore (unless ctrl is down)</li>
+<li>added some space for dbvm functions so it's less likely to click them  </li>
+<li>you can now manually delete saved results</li>
+<li>debugger attach timeout window will now show the status on some debugger interfaces</li>
+<li>modules for 64-bit in 32-bit targets are more clearly marked as such</li>
+<li>mono will not try to re-attach after a disconnect</li>
+<li>lua: fixed copyMemory mode 2</li>
+<u>from 7.3.1-7.3.2:</u>
+<li>structure dissect watch for changes now also shows you when something has changed inbetween</li>
+<li>added hints to how the pointer wildcard works </li>
+<li>the replace button in foundcode dialog now supports multiselect</li>
+<li>You can now also change values of groupscan scan results directly in the foundlist</li>
+<li>lua's openProcess command now won't deactivate all entries when previously no process was selected</li>
+<li>you can now edit instructions with a breakpoint on them</li>
+<li>added linux ABI c-compiler dll's</li>
+<li>by default mono now releases the .net thread</li>
+<u>from 7.3.2-7.4:</u>
+<li>added shortcut to add this address to addresslist in hexview (ctrl+numPlus)</li>
+<li>goto address popup now centers on the memview window, instead of screen center</li>
+<li>you can now change the font of the tracer tree</li>
+<li>added isRep to the lua LastDisassemblerData field.  And stepover now steps over rep instructions</li>
+<li>break and trace: Added 'stay within module' option</li>
+<li>added custom alignment option to the hexviewer section of the memoryviewer</li>
+<b>Fixes:</b>
+<li>fixed loading back highligter config for auto assembler windows</li>
+<li>.netinfo: fix field searching</li>
+<li>fixed disassembler issues/memory corruption when closing a secondary memoryview window</li>
+<li>fixed brake and trace killing the debugger when skipping certain modules an failing in figuring out the return address</li>
+<li>fixed auto attach not stopping the process flash</li>
+<li>mono is less likely to disconnect when dissecting an invalid memory address</li>
+<li>fixed checkbox and radiobutton not sizing properly in dark mode</li>
+<li>foundlist: display type override also afffects the saved columns</li>
+<li>foundlist: new scan now alsdo clears the saved results</li>
+<li>processlist: Fixed the highlighted color process entries in light mode</li>
+<li>fixed compare to first scan hotkey</li>
+<li>fixed handling of broken/empty language folders</li>
+<li>fixed network modulesize lookup. (needs a new ceserver build as well)</li>
+<li>fixed position saving for the foundcode dialog</li>
+<li>fixed lua errors not giving a proper errormessage</li>
+<li>fixed {$c} and {$ccode} for the 32-bit CE build</li>
+<li>fixed logging of writes to ignore the addresslist freezing(Skyrimfus)</li>
+<li>fixed dealing with -0.0f in c/ccode blocks</li>
+<li>fixed memscan on the last block of readable memory</li>
+<li>fixed dealing with the proper way of namespace.classname:modulename formatting.  (Supports both formats)</li>
+<li>fixed error when using freeze by thread with a very small interval</li>
+<li>fixed {$ccode} and {$luacode} when not giving any parameters</li>
+<li>fixed some include files erroring out when used </li>
+<u>from 7.3.1-7.3.2:</u>
+<li>network ceserver/linux: Fixed wpm corrupting the memory</li>
+<li>fixed the elf symbol parser</li>
+<li>fixed speedhack on linux</li>
+<li>il2cpp now has a progressbar</li>
+<li>fixed handling some newer il2cpp games</li>
+<li>fixed vmin assembling  </li>
+<li>fixed freezing when entering the wrong ceserver details</li>
+<li>fixed deleting groupscan entries from the scan</li>
+<li>fixed pointerscan not loading results when in a path with non-ascii characters</li>
+<li>fixed the standalone trainer maker giving an error about duplicate entries</li>
+<u>from 7.3.2-7.4:</u>
+<li>lua: fixed readByte signextending when it shouldn't</li>
+<li>fix changeregonbp where it only changed xmm0</li>
+<li>window position saving of "find what addresses this code accesses" should be more predictable</li>
+<li>fixed saving of some color preferences in hexview, and added the fadecolor</li>
+<li>fix AA createThreadAndWait not working in a standalone script</li>
+<li>improved stability of mono</li>
+<li>fixed break and trace ignore flag causing an stop instead of ignore on 64 bit targets</li>
+<br>
+</p>
+
+<p><b>August 26 2021:</b>Cheat Engine 7.3 Released for Windows and Mac for everyone:</p>
+
+<p><b>August 14 2021:</b>Cheat Engine 7.3 Released for Windows and Mac for Patreons (public will be here soon):</p><p>
+I'm happy to announce the official release of Cheat Engine 7.3 for all my patreon members (The public release will be here any day now. Waiting for the advertisers / network owners to sign of on it)  Edit:Done<br>
+My patreon members can get it <a href="https://www.patreon.com/posts/cheat-engine-7-3-54898257">here</a><br>
+<br>
+Please report bugs and give feature requests for next version so I can make it even better.<br>
+<br>
+<br>
+<b>Additions and changes:</b>
+<li>Added dark mode support (restart CE when you change the setting)</li>
+<li>All saved results are now shown in the foundlist (can be turned off)</li>
+<li>Groupscan now supports pointer wildcards. (only valid if the field is a proper pointer)</li>
+<li>Hotkeys can be repeated by releasing the key and repressing if the repeat timer hasn't finished yet</li>
+<li>Structure dissect add to addresslist uses the addressstring instead of number, so symbols will be preserved</li>
+<li>Structure dissect now has a option to save the previous state of a column and show changes easier</li>
+<li>Middle-mouse clicking now copies the value of a structure element to your clipboard</li>
+<li>Added {$LUACODE} blocks for inline Lua coding</li>
+<li>Added a c-compiler to CE</li>
+<li>Added {$C} blocks to the auto assembler. all {$C} blocks get combined into one script before execution</li>
+<li>Added {$CCODE} blocks for inline C coding (Check the forum, wiki, CE patreon discord or CE's youtube)</li>
+<li>Added a C# compiler (compilecs)</li>
+<li>Added routines to do .NET(and mono) method detouring.  .NET info has a new contextmenu where you can create a detour template for the autoassembler</li>
+<li>Added invoke method to the .NET Info window as well</li>
+<li>[Disable] sections can now reference labels, defines, AOBScan results, and allocs created in the [ENABLE] section</li>
+<li>Userdefined symbollist has a secondary list for CCode symbols</li>
+<li>The change address window now also supports relative offsets</li>
+<li>DBVM speed improvements</li>
+<li>DBVM has an extra security level, and added dbvm_setKeys to easily change the access codes</li>
+<li>DBVM has now some basic support for nested VM's (only so you can run them, not yet modify)</li>
+<li>New debugger interface: DBVM-level debugger</li>
+<li>Improved performance of "Find what access/writes this address"</li>
+<li>Dissect code now lets you specify custom ranges</li>
+<li>Addresslist value sort now sorts values by alphabet if the record is a string type</li>
+<li>The dropdown list of multiple entries can now be changed at the same time</li>
+<li>Standalone register window now shows flags values as well</li>
+<li>Value Between scans now autoswap the order if the first value is bigger than the 2nd</li>
+<br>
+<b>Fixes:</b>
+<li>fixed some games freezing CE when symbols where accesses</li>
+<li>Lua debug now shows for loop variables</li>
+<li>several windows now save their position, and won't get corrupted if you don't show them the first time running CE</li>
+<li>fixed createthreadandwait when using a timeout</li>
+<li>fixed disassembling vcvtsi2ss</li>
+<li>fixed compare to first scan if it's a large block, and made it more efficient</li>
+<li>ceshare: logout fixed</li>
+<li>fixed assembling movsq</li>
+<li>fixed ultimap ret filter</li>
+<li>fixed luapipe never calling OnError</li>
+<li>fixed vehdebug in 64-bit CE zeroing out the FPU registers in 32-bit targets</li>
+<li>fixed DBVM find what access/writes sometimes skipping entries on AMD</li>
+<li>fixed undo not working on memory records when using the single line editor</li>
+<li>fixed hide children group option when loading a table</li>
+<li>fixed some font issues in the break and trace window</li>
+<li>fixed pasting the other types in hexadecimal view</li>
+<li>fixed the symbolloader fully crashing on unknown pdb symboldata</li>
+<br>
+<b>lua:</b>
+<li>saveTable won't ask to sign the table anymore</li>
+<li>messageDialog will work if you omit the buttonlist. (Defaults to mbOK then)</li>
+<li>added more customizabe button</li>
+<li>registerSymbol no longer errors out the whole script on failure.  It now overwrites existing symbols</li>
+<li>and many other things...</li>
+</p>
+
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Bottom of the mainpage -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2965724121945476"
+     data-ad-slot="6134608527"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+
+</p>
+    <h3>&nbsp;</h3>
+    <!-- end #mainContent --></div>
+	<br class="clearfloat" />
+<!-- end #container --></div>
+</body>
+</html>
