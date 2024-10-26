@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      var isNoIndexDisabled = 'true'
+      if (isNoIndexDisabled !== 'true') {
+        var metaRobots = document.createElement('meta')
+        metaRobots.setAttribute('name', 'robots')
+        metaRobots.setAttribute('content', 'noindex')
+        document.head.appendChild(metaRobots)
+      }
+    </script>
+
+    <script>
+      var isPlausibleEnabled = 'true'
+      if (isPlausibleEnabled === 'true' && navigator.userAgent !== 'ReactSnap') {
+        let script = document.createElement('script');
+        script.src = "https://telem2.inkarnate.com/js/script.js"
+        script.defer = true
+        script.dataset.domain = 'inkarnate.com'
+        script.dataset.api = "https://telem2.inkarnate.com/api/event"
+        document.head.appendChild(script)
+        window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }
+      }
+
+      var isTurnstileEnabled = 'true'
+      if (isTurnstileEnabled) {
+         let script = document.createElement('script');
+          script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js"
+          script.defer = true
+          document.head.appendChild(script)
+      }
+
+      /*! modernizr 3.6.0 (Custom Build) | MIT *
+      * https://modernizr.com/download/?-todataurljpeg_todataurlpng_todataurlwebp-webp-webpalpha-webpanimation-webplossless_webp_lossless-setclasses !*/
+      !(function (A, e, n) {
+        function a(A, e) {
+          return typeof A === e;
+        }
+        function t() {
+          return "function" != typeof e.createElement
+            ? e.createElement(arguments[0])
+            : c
+            ? e.createElementNS.call(e, "http://www.w3.org/2000/svg", arguments[0])
+            : e.createElement.apply(e, arguments);
+        }
+        function o(A) {
+          var e = l.className,
+            n = Modernizr._config.classPrefix || "";
+          if ((c && (e = e.baseVal), Modernizr._config.enableJSClass)) {
+            var a = new RegExp("(^|\\s)" + n + "no-js(\\s|$)");
+            e = e.replace(a, "$1" + n + "js$2");
+          }
+          Modernizr._config.enableClasses &&
+            ((e += " " + n + A.join(" " + n)), c ? (l.className.baseVal = e) : (l.className = e));
+        }
+        function s() {
+          var A, e, n, t, o, s, i;
+          for (var l in f)
+            if (f.hasOwnProperty(l)) {
+              if (
+                ((A = []),
+                (e = f[l]),
+                e.name &&
+                  (A.push(e.name.toLowerCase()), e.options && e.options.aliases && e.options.aliases.length))
+              )
+                for (n = 0; n < e.options.aliases.length; n++) A.push(e.options.aliases[n].toLowerCase());
+              for (t = a(e.fn, "function") ? e.fn() : e.fn, o = 0; o < A.length; o++)
+                (s = A[o]),
+                  (i = s.split(".")),
+                  1 === i.length
+                    ? (Modernizr[i[0]] = t)
+                    : (!Modernizr[i[0]] ||
+                        Modernizr[i[0]] instanceof Boolean ||
+                        (Modernizr[i[0]] = new Boolean(Modernizr[i[0]])),
+                      (Modernizr[i[0]][i[1]] = t)),
+                  r.push((t ? "" : "no-") + i.join("-"));
+            }
+        }
+        function i(A, e) {
+          if ("object" == typeof A) for (var n in A) d(A, n) && i(n, A[n]);
+          else {
+            A = A.toLowerCase();
+            var a = A.split("."),
+              t = Modernizr[a[0]];
+            if ((2 == a.length && (t = t[a[1]]), "undefined" != typeof t)) return Modernizr;
+            (e = "function" == typeof e ? e() : e),
+              1 == a.length
+                ? (Modernizr[a[0]] = e)
+                : (!Modernizr[a[0]] ||
+                    Modernizr[a[0]] instanceof Boolean ||
+                    (Modernizr[a[0]] = new Boolean(Modernizr[a[0]])),
+                  (Modernizr[a[0]][a[1]] = e)),
+              o([(e && 0 != e ? "" : "no-") + a.join("-")]),
+              Modernizr._trigger(A, e);
+          }
+          return Modernizr;
+        }
+        var r = [],
+          l = e.documentElement,
+          c = "svg" === l.nodeName.toLowerCase(),
+          f = [],
+          u = {
+            _version: "3.6.0",
+            _config: { classPrefix: "", enableClasses: !0, enableJSClass: !0, usePrefixes: !0 },
+            _q: [],
+            on: function (A, e) {
+              var n = this;
+              setTimeout(function () {
+                e(n[A]);
+              }, 0);
+            },
+            addTest: function (A, e, n) {
+              f.push({ name: A, fn: e, options: n });
+            },
+            addAsyncTest: function (A) {
+              f.push({ name: null, fn: A });
+            },
+          },
+          Modernizr = function () {};
+        (Modernizr.prototype = u),
+          (Modernizr = new Modernizr()),
+          Modernizr.addTest("canvas", function () {
+            var A = t("canvas");
+            return !(!A.getContext || !A.getContext("2d"));
+          });
+        var p = t("canvas");
+        Modernizr.addTest("todataurljpeg", function () {
+          return !!Modernizr.canvas && 0 === p.toDataURL("image/jpeg").indexOf("data:image/jpeg");
+        }),
+          Modernizr.addTest("todataurlpng", function () {
+            return !!Modernizr.canvas && 0 === p.toDataURL("image/png").indexOf("data:image/png");
+          }),
+          Modernizr.addTest("todataurlwebp", function () {
+            var A = !1;
+            try {
+              A = !!Modernizr.canvas && 0 === p.toDataURL("image/webp").indexOf("data:image/webp");
+            } catch (e) {}
+            return A;
+          });
+        var d;
+        !(function () {
+          var A = {}.hasOwnProperty;
+          d =
+            a(A, "undefined") || a(A.call, "undefined")
+              ? function (A, e) {
+                  return e in A && a(A.constructor.prototype[e], "undefined");
+                }
+              : function (e, n) {
+                  return A.call(e, n);
+                };
+        })(),
+          (u._l = {}),
+          (u.on = function (A, e) {
+            this._l[A] || (this._l[A] = []),
+              this._l[A].push(e),
+              Modernizr.hasOwnProperty(A) &&
+                setTimeout(function () {
+                  Modernizr._trigger(A, Modernizr[A]);
+                }, 0);
+          }),
+          (u._trigger = function (A, e) {
+            if (this._l[A]) {
+              var n = this._l[A];
+              setTimeout(function () {
+                var A, a;
+                for (A = 0; A < n.length; A++) (a = n[A])(e);
+              }, 0),
+                delete this._l[A];
+            }
+          }),
+          Modernizr._q.push(function () {
+            u.addTest = i;
+          }),
+          Modernizr.addAsyncTest(function () {
+            var A = new Image();
+            (A.onerror = function () {
+              i("webpanimation", !1, { aliases: ["webp-animation"] });
+            }),
+              (A.onload = function () {
+                i("webpanimation", 1 == A.width, { aliases: ["webp-animation"] });
+              }),
+              (A.src =
+                "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA");
+          }),
+          Modernizr.addAsyncTest(function () {
+            var A = new Image();
+            (A.onerror = function () {
+              i("webplossless", !1, { aliases: ["webp-lossless"] });
+            }),
+              (A.onload = function () {
+                i("webplossless", 1 == A.width, { aliases: ["webp-lossless"] });
+              }),
+              (A.src = "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=");
+          }),
+          Modernizr.addAsyncTest(function () {
+            var A = new Image();
+            (A.onerror = function () {
+              i("webpalpha", !1, { aliases: ["webp-alpha"] });
+            }),
+              (A.onload = function () {
+                i("webpalpha", 1 == A.width, { aliases: ["webp-alpha"] });
+              }),
+              (A.src =
+                "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==");
+          }),
+          Modernizr.addAsyncTest(function () {
+            function A(A, e, n) {
+              function a(e) {
+                var a = e && "load" === e.type ? 1 == t.width : !1,
+                  o = "webp" === A;
+                i(A, o && a ? new Boolean(a) : a), n && n(e);
+              }
+              var t = new Image();
+              (t.onerror = a), (t.onload = a), (t.src = e);
+            }
+            var e = [
+                {
+                  uri: "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",
+                  name: "webp",
+                },
+                {
+                  uri: "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",
+                  name: "webp.alpha",
+                },
+                {
+                  uri: "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",
+                  name: "webp.animation",
+                },
+                {
+                  uri: "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+                  name: "webp.lossless",
+                },
+              ],
+              n = e.shift();
+            A(n.name, n.uri, function (n) {
+              if (n && "load" === n.type) for (var a = 0; a < e.length; a++) A(e[a].name, e[a].uri);
+            });
+          }),
+          s(),
+          o(r),
+          delete u.addTest,
+          delete u.addAsyncTest;
+        for (var g = 0; g < Modernizr._q.length; g++) Modernizr._q[g]();
+        A.Modernizr = Modernizr;
+      })(window, document);
+    </script>
+
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="color-scheme" content="only dark">
+    <meta
+      name="description"
+      content="Create fantasy maps online. With Inkarnate you can create world maps, regional maps and city maps for dungeons & dragons, fantasy books and more! FREE SIGN-UP!"
+    />
+    <meta
+      name="keywords"
+      content="create dnd maps,create dungeons and dragons maps,build dnd maps,create fantasy maps,build fantasy maps,fantasy maps,dungeons and dragons maps,fantasy map making,worldbuilding maps"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Inkarnate - Create Fantasy Maps Online</title>
+    <script type="module" crossorigin src="/assets/index-wovUpxCn.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C-LyD9v9.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      window.global = window
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bowser@2.5.4/bundled.js"></script>
+
+    <script>
+      var UNSUPPORTED_BROWSER_LIST = {
+        ie: '>=1',
+      }
+
+      var browser = bowser.getParser(window.navigator.userAgent)
+      if (
+        browser.satisfies(UNSUPPORTED_BROWSER_LIST) &&
+        !window.location.pathname.match(/^(|\/)$/)
+      ) {
+        alert(
+          'Your browser is not supported by Inkarnate.\nFor the best experience, please use a recent version of Chrome or Firefox.'
+        )
+      }
+    </script>
+  </body>
+</html>
