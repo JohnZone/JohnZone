@@ -1,0 +1,1131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Mods - Stronghold Crusader - ModDB</title>
+	<meta charset="utf-8">
+	 
+	<meta name="keywords" content="stronghold crusader, browse, search, mods, development, total conversions, modification, enhancement, games, plugins, addons, extensions, episode, expansion packs," />
+	<meta name="description" content="Browse and play mods created for Stronghold Crusader at ModDB." />
+	<meta name="robots" content="max-image-preview:large" />
+	<meta property="fb:app_id" content="210134345672070"/>
+	<meta property="og:title" content="Mods - Stronghold Crusader" />
+	<meta property="og:description" content="Browse and play mods created for Stronghold Crusader at ModDB." />
+	<meta property="og:site_name" content="ModDB" />
+	 
+	 
+	 
+	 
+	<meta property="twitter:card" content="summary" />
+	<meta property="twitter:site" content="@moddb" />
+	<meta property="twitter:title" content="Mods - Stronghold Crusader" />
+	<meta property="twitter:description" content="Browse and play mods created for Stronghold Crusader at ModDB." />
+	 
+	 
+	<link rel="stylesheet" type="text/css" media="all" href="https://static.moddb.com/html/external/min/index.php?g=css&amp;77" />
+	<link rel="icon" href="https://www.moddb.com/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="https://www.moddb.com/favicon.png" type="image/png" sizes="96x96" />
+	<link rel="icon" href="https://www.moddb.com/favicon-192x192.png" type="image/png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="https://www.moddb.com/apple-touch-icon.png" sizes="180x180" />
+		<script src="https://static.moddb.com/html/external/min/index.php?g=jquery&amp;1"></script><script async src=https://boot.pbstck.com/v1/adm/b178b8eb-fe5d-4a51-a6b1-7859f8598523></script><script type="text/javascript" data-cfasync="false" crossorigin="anonymous" src="https://static.kueezrtb.com/latest.js" id="kueezrtb_latest"></script><meta name="pbstck_context:country" content="lt"/>
+<script src="https://static.moddb.com/html/external/min/index.php?b=cutoff&amp;f=js/misc.isab.js"></script>
+</head>
+<body>
+
+<div id="body">
+<div class="container">
+	<header><div id="header">
+		<div id="searchbox">
+			 
+			<span class="guest">Hello guest <a href="/members/register">register</a> or <a href="/members/login" id="togglelogin">sign in</a></span><span class="arrow">&nbsp;</span>
+			<form action="https://www.moddb.com/search" class="search" method="get"><input type="text" name="q" maxlength="500" value="" id="sitesearch" class="text" placeholder="Search"  /><input type="image" name="sa" value="Search" src="https://static.moddb.com/cutoff/images/default/btn_search_box.png" class="button" alt="Search ModDB" title="Search ModDB"  /></form>			 
+			<form action="https://www.moddb.com/members/login" method="post" name="memberform" class="login"><input type="hidden" name="referer" value="/games/stronghold-crusader/mods/" /><input type="hidden" name="rememberme" value="1" /><input type="hidden" name="members" value="1" /><span class="abadedafdformouter"><span><span><span class="abadedafdforminner"><input type="text" name="IyMxNjdmYjY1OTNjZTg3NjYyNWU4YTEyNTAxNDkxMzEwYTU3OTczODA2NjZib3RjYXRjaGVy" maxlength="500" placeholder="Username" class="text" autocomplete="off"  /></span></span></span></span><span class="abadedafdformouter"><span><span><span><span class="abadedafdforminner"><input type="text" name="IyMxNjdmYjY1OTNjZTg3NjYyNWU4YTEyNTAxNDkxMzEwYTgxNTQwNTg5NTd1c2VybmFtZQ:E::E:" maxlength="500" value="" placeholder="Username" class="text" autocomplete="off"  /></span></span></span></span></span><style> span.abadedafdformouter span span span.abadedafdforminner { display: none; } span.abadedafdformouter span span span span.abadedafdforminner { display: inline; }</style>
+<input type="password" name="password" maxlength="100" placeholder="Password" class="text password" autocomplete="off"  /><input type="submit" name="members" value="GO" class="button" title="Sign In"  /></form>			<span class="login" style="display: none;">or with: <a href="/members/loginext/steam" class="steamiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Steam"></a><a href="/members/loginext/google" class="googleiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Google"></a><a href="/members/loginext/twitter" class="twittericonsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Twitter"></a><a href="/members/loginext/facebook" class="facebookiconsml" style="float: right; margin: 3px 1px 0 4px;" title="Click to connect via Facebook"></a></span>
+			 
+		</div>
+
+		<h1>Mods - Stronghold Crusader</h1>
+		<a href="/" class="logo" title="ModDB Home"></a>
+
+ 		 
+		<ul class="tabs">
+			<li class="on"><a href="/">HOME</a></li>
+			<li><a href="/today" title="New today">Today</a></li>
+			<li><a href="/week" title="New this week">Week</a></li>
+			<li><a href="/month" title="New this month">Month</a></li>
+			<li><a href="/year" title="New this year">Year</a></li>
+			 
+		</ul>
+	</div>
+	<div id="subheader">
+		<nav><ul class="tabs">
+			<li class="on firsttab"><a href="/games">games</a>
+				<ul>
+					<li><a href="/games/top">popular</a></li>
+					<li><a href="/games/latest">latest</a></li>
+					 
+					<li><a href="https://www.indiedb.com">indies</a></li>
+					<li><a href="https://modularity.games">publishing</a></li>
+					 
+					<li><a href="/games/add">add game</a></li>
+									</ul>
+			</li>
+			<li><a href="/mods">mods</a>
+				<ul>
+					<li><a href="/mods/top">popular</a></li>
+					<li><a href="/mods/latest">latest</a></li>
+					<li><a href="/mods/add">add mod</a></li>
+				</ul>
+			</li>
+			<li><a href="/addons">addons</a>
+				<ul>
+					<li><a href="/addons/top">popular</a></li>
+					<li><a href="/addons/latest">latest</a></li>
+					<li><a href="/addons/add">upload</a></li>
+				</ul>
+			</li>
+			<li><a href="/downloads">files</a>
+				<ul>
+					<li><a href="/downloads/top">popular</a></li>
+					<li><a href="/downloads/latest">latest</a></li>
+					<li><a href="/downloads/add">upload</a></li>
+				</ul>
+			</li>
+			 
+			<li><a href="/rtx">RTX Remix</a>
+				<ul>
+					<li><a href="/rtx">Games Compatibility</a></li>	
+					<li><a href="/rtx/mods">Remix Mods</a></li>
+					<li><a href="/rtx/downloads">Remix Files</a></li>
+					<li><a href="/rtx/downloads?filter=t&category=34">PBR Assets</a></li><!-- RTX_ASSET -->
+					<li><a href="/rtx/articles">News</a></li>
+					<li><a href="/rtx/tutorials">Tutorials</a></li>
+					<li><a href="/rtx/stats">Statistics</a></li>
+				</ul>
+			</li>
+			 
+			<li><a href="/videos">videos</a>
+				<ul>
+					<li><a href="/images">images</a></li>
+					<li><a href="/audio">audio</a></li>
+				</ul>
+			</li>
+			<li><a href="/articles">articles</a>
+				<ul>
+					<li><a href="/reviews">reviews</a></li>
+					<li><a href="/headlines">headlines</a></li>
+					 
+					<li><a href="/blogs">blogs</a></li>
+					 
+					<li><a href="/articles/add">post article</a></li>
+				</ul>
+			</li>
+			<li><a href="/engines">engines</a>
+				<ul>
+					<li><a href="/engines/top">popular</a></li>
+					<li><a href="/engines/latest">latest</a></li>
+					<li><a href="/engines/add">add engine</a></li>
+				</ul>
+			</li>
+			<li><a href="/company">developers</a>
+				<ul>
+					<li><a href="/company/top">popular</a></li>
+					<li><a href="/company/latest">latest</a></li>
+					<li><a href="/company/add">add dev</a></li>
+				</ul>
+			</li>
+			<li><a href="/groups">groups</a>
+				<ul>
+					<li><a href="/groups/top">popular</a></li>
+					<li><a href="/groups/latest">latest</a></li>
+					<li><a href="/groups/add">add group</a></li>
+				</ul>
+			</li>
+			<li><a href="/forum">forums</a></li>
+			<li><a href="/jobs">jobs</a>
+				<ul>
+					<li><a href="/jobs/add">post job</a></li>
+				</ul>
+			</li>
+		</ul></nav>
+	</div></header>
+
+	 
+
+	 
+<div style="clear: both;"></div>
+<div class="headermediabox">
+	<div class="supporter"><div class="DBsupporter" data-dfp-id="MODDB_LB_1" data-dfp-sizes="728x90, 960x250, 970x250" id="div-ga-MODDB_LB_1"></div></div> 
+</div>
+<div class="column span-all tabmods">	<div class="headerbox" style="background-image: url(https://media.moddb.com/images/games/1/1/285/stronghold_crusader_header.jpg);">
+		<div class="headercorner">
+			<div class="title">
+				 
+				<h2><a href="/games/stronghold-crusader">Stronghold Crusader</a></h2>
+				<h3>
+					<a href="/company/firefly-studios">Firefly Studios</a> | <a href="/company/take-two-interactive-software">Take-Two Interactive Software</a> | <time datetime="2002-09-22">Released 2002</time>				</h3>
+				<span class="bg"></span>
+			</div>
+			<nav><ul class="menu">
+				<li class="firsttab"><a href="/games/stronghold-crusader">summary</a></li><li class=""><a href="/games/stronghold-crusader/articles">articles</a></li><li class=""><a href="/games/stronghold-crusader/reviews">reviews</a></li><li class=""><a href="/games/stronghold-crusader/downloads">files</a></li><li class=""><a href="/games/stronghold-crusader/addons">addons</a></li><li class="on"><a href="/games/stronghold-crusader/mods">mods</a></li><li class=""><a href="/games/stronghold-crusader/videos">videos</a></li><li class=""><a href="/games/stronghold-crusader/images">images</a></li><li class=""><a href="/games/stronghold-crusader/jobs">jobs</a></li>			</ul></nav>
+		</div>
+	</div>
+		<div class="headernormalbox normalbox">
+		<div class="inner">
+			<div class="body clear">
+								<div class="tooltip"></div>
+								<p>Journey to distant lands renowned for brave warriors and fearsome weaponry in FireFly Studios' Stronghold: Crusader. This highly anticipated successor to the bestselling Stronghold combines the finest aspects from a city builder and a real-time strategy game. Lead a determined group of crusaders, forged by centuries of barbaric conflicts, or wage war against a powerful foreign invader amidst the haze of the desert heat.  Within impenetrable walls beats the heart of a thriving society full of fletchers, brewers, and armorers, while outside stalk enemy assassins, mighty war engines, and the constant threat of fire. As European nobles or Arabian warriors, conquer this unforgiving wasteland, defend desert fortresses, and lay siege to fearless enemies during the legendary crusades of the 11th and 12th centuries.</p>			</div>
+		</div>
+	</div>
+</div><div class="column span-300-alt first tabmods">	<div class="normalbox browsebox" id="modsbrowse">
+		<div class="normalcorner">
+			<div class="title">
+				<span class="options">
+					<a href="/mods/add/?game=285#modsform" class="addicon"  title="Add mod">Add mod</a>				</span>
+				<span class="heading">Mods</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="body clear">
+								<div class="tooltip"></div>
+				<form action="https://www.moddb.com/games/stronghold-crusader/mods" name="filterform" class="filter filterauto clear" method="get"><input type="hidden" name="filter" value="t" />				<div class="buttons">
+					<input type="submit" name="" value="Search" alt="Search"  /> 
+					<a href="/games/stronghold-crusader/mods" title="Reset your search" class="reset">Reset</a>
+				</div>
+<input type="search" name="kw" maxlength="50" value="" placeholder="Search" size="40"  />  <select name="released">
+<option value="" selected="selected">Status</option>
+<option value="1">Released</option>
+<option value="4">Early Access</option>
+<option value="2">Coming Soon</option>
+<option value="3">Unreleased</option>
+</select> <select name="genre">
+<option value="" selected="selected" style="font-weight: bold; text-transform: uppercase;">Genre</option>
+<option value="1" style="font-weight: bold; text-transform: uppercase;">Action</option>
+<option value="3"> - First Person Shooter</option>
+<option value="34"> - Third Person Shooter</option>
+<option value="4"> - Tactical Shooter</option>
+<option value="20"> - Fighting</option>
+<option value="39"> - Arcade</option>
+<option value="43"> - Stealth</option>
+<option value="5" style="font-weight: bold; text-transform: uppercase;">Adventure</option>
+<option value="2"> - Adventure</option>
+<option value="19"> - Platformer</option>
+<option value="40"> - Point and Click</option>
+<option value="50"> - Visual Novel</option>
+<option value="6" style="font-weight: bold; text-transform: uppercase;">Driving</option>
+<option value="7"> - Racing</option>
+<option value="8"> - Car Combat</option>
+<option value="10" style="font-weight: bold; text-transform: uppercase;">RPG</option>
+<option value="11"> - Role Playing</option>
+<option value="44"> - Roguelike</option>
+<option value="51"> - Hack 'n' Slash</option>
+<option value="53"> - Party Based</option>
+<option value="14" style="font-weight: bold; text-transform: uppercase;">Strategy</option>
+<option value="15"> - Real Time Strategy</option>
+<option value="42"> - Real Time Shooter</option>
+<option value="45"> - Real Time Tactics</option>
+<option value="16"> - Turn Based Strategy</option>
+<option value="46"> - Turn Based Tactics</option>
+<option value="47"> - Tower Defense</option>
+<option value="49"> - Grand Strategy</option>
+<option value="48"> - 4X</option>
+<option value="52"> - MOBA</option>
+<option value="18" style="font-weight: bold; text-transform: uppercase;">Sport</option>
+<option value="13"> - Baseball</option>
+<option value="17"> - Basketball</option>
+<option value="21"> - Football</option>
+<option value="33"> - Golf</option>
+<option value="35"> - Hockey</option>
+<option value="36"> - Soccer</option>
+<option value="37"> - Wrestling</option>
+<option value="26"> - Sport</option>
+<option value="22" style="font-weight: bold; text-transform: uppercase;">Simulation</option>
+<option value="24"> - Combat Sim</option>
+<option value="25"> - Futuristic Sim</option>
+<option value="23"> - Realistic Sim</option>
+<option value="27" style="font-weight: bold; text-transform: uppercase;">Puzzle</option>
+<option value="41"> - Cinematic</option>
+<option value="38"> - Educational</option>
+<option value="31"> - Family</option>
+<option value="29"> - Party</option>
+<option value="28"> - Rhythm</option>
+<option value="54"> - TCG/CCG Card Game</option>
+<option value="30"> - Virtual Life</option>
+<option value="32"> - Puzzle</option>
+</select> <select name="theme">
+<option value="" selected="selected">Theme</option>
+<option value="18">Abstract</option>
+<option value="1">Anime</option>
+<option value="14">Antiquity</option>
+<option value="2">Comedy</option>
+<option value="3">Comic</option>
+<option value="17">Education</option>
+<option value="4">Fantasy</option>
+<option value="5">Fighter</option>
+<option value="15">History</option>
+<option value="6">Horror</option>
+<option value="20">Mafia</option>
+<option value="16">Medieval</option>
+<option value="7">Movie</option>
+<option value="21">Music</option>
+<option value="13">Nature</option>
+<option value="19">Noire</option>
+<option value="22">Pirate</option>
+<option value="25">Post-apocalyptic</option>
+<option value="8">Realism</option>
+<option value="9">Sci-Fi</option>
+<option value="23">Survival</option>
+<option value="12">Sport</option>
+<option value="24">Urban</option>
+<option value="10">War</option>
+<option value="11">Western</option>
+</select> <select name="players">
+<option value="" selected="selected">Players</option>
+<option value="1">Single Player</option>
+<option value="2">Multiplayer</option>
+<option value="4">Co-op</option>
+<option value="8">MMO</option>
+</select> <select name="timeframe">
+<option value="" selected="selected">Date added</option>
+<option value="1">Past 24hours</option>
+<option value="2">Past week</option>
+<option value="3">Past month</option>
+<option value="4">Past year</option>
+<option value="5">Year or older</option>
+</select> <select name="rtx">
+<option value="" selected="selected">RTX</option>
+<option value="1">On</option>
+</select> </form><div class="table">
+		<div class="row rowsort clear">
+		<div class="content">
+			<span class="date">
+								<a href="/games/stronghold-crusader/mods?sort=dateup-asc" class="descicon">Updated</a>
+			</span>
+			<span class="subheading">
+								<a href="/games/stronghold-crusader/mods?sort=released-desc" >Released</a>
+								| <a href="/games/stronghold-crusader/mods?sort=id-desc" >Added</a>
+								| <a href="/games/stronghold-crusader/mods?sort=ranktoday-asc" >Popular Today</a>
+								| <a href="/games/stronghold-crusader/mods?sort=visitstotal-desc" >Popular All Time</a>
+								| <a href="/games/stronghold-crusader/mods?sort=rating-desc" >Rating</a>
+								| <a href="/games/stronghold-crusader/mods?sort=name-asc" >Name</a>
+								| <a href="/games/stronghold-crusader/mods?sort=game-asc" >Game</a>
+											</span>
+		</div>
+	</div>
+				<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowtimeframe5 clear">
+				<a href="/mods/essential-stronghold" title="Essential Stronghold" class="image"><img src="https://media.moddb.com/cache/images/mods/1/50/49007/crop_120x90/3105-stronghold-1-ovgdm.jpg" alt="Essential Stronghold" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/essential-stronghold">Essential Stronghold</a></h4>
+			<span class="date">
+				<time datetime="2024-10-21T18:18:42+00:00">Oct 21 2024</time>			</span>
+			<span class="subheading">
+				<time datetime="2021-02-10">Released 2021</time> Real Time Strategy  			</span>
+			<p>Essential Stronghold is a preconfigured modpack of Stronghold Europe and the Unofficial Crusader Patch.</p>			<p class="filtersearch" style="display: none;">essential stronghold medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased3 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowtimeframe4 clear">
+				<a href="/mods/improved-sultan" title="Improved Sultan" class="image"><img src="https://media.moddb.com/cache/images/mods/1/64/63249/crop_120x90/Screenshot_4.png" alt="Improved Sultan" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/improved-sultan">Improved Sultan</a></h4>
+			<span class="date">
+				<time datetime="2024-08-06T23:43:56+00:00">Aug 7 2024</time>			</span>
+			<span class="subheading">
+				<time>TBD</time> Real Time Strategy  			</span>
+			<p>Improving Sultan so he deserve his title as sultan there are 3 designed ai castle the first one is inspired from the commander castle from New Crusader...</p>			<p class="filtersearch" style="display: none;">improved sultan medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme10 rowplayers1 rowtimeframe4 clear">
+				<a href="/mods/troops-panels-unlocked-trainer-stronghold-crusader" title="Troops Panels Unlocked Trainer Stronghold Crusader" class="image"><img src="https://media.moddb.com/cache/images/mods/1/64/63118/crop_120x90/BannerMaker_26072024_150543.png" alt="Troops Panels Unlocked Trainer Stronghold Crusader" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/troops-panels-unlocked-trainer-stronghold-crusader">Troops Panels Unlocked Trainer Stronghold Crusader</a></h4>
+			<span class="date">
+				<time datetime="2024-07-26T10:40:31+00:00">Jul 26 2024</time>			</span>
+			<span class="subheading">
+				<time datetime="2024-07-26">Released Jul 26, 2024</time> Real Time Strategy  			</span>
+			<p>Unlock the troops panel in Stronghold Crusader HD with our custom trainer. This tool allows you to manage your troops like in custom scenarios, giving...</p>			<p class="filtersearch" style="display: none;">troops panels unlocked trainer stronghold crusader war</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme10 rowplayers1 rowtimeframe4 clear">
+				<a href="/mods/outposts-from-extreme-into-crusader-outposts-panel-unlocked" title="Outposts from Extreme into Crusader &#038; Outposts Panel Unlocked" class="image"><img src="https://media.moddb.com/cache/images/mods/1/64/63092/crop_120x90/BannerMaker_24072024_171948.png" alt="Outposts from Extreme into Crusader &#038; Outposts Panel Unlocked" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/outposts-from-extreme-into-crusader-outposts-panel-unlocked">Outposts from Extreme into Crusader &#038; Outposts Panel Unlocked</a></h4>
+			<span class="date">
+				<time datetime="2024-07-24T12:35:40+00:00">Jul 24 2024</time>			</span>
+			<span class="subheading">
+				<time datetime="2024-07-24">Released Jul 24, 2024</time> Real Time Strategy  			</span>
+			<p>&quot;Outposts from Extreme into Crusader &#038; Outposts Panel Unlocked&quot; trainer, a custom modification designed to enhance your Stronghold Crusader HD gameplay...</p>			<p class="filtersearch" style="display: none;">outposts from extreme into crusader & outposts panel unlocked war</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme10 rowplayers1 rowtimeframe4 clear">
+				<a href="/mods/castle-panel-unlocked-move-keep-anywhere" title="Castle Panel Unlocked Move Keep Anywhere" class="image"><img src="https://media.moddb.com/cache/images/mods/1/64/63088/crop_120x90/BannerMaker_22072024_125125.png" alt="Castle Panel Unlocked Move Keep Anywhere" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/castle-panel-unlocked-move-keep-anywhere">Castle Panel Unlocked Move Keep Anywhere</a></h4>
+			<span class="date">
+				<time datetime="2024-07-23T18:00:05+00:00">Jul 23 2024</time>			</span>
+			<span class="subheading">
+				<time datetime="2024-07-23">Released Jul 23, 2024</time> Real Time Strategy  			</span>
+			<p>&quot;Stronghold Crusader V1.41 Ultimate Trainer: Move Keeps Anywhere... &quot;Unlock the full potential of Stronghold Crusader V1.41 with our ultimate trainer...</p>			<p class="filtersearch" style="display: none;">castle panel unlocked move keep anywhere war</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowtimeframe4 clear">
+				<a href="/mods/stronghold-witcher" title="Stronghold Witcher" class="image"><img src="https://media.moddb.com/cache/images/mods/1/63/62857/crop_120x90/logo.jpg" alt="Stronghold Witcher" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/stronghold-witcher">Stronghold Witcher</a></h4>
+			<span class="date">
+				<time datetime="2024-07-17T18:39:22+00:00">Jul 17 2024</time>			</span>
+			<span class="subheading">
+				<time datetime="2024-07-06">Released Jul 6, 2024</time> Real Time Strategy  			</span>
+			<p>Stronghold Witcher is a Stronghold Crusader mod which main goal was to introduce characters from The Witcher universe. Mostly audio, characters, and...</p>			<p class="filtersearch" style="display: none;">stronghold witcher medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme15 rowplayers1 rowplayers2 rowplayers4 rowtimeframe5 clear">
+				<a href="/mods/strongholdcrusader-colored-swordsman-reskin-by-alessandroneithad" title="StrongholdCrusader - Colored Swordsman Reskin by alessandro.neithad" class="image"><img src="https://media.moddb.com/cache/images/mods/1/60/59266/crop_120x90/thumb.png" alt="StrongholdCrusader - Colored Swordsman Reskin by alessandro.neithad" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/strongholdcrusader-colored-swordsman-reskin-by-alessandroneithad">StrongholdCrusader - Colored Swordsman Reskin by alessandro.neithad</a></h4>
+			<span class="date">
+				<time datetime="2024-04-07T21:35:02+00:00">Apr 8 2024</time>			</span>
+			<span class="subheading">
+				<time datetime="2023-09-13">Released Sep 13, 2023</time> Real Time Strategy  			</span>
+			<p>- reskin made by alessandro.neithad using the gm converter editing tool - 13/09/2023 Hello there! This is a reskin which can be used to substitute the...</p>			<p class="filtersearch" style="display: none;">strongholdcrusader - colored swordsman reskin by alessandro.neithad history</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased3 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowplayers4 rowtimeframe4 clear">
+				<a href="/mods/gabriel-ai-mod" title="Gabriel AI Mod" class="image"><img src="https://media.moddb.com/cache/images/mods/1/62/61552/crop_120x90/gavrik_1.jpg" alt="Gabriel AI Mod" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/gabriel-ai-mod">Gabriel AI Mod</a></h4>
+			<span class="date">
+				<time datetime="2024-03-19T19:31:25+00:00">Mar 19 2024</time>			</span>
+			<span class="subheading">
+				<time>TBD</time> Real Time Strategy  			</span>
+			<p>This mod adds a new lord - Archangel Gabriel from ULTRAKILL. He replaces The Abbot with new AIVs, AICs, text, video and voicelines.</p>			<p class="filtersearch" style="display: none;">gabriel ai mod medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowplayers4 rowtimeframe5 clear">
+				<a href="/mods/stronghold-duc-edition" title="Stronghold &quot;Duc&quot; Edition" class="image"><img src="https://media.moddb.com/cache/images/mods/1/53/52521/crop_120x90/icone_Stronghold.jpg" alt="Stronghold &quot;Duc&quot; Edition" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/stronghold-duc-edition">Stronghold &quot;Duc&quot; Edition</a></h4>
+			<span class="date">
+				<time datetime="2024-02-24T16:05:56+00:00">Feb 24 2024</time>			</span>
+			<span class="subheading">
+				<time datetime="2022-01-11">Released Jan 2022</time> Real Time Strategy  			</span>
+			<p>THIS IS NOT &quot;Stronghold DE / Stronghold Definitive Edition&quot; 9 New Lords - Including 2 in french 240 New Quotes New AIVs New Interface New Music Reskin...</p>			<p class="filtersearch" style="display: none;">stronghold "duc" edition medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased3 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowplayers4 rowtimeframe5 clear">
+				<a href="/mods/bizarre-new-lords-mod-by-alessandroneithad" title="Stronghold Crusader | Bizarre New Lords Mod by alessandro.neithad" class="image"><img src="https://media.moddb.com/cache/images/mods/1/60/59869/crop_120x90/mod_logo_VISIBILE.1.png" alt="Stronghold Crusader | Bizarre New Lords Mod by alessandro.neithad" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/bizarre-new-lords-mod-by-alessandroneithad">Stronghold Crusader | Bizarre New Lords Mod by alessandro.neithad</a></h4>
+			<span class="date">
+				<time datetime="2024-01-30T12:30:25+00:00">Jan 30 2024</time>			</span>
+			<span class="subheading">
+				<time>TBD</time> Real Time Strategy  			</span>
+			<p>Hi Guys! This is a Lord Pack Mod which is still a work in progress for Stronghold Crusader. It will add 8 new lords and I am working hard to give all...</p>			<p class="filtersearch" style="display: none;">stronghold crusader | bizarre new lords mod by alessandro.neithad medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers2 rowtimeframe5 clear">
+				<a href="/mods/revolution-balance-mod" title="Revolution Balance Mod" class="image"><img src="https://media.moddb.com/cache/images/mods/1/49/48996/crop_120x90/screen-2.jpg" alt="Revolution Balance Mod" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/revolution-balance-mod">Revolution Balance Mod</a></h4>
+			<span class="date">
+				<time datetime="2024-01-22T07:39:57+00:00">Jan 22 2024</time>			</span>
+			<span class="subheading">
+				<time datetime="2020-12-21">Released 2020</time> Real Time Strategy  			</span>
+			<p>Description: This modification was created to bring more realism to multiplayer matches in Stronghold Crusader and get rid of weaknesses and unused buildings...</p>			<p class="filtersearch" style="display: none;">revolution balance mod medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowtimeframe4 clear">
+				<a href="/mods/new-crusader-lords-mod-2023" title="New Crusader Lords Mod (2023)" class="image"><img src="https://media.moddb.com/cache/images/mods/1/60/59907/crop_120x90/thumbnail.png" alt="New Crusader Lords Mod (2023)" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/new-crusader-lords-mod-2023">New Crusader Lords Mod (2023)</a></h4>
+			<span class="date">
+				<time datetime="2023-10-28T13:41:30+00:00">Oct 28 2023</time>			</span>
+			<span class="subheading">
+				<time datetime="2023-10-22">Released Oct 22, 2023</time> Real Time Strategy  			</span>
+			<p>Crusader Lords Mod 2023 is a mod for Stronghold Crusader that brings old characters from Stronghold Crusader into Skirmish! All 3 New Lords are complete...</p>			<p class="filtersearch" style="display: none;">new crusader lords mod (2023) medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowtimeframe5 clear">
+				<a href="/mods/stronghold-overlords" title="Stronghold Overlords" class="image"><img src="https://media.moddb.com/cache/images/mods/1/50/49615/crop_120x90/LogoV2.png" alt="Stronghold Overlords" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/stronghold-overlords">Stronghold Overlords</a></h4>
+			<span class="date">
+				<time datetime="2023-10-10T11:40:33+00:00">Oct 10 2023</time>			</span>
+			<span class="subheading">
+				<time datetime="2021-04-05">Released 2021</time> Real Time Strategy  			</span>
+			<p>Stronghold Crusader AI Overhaul Mod. Add 2 new maps. Fix &quot;Sword-Cursor&quot;. UnofficialCrusaderPatch 2.15b as installer</p>			<p class="filtersearch" style="display: none;">stronghold overlords medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowtimeframe5 clear">
+				<a href="/mods/gmb-mod" title="G.M.B. mod" class="image"><img src="https://media.moddb.com/cache/images/mods/1/26/25105/crop_120x90/Main_fon.jpg" alt="G.M.B. mod" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/gmb-mod">G.M.B. mod</a></h4>
+			<span class="date">
+				<time datetime="2021-07-17T17:21:15+00:00">Jul 17 2021</time>			</span>
+			<span class="subheading">
+				<time datetime="2011-07-17">Released 2011</time> Real Time Strategy  			</span>
+			<p>The main goal of the mod is to completely improve the Strongold Crusader game without changing the game concept and balance. Modification is easily customized...</p>			<p class="filtersearch" style="display: none;">g.m.b. mod medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowtimeframe5 clear">
+				<a href="/mods/shcplayer" title="SHCPlayer" class="image"><img src="https://media.moddb.com/cache/images/mods/1/44/43766/crop_120x90/2f56bbac4967894a6bef19037587.jpg" alt="SHCPlayer" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/shcplayer">SHCPlayer</a></h4>
+			<span class="date">
+				<time datetime="2021-06-16T20:22:28+00:00">Jun 16 2021</time>			</span>
+			<span class="subheading">
+				<time datetime="2019-09-28">Released 2019</time> Real Time Strategy  			</span>
+			<p>SHCPlayer is a modification bundle for Stronghold Crusader. Hub mod fixes most common bugs and exploits. Hotkey mod allows you to configure hotkeys for...</p>			<p class="filtersearch" style="display: none;">shcplayer medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowtimeframe5 clear">
+				<a href="/mods/easterlings-kis" title="Easterling's KIs" class="image"><img src="https://media.moddb.com/cache/images/mods/1/51/50359/crop_120x90/Unbenannt.png" alt="Easterling's KIs" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/easterlings-kis">Easterling's KIs</a></h4>
+			<span class="date">
+				<time datetime="2021-06-15T09:33:39+00:00">Jun 15 2021</time>			</span>
+			<span class="subheading">
+				<time datetime="2021-06-15">Released 2021</time> Real Time Strategy  			</span>
+			<p>15 neue bzw. überarbeitete KI Gegner, 20 Kreuzzugsmissionen (ersetzt EXTREME Kreuzzugsmarsch). This mod is only available in german.</p>			<p class="filtersearch" style="display: none;">easterling's kis medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowreleased4 rowgenre15 rowgenre14 rowtheme10 rowplayers1 rowplayers2 rowtimeframe5 clear">
+				<a href="/mods/zero-hour-mod-dead" title="Stronghold Crusader: Zero Hour Mod (eingestellt!)" class="image"><img src="https://media.moddb.com/cache/images/mods/1/30/29558/crop_120x90/ZHMODLOGO.png" alt="Stronghold Crusader: Zero Hour Mod (eingestellt!)" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/zero-hour-mod-dead">Stronghold Crusader: Zero Hour Mod (eingestellt!)</a></h4>
+			<span class="date">
+				<time datetime="2021-01-12T10:15:52+00:00">Jan 12 2021</time>			</span>
+			<span class="subheading">
+				<time datetime="2016-04-05">Early Access 2016</time> Real Time Strategy  			</span>
+			<p>Ursprünglich eine Stronghold Crusader KI Mod. Da sie inzwischen nicht mehr den eigenen Qualitätsansprüchen genügt, ist sie hiermit eingestellt und...</p>			<p class="filtersearch" style="display: none;">stronghold crusader: zero hour mod (eingestellt!) war</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowplayers4 rowtimeframe5 clear">
+				<a href="/mods/stronghold-crusader-mod" title="Stronghold Crusader Map Pack" class="image"><img src="https://media.moddb.com/cache/images/mods/1/47/46221/crop_120x90/Crusadercover.jpg" alt="Stronghold Crusader Map Pack" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/stronghold-crusader-mod">Stronghold Crusader Map Pack</a></h4>
+			<span class="date">
+				<time datetime="2020-11-17T00:25:30+00:00">Nov 17 2020</time>			</span>
+			<span class="subheading">
+				<time datetime="2020-05-30">Released 2020</time> Real Time Strategy  			</span>
+			<p>This is a Mod Collection for Stronghold Crusader and Extreme with Maps and more.
+</p>			<p class="filtersearch" style="display: none;">stronghold crusader map pack medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowtimeframe5 clear">
+				<a href="/mods/stronghold-europe" title="Stronghold Europe" class="image"><img src="https://media.moddb.com/cache/images/mods/1/35/34726/crop_120x90/logo.png" alt="Stronghold Europe" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/stronghold-europe">Stronghold Europe</a></h4>
+			<span class="date">
+				<time datetime="2020-06-28T15:01:20+00:00">Jun 28 2020</time>			</span>
+			<span class="subheading">
+				<time datetime="2017-11-02">Released 2017</time> Real Time Strategy  			</span>
+			<p>Stronghold Europe is an international Stronghold Crusader mod with a long story. The mod was started in 2009 and has been continued by many modders for...</p>			<p class="filtersearch" style="display: none;">stronghold europe medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowtimeframe5 clear">
+				<a href="/mods/stronghold-crusader-remastered" title="Stronghold Crusader: REMASTERED" class="image"><img src="https://media.moddb.com/cache/images/mods/1/43/42581/crop_120x90/Untitled77.2.png" alt="Stronghold Crusader: REMASTERED" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/stronghold-crusader-remastered">Stronghold Crusader: REMASTERED</a></h4>
+			<span class="date">
+				<time datetime="2019-04-27T12:03:38+00:00">Apr 27 2019</time>			</span>
+			<span class="subheading">
+				<time datetime="2019-04-27">Released 2019</time> Real Time Strategy  			</span>
+			<p>Stronghold Crusader: REMASTERED, is a small fan mod, which features brand new voice work for every single character in the game, aswell as remastering...</p>			<p class="filtersearch" style="display: none;">stronghold crusader: remastered medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased3 rowgenre45 rowgenre14 rowtheme16 rowplayers1 rowplayers2 rowtimeframe5 clear">
+				<a href="/mods/stronghold-the-lost-empire" title="Stronghold: the lost empire" class="image"><img src="https://media.moddb.com/cache/images/mods/1/24/23309/crop_120x90/logo.jpg" alt="Stronghold: the lost empire" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/stronghold-the-lost-empire">Stronghold: the lost empire</a></h4>
+			<span class="date">
+				<time datetime="2013-07-22T01:25:44+00:00">Jul 22 2013</time>			</span>
+			<span class="subheading">
+				<time>TBD</time> Real Time Tactics  			</span>
+			<p>Stronghold: the lost empire je mod za Stronghold Crusader. Igra nas vraca u period XIV veka posle raspada carstva Dusana silnog. Posle Dusanove smrti...</p>			<p class="filtersearch" style="display: none;">stronghold: the lost empire medieval</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre11 rowgenre10 rowtheme10 rowplayers1 rowtimeframe5 clear">
+				<a href="/mods/extreme-pro" title="Extreme Pro" class="image"><img src="https://media.moddb.com/cache/images/mods/1/17/16108/crop_120x90/logo122.PNG" alt="Extreme Pro" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/extreme-pro">Extreme Pro</a></h4>
+			<span class="date">
+				<time datetime="2010-09-05T17:08:20+00:00">Sep 5 2010</time>			</span>
+			<span class="subheading">
+				<time datetime="2010-09">Released 2010</time> Role Playing  			</span>
+			<p>Nowa modyfikacja do Krzyżowca dodająca nowe mapy i mini-modyfikacje, dzięki którym będzie znacznie ciekawiej.</p>			<p class="filtersearch" style="display: none;">extreme pro war</p>
+					</div>
+	</div>
+			<div class="row rowcontent rowreleased1 rowgenre15 rowgenre14 rowtheme10 rowplayers1 rowplayers2 rowtimeframe5 clear">
+				<a href="/mods/kingdom-of-heaven" title="Kingdom Of Heaven" class="image"><img src="https://media.moddb.com/cache/images/mods/1/10/9629/crop_120x90/logo.jpg" alt="Kingdom Of Heaven" /></a>
+				<div class="content">
+			 
+			<h4><a href="/mods/kingdom-of-heaven">Kingdom Of Heaven</a></h4>
+			<span class="date">
+				<time datetime="2007-10-06T08:49:46+00:00">Oct 6 2007</time>			</span>
+			<span class="subheading">
+				<time datetime="2007-10-06T08:49:46+00:00">Released 2007</time> Real Time Strategy  			</span>
+			<p>Kingdom Of Heaven is a modification for the game Stronghold : Crusader. This will give a new campain, change somes videos and change some musics and sounds...</p>			<p class="filtersearch" style="display: none;">kingdom of heaven war</p>
+					</div>
+	</div>
+	</div>				<p class="viewbrowse" style="display: none; margin-top: 1em;">
+					No mods were found matching the criteria specified. We suggest you try the <a href="/games/stronghold-crusader/mods" class="filterreset">mod list</a> with no filter applied, to browse all available. <a href="/mods/add/?game=285">Add mod</a> and help us achieve our mission of showcasing the best content from all developers. <a href="/members/register">Join now</a> to share your own content, we welcome creators and consumers alike and look forward to your comments.				</p>
+			</div>
+	
+					</div>
+	</div>
+</div><div class="column span-300 last tabmods"><div style="clear: both;"></div>
+<div class="nextmediabox nextmediaboxtop">
+	<div class="supporter"><div class="DBsupporter" data-dfp-id="MODDB_MPU_1" data-dfp-sizes="300x250, 300x600" id="div-ga-MODDB_MPU_1"></div></div> 
+</div>
+	<div class="normalbox menubox" id="gamesinfo">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="options">
+					<a href="/messages/ajax/action/?action=watch&amp;sitearea=games&amp;siteareaid=285" class="watchicon c76625d26ff7f0c55142db2c328da119watch" rel="nofollow" title="Follow">Follow</a> <a href="/messages/ajax/action/?action=report&amp;sitearea=games&amp;siteareaid=285" class="reporticon 44825bfc951a8ff5714f8bb710efda3freport" rel="nofollow" title="Report">Report</a>				</span>
+								<span class="heading">Profile</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+						<a href="/games/stronghold-crusader/downloads" class="downloadautotoggle button buttonlarge buttonfull"><span style="float: right; font-weight: normal;">150.3K</span><span>Download</span></a><div class="downloadon" style="display: none;"><a href="/games/stronghold-crusader/downloads/stronghold-crusader-map-pack" class="button buttonfull"><span style="float: right;">DEMO</span><span>Stronghold Crusader Map Pack</span><hr><span style="font-weight: normal; float: right;">6.5K</span><span style="font-weight: normal;">587mb</span></a><a href="/games/stronghold-crusader/downloads/stronghold-crusader-enhanced-edition-prelease" class="button buttonfull"><span style="float: right;">DEMO</span><span>Stronghold Crusader Enhanced Edition Prelease</span><hr><span style="font-weight: normal; float: right;">411</span><span style="font-weight: normal;">117.72mb</span></a><a href="/games/stronghold-crusader/downloads/unofficialcrusaderpatch-2-17-4v-beta-overlord" class="button buttonfull"><span style="float: right;">PATCH</span><span>UnofficialCrusaderPatch 2.17.4v. beta Overlord</span><hr><span style="font-weight: normal; float: right;">352</span><span style="font-weight: normal;">50.93mb</span></a><a href="/games/stronghold-crusader/downloads/stronghold-memes-14v" class="button buttonfull"><span style="float: right;">PATCH</span><span>Stronghold Memes 1.4v</span><hr><span style="font-weight: normal; float: right;">205</span><span style="font-weight: normal;">870.38mb</span></a><a href="/games/stronghold-crusader/downloads/cnc-ddraw" class="button buttonfull"><span style="float: right;">PATCH</span><span>cnc-ddraw (Compatibility Fix / Windower / Upscaler)</span><hr><span style="font-weight: normal; float: right;">396</span><span style="font-weight: normal;">2.55mb</span></a><a href="/games/stronghold-crusader/downloads/stronghold-crusader-hd-v1300004-patch" class="button buttonfull"><span style="float: right;">PATCH</span><span>Stronghold Crusader HD v1.30.0004 Patch</span><hr><span style="font-weight: normal; float: right;">845</span><span style="font-weight: normal;">143.86mb</span></a><a href="/games/stronghold-crusader/downloads/stronghold-crusader-v11-patch" class="button buttonfull"><span style="float: right;">PATCH</span><span>Stronghold Crusader v1.1 Patch</span><hr><span style="font-weight: normal; float: right;">1.8K</span><span style="font-weight: normal;">5.59mb</span></a><a href="/games/stronghold-crusader/downloads/stronghold-crusader-extreme-hd-v1300004-patch" class="button buttonfull"><span style="float: right;">PATCH</span><span>Stronghold Crusader Extreme HD v1.30.0004 Patch</span><hr><span style="font-weight: normal; float: right;">908</span><span style="font-weight: normal;">55.87mb</span></a><a href="/games/stronghold-crusader/downloads/stronghold-crusader-castle-builder-patch3" class="button buttonfull"><span style="float: right;">PATCH</span><span>Stronghold Crusader Remastered in every Way</span><hr><span style="font-weight: normal; float: right;">333</span><span style="font-weight: normal;">294.39mb</span></a><a href="/games/stronghold-crusader/downloads/stronghold-crusader-extreme-hd-v1300004-pl-patch" class="button buttonfull"><span style="float: right;">PATCH</span><span>Stronghold Crusader Extreme HD v1.30.0004 PL Patch</span><hr><span style="font-weight: normal; float: right;">881</span><span style="font-weight: normal;">50.05mb</span></a><div style="text-align: center;">Explore 92 more <a href="/games/stronghold-crusader/mods">mods</a>, <a href="/games/stronghold-crusader/addons">addons</a> &amp; <a href="/games/stronghold-crusader/downloads">downloads</a> or <a href="/games/stronghold-crusader/downloads/add">add content</a>.</div></div>					</div>
+										<div class="row clear">
+												<h5>Icon</h5>
+						<span class="summary">
+							<img src="https://media.moddb.com/images/games/1/1/285/icon.png" alt="Stronghold Crusader" width="32" height="32" />						</span>
+											</div>
+										<div class="row clear">
+												<h5>Platforms</h5>
+						<span class="summary">
+							<a href="/platforms/windows" title="Windows">Windows</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Developer</h5>
+						<span class="summary">
+							<a href="/company/firefly-studios">Firefly Studios</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Publisher</h5>
+						<span class="summary">
+							<a href="/company/take-two-interactive-software">Take-Two Interactive Software</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Engine</h5>
+						<span class="summary">
+							<a href="/engines/unknown">Unknown</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Contact</h5>
+						<span class="summary">
+							<a href="/messages/compose?to=gamesgroup2889,gamesgroup2890">Send Message</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Homepage</h5>
+						<span class="summary">
+							<a href="http://www.fireflyworlds.com/" rel="noopener noreferrer" target="_blank">Fireflyworlds.com</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Release date</h5>
+						<span class="summary">
+							<time datetime="2002-09-22">Released 2002</time>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Game watch</h5>
+						<span class="summary">
+							<a href="/messages/ajax/action/?action=watch&amp;sitearea=games&amp;siteareaid=285" class="watchicon c76625d26ff7f0c55142db2c328da119watch" rel="nofollow">Follow</a>						</span>
+											</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="rtxremix">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">RTX Remix</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+						RTX Remix is a <a href="https://www.nvidia.com/en-us/geforce/rtx-remix/" target="_blank">modding platform by NVIDIA</a>, which allows modders to create stunning HD remasters of classic games <a href="/rtx">(see all supported)</a>, with ray tracing and DLSS.<br><br>					</div>
+										<div class="row clear">
+						Learn more about this <a href="/games/stronghold-crusader#rtxremix">games compatiblity with RTX Remix</a> and ModDB's collaboration with the Remix community to organize all compatible games. <a href="/platforms/rtx/set" class="togglertxinfo">Hide this dialog</a>.					</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="menuprices">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">Purchase</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple" style="overflow: visible">
+								<div class="tooltip"></div>
+																<div class="table tablemenu tableprice">
+										<div class="row clear">
+						<a href="https://www.gog.com/en/game/stronghold_crusader?pp=51af0418179317caa1e2d452f67017b44d428d8d" class="csstooltip" title="Updated 1 day ago" target="_blank" rel="nofollow noopener noreferrer"><span class="button">Buy</span><img src="https://static.moddb.com/html/cutoff/images/prices/4.png" title="GOG.com" alt="GOG.com" /><span class="price">$9.99</span></a>					</div>
+										<div class="row clear">
+						<a href="https://www.anrdoezrs.net/links/7846631/type/dlg/https://www.greenmangaming.com/games/stronghold-crusader-hd-pc" class="csstooltip" title="Updated 1 hour ago" target="_blank" rel="nofollow noopener noreferrer"><span class="button">Buy</span><img src="https://static.moddb.com/html/cutoff/images/prices/3.png" title="Green Man Gaming" alt="Green Man Gaming" /><span class="price">View</span></a>					</div>
+										<div class="row clear">
+						<a href="https://store.steampowered.com/app/40970" class="csstooltip" title="Updated 2 days ago" target="_blank" rel="nofollow noopener noreferrer"><span class="button">Buy</span><img src="https://static.moddb.com/html/cutoff/images/prices/1.png" title="Steam" alt="Steam" /><span class="price">$9.99</span></a>					</div>
+									</div>
+							</div>
+		</div>
+	</div>
+	<div class="normalbox menubox" id="modsstats">
+				<div class="normalcorner">
+			<div class="title">
+								<span class="heading">Mod Statistics</span>
+			</div>
+		</div>
+				<div class="inner">
+			<div class="body bodysimple">
+								<div class="tooltip"></div>
+																<div class="table tablemenu">
+										<div class="row clear">
+												<h5>Mods</h5>
+						<span class="summary">
+							23						</span>
+											</div>
+										<div class="row clear">
+												<h5>Released</h5>
+						<span class="summary">
+							<a href="/games/stronghold-crusader/mods?filter=t&amp;released=1" rel="nofollow">19</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Unreleased</h5>
+						<span class="summary">
+							<a href="/games/stronghold-crusader/mods?filter=t&amp;released=2" rel="nofollow">4</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Views</h5>
+						<span class="summary">
+							1,019,874						</span>
+											</div>
+										<div class="row clear">
+												<h5>Views Today</h5>
+						<span class="summary">
+							372						</span>
+											</div>
+										<div class="row clear">
+												<h5>Browse</h5>
+						<span class="summary">
+							<a href="/mods/top">Popular</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>Browse</h5>
+						<span class="summary">
+							<a href="/mods/latest">Latest</a>						</span>
+											</div>
+										<div class="row clear">
+												<h5>New</h5>
+						<span class="summary">
+							<a href="/mods/add/?game=285#modsform" class="d94c04ee4f7056925c23f0f6cb68079aadd">Add mod</a>						</span>
+											</div>
+									</div>
+							</div>
+		</div>
+	</div>
+ 
+<div style="clear: both;"></div>
+<div class="nextmediabox">
+	<div class="supporter"><div class="lazyload" data-dfp-id="MODDB_MPU_2" data-dfp-sizes="300x250, 300x600" id="div-ga-MODDB_MPU_2"></div></div> 
+</div>
+ <div class="normalbox linksbox" id="menulinksmods">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="heading">Popular Mods</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+				 
+				<div class="row rowbutton clear">
+										<a href="/mods" class="button">View All</a>
+										<a href="/mods/top" class="button buttonalt">Top Mods</a>
+									</div>
+								<div class="row clear">
+										<a href="/mods/gmb-mod" title="G.M.B. mod" class="image"><img src="https://media.moddb.com/cache/images/mods/1/26/25105/crop_120x90/Main_fon.jpg" alt="G.M.B. mod" /></a>
+										<div class="content">
+						<a href="/mods/gmb-mod" class="heading">G.M.B. mod</a>
+						<span class="summary">
+							<a href="/games/stronghold-crusader">Stronghold Crusader</a> 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/mods/essential-stronghold" title="Essential Stronghold" class="image"><img src="https://media.moddb.com/cache/images/mods/1/50/49007/crop_120x90/3105-stronghold-1-ovgdm.jpg" alt="Essential Stronghold" /></a>
+										<div class="content">
+						<a href="/mods/essential-stronghold" class="heading">Essential Stronghold</a>
+						<span class="summary">
+							<a href="/games/stronghold-crusader">Stronghold Crusader</a> 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/mods/stronghold-europe" title="Stronghold Europe" class="image"><img src="https://media.moddb.com/cache/images/mods/1/35/34726/crop_120x90/logo.png" alt="Stronghold Europe" /></a>
+										<div class="content">
+						<a href="/mods/stronghold-europe" class="heading">Stronghold Europe</a>
+						<span class="summary">
+							<a href="/games/stronghold-crusader">Stronghold Crusader</a> 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/mods/bizarre-new-lords-mod-by-alessandroneithad" title="Stronghold Crusader | Bizarre New Lords Mod by alessandro.neithad" class="image"><img src="https://media.moddb.com/cache/images/mods/1/60/59869/crop_120x90/mod_logo_VISIBILE.1.png" alt="Stronghold Crusader | Bizarre New Lords Mod by alessandro.neithad" /></a>
+										<div class="content">
+						<a href="/mods/bizarre-new-lords-mod-by-alessandroneithad" class="heading">Stronghold Crusader | Bizarre New Lords Mod by alessandro.neithad</a>
+						<span class="summary">
+							<a href="/games/stronghold-crusader">Stronghold Crusader</a> 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/mods/castle-panel-unlocked-move-keep-anywhere" title="Castle Panel Unlocked Move Keep Anywhere" class="image"><img src="https://media.moddb.com/cache/images/mods/1/64/63088/crop_120x90/BannerMaker_22072024_125125.png" alt="Castle Panel Unlocked Move Keep Anywhere" /></a>
+										<div class="content">
+						<a href="/mods/castle-panel-unlocked-move-keep-anywhere" class="heading">Castle Panel Unlocked Move Keep Anywhere</a>
+						<span class="summary">
+							<a href="/games/stronghold-crusader">Stronghold Crusader</a> 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/mods/improved-sultan" title="Improved Sultan" class="image"><img src="https://media.moddb.com/cache/images/mods/1/64/63249/crop_120x90/Screenshot_4.png" alt="Improved Sultan" /></a>
+										<div class="content">
+						<a href="/mods/improved-sultan" class="heading">Improved Sultan</a>
+						<span class="summary">
+							<a href="/games/stronghold-crusader">Stronghold Crusader</a> 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/mods/new-crusader-lords-mod-2023" title="New Crusader Lords Mod (2023)" class="image"><img src="https://media.moddb.com/cache/images/mods/1/60/59907/crop_120x90/thumbnail.png" alt="New Crusader Lords Mod (2023)" /></a>
+										<div class="content">
+						<a href="/mods/new-crusader-lords-mod-2023" class="heading">New Crusader Lords Mod (2023)</a>
+						<span class="summary">
+							<a href="/games/stronghold-crusader">Stronghold Crusader</a> 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/mods/troops-panels-unlocked-trainer-stronghold-crusader" title="Troops Panels Unlocked Trainer Stronghold Crusader" class="image"><img src="https://media.moddb.com/cache/images/mods/1/64/63118/crop_120x90/BannerMaker_26072024_150543.png" alt="Troops Panels Unlocked Trainer Stronghold Crusader" /></a>
+										<div class="content">
+						<a href="/mods/troops-panels-unlocked-trainer-stronghold-crusader" class="heading">Troops Panels Unlocked Trainer Stronghold Crusader</a>
+						<span class="summary">
+							<a href="/games/stronghold-crusader">Stronghold Crusader</a> 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/mods/stronghold-crusader-mod" title="Stronghold Crusader Map Pack" class="image"><img src="https://media.moddb.com/cache/images/mods/1/47/46221/crop_120x90/Crusadercover.jpg" alt="Stronghold Crusader Map Pack" /></a>
+										<div class="content">
+						<a href="/mods/stronghold-crusader-mod" class="heading">Stronghold Crusader Map Pack</a>
+						<span class="summary">
+							<a href="/games/stronghold-crusader">Stronghold Crusader</a> 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/mods/easterlings-kis" title="Easterling's KIs" class="image"><img src="https://media.moddb.com/cache/images/mods/1/51/50359/crop_120x90/Unbenannt.png" alt="Easterling's KIs" /></a>
+										<div class="content">
+						<a href="/mods/easterlings-kis" class="heading">Easterling's KIs</a>
+						<span class="summary">
+							<a href="/games/stronghold-crusader">Stronghold Crusader</a> 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+ 
+<div style="clear: both;"></div>
+<div class="nextmediabox footernextmediabox">
+	<div class="supporter"><div class="lazyload" data-dfp-id="MODDB_MPU_3" data-dfp-sizes="300x250" id="div-ga-MODDB_MPU_3_3"></div>
+<script>
+$(document).ready(function() {
+if($(".column.span-300").length) {
+	columnBottom = $(".column.span-300").position().top + $(".column.span-300").outerHeight(true) + ($(".column.span-300 .DBsupporter").length*600) + ($(".column.span-300 .lazyload").length*250);
+	footerTop = $("footer").position().top - 250;
+	windowSpacing = $(window).height() + 250;
+	placements = footerTop > columnBottom ? Math.floor((footerTop - columnBottom) / windowSpacing) : 0;
+	
+	for(x = 1; x <= placements; x++) {
+		$("<div class=\"lazyload\" data-dfp-id=\"ModDB_Lazy_load_HP_MPU\" data-dfp-sizes=\"300x250\" id=\"div-ga-MODDB_LAZYLOAD_"+(x+3)+"\" style=\"clear: both; margin-top: "+windowSpacing+"px; text-align: center;\"></div>").appendTo(".column.span-300");
+	}
+}
+});
+</script></div> 
+</div>
+</div> 	<div style="clear: both; height: 1em;"></div><!-- IE6 Hack -->
+</div>
+
+<footer><div id="footer">
+	<div class="content">
+		<a href="https://www.dbolical.com" class="network dbolical" target="_blank" title="DBolical - Entertainment Euphoria"></a>
+		<span class="terms"><a id="csconsentlink" style="cursor: pointer;">Cookies</a> | <a href="/terms-of-use">Terms of Use</a> | <a href="/privacy-policy" style="padding-right: 0">Privacy Policy</a></span>
+		<span class="links"><a href="/blog">Blog</a> | <a href="/about">About</a> | <a href="/advertise">Advertise</a> | <a href="/contact">Contact</a> | <a href="/mods/add">Submit Mod</a> | <a href="https://mod.io" target="_blank" title="Cross Platform Mod support for game developers">Cross-Platform Mod Support</a> | <a href="/sitemap">Site Map</a></span>
+		<span class="copyright">&copy; 2002 - 2024 <a href="https://www.dbolical.com" target="_blank">DBolical Pty Ltd.</a>&nbsp; All Rights Reserved.&nbsp; <a href="/members/online">6943 modders</a>.</span>
+	</div>
+</div></footer>
+</div>
+
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"Item":{"@id":"https://www.moddb.com/games","name":"Games"}},{"@type":"ListItem","position":2,"Item":{"@id":"https://www.moddb.com/games/stronghold-crusader","name":"Stronghold Crusader"}},{"@type":"ListItem","position":3,"Item":{"@id":"https://www.moddb.com/games/stronghold-crusader/mods","name":"Mods"}}]}</script>
+<script src="https://static.moddb.com/html/external/min/index.php?g=js&amp;18"></script><style type="text/css">#rtxremix { display: none; }</style>
+
+<script>
+$(document).ready(function() { $("#togglelogin").click(function() { 
+					if($("#searchbox .search").is(":visible")) {
+						$("#searchbox .arrow").html("&nbsp;&#187;");
+						$("#searchbox .search").fadeOut(function() { $("#searchbox .login").show(); });
+					} else {
+						$("#searchbox .arrow").html("&nbsp;");
+						$("#searchbox .login").fadeOut(function() { $("#searchbox .search").show(); });
+					}
+					return false;
+				});
+$("#sitesearch").suggestClick("https://www.moddb.com/html/scripts/autocomplete.php?a=search&p=games",{resultsClass: "suggest_search", positionIn: "#searchbox", limit: 10});
+
+					var custom_variables = { 
+						url: document.location.pathname.substr(0,40),
+						version: "hd",
+						source: "profile",
+						channel: "games",
+						tags: ["single-player","multiplayer","historical","retro","blockbuster","strategy","windows","pc"],
+						games: ["stronghold-crusader"],
+						players: ["single","multi"],
+						triggers: [""]
+					};
+					window.googletag = window.googletag || { cmd: [] };
+					Array.from(Object.entries(custom_variables)).forEach((target) => {
+						googletag.cmd.push(() => {
+							googletag.pubads().setTargeting(target[0], target[1]);
+						});
+					});
+
+		if(typeof isAB === "undefined") {
+			yesAB(true);
+		} else {
+			isAB.on(true, yesAB).onNotDetected(noAB);
+		}
+
+		function yesAB(unknown) {
+			if(unknown) {
+				gaAB("send", "event", "Adblock", "Undefined", "true", 1);
+			} else {
+				height = Math.floor((Math.random() * 5)) < 1 ? 600 : 250;
+				gaAB("send", "event", "Adblock", "Blocked", "true", 1);
+
+				$("div.nextmediaboxtop,div.footermediabox").remove();
+				$("div.nextmediabox div.supporter").html("<iframe src=\"https://www.moddb.com/media/block/300/"+height+"?sad=t&t=1729964048\" width=300 height="+height+" frameborder=0></iframe>");
+				$("div.headermediabox div.supporter").html("<iframe src=\"https://www.moddb.com/media/block/728/90?sad=t&t=1729964048\" width=728 height=90 frameborder=0></iframe>");
+			}
+		}
+	
+		function noAB() {
+			gaAB("send", "event", "Adblock", "Unblocked", "false", 1);
+		}
+		
+		function gaAB(var1, var2, var3, var4, var5, var6) {
+			if(typeof ga === "function") {
+				ga(var1, var2, var3, var4, var5, var6);
+			}
+		}
+
+				var liveFilter = function(filterForm) {
+					filterTable = filterForm.parent();
+					$(".viewbrowse", filterTable).hide();
+					
+					if($("input[type=search]",filterForm).length) {
+						$("div.rowcontent", filterTable).hide();
+						var kw = $("input[type=search]",filterForm).val();
+						
+						if(kw.length > 1) {
+							var words = kw.split(" ");
+							for(word in words) {
+								if(words[word].length > 1) {
+									$("p.filtersearch:contains("+words[word]+")", filterTable).closest("div.rowcontent").show();
+								}
+							}
+						} else {
+							$("div.rowcontent", filterTable).show();
+						}
+					} else if($("input[type=checkbox]",filterForm).length) {
+						$("div.rowcontent", filterTable).hide();
+					
+						$("input[type=checkbox]:checked",filterForm).each(function(){
+							$("div.row"+$(this).attr("name"), filterTable).show();
+						});
+					} else {
+						$("div.rowcontent", filterTable).show();
+					}
+					
+					$("select",filterForm).each(function(){
+						var val = $(this).val();
+						
+						if(val == parseInt(val)) {
+							$("div.rowcontent", filterTable).not("div.row"+$(this).attr("name")+val).hide();
+						} else if(val.match(/[a-z0-9]+/i)) {
+							$("div.rowcontent", filterTable).not("div.row"+$(this).attr("name")+val).hide();
+						}
+					});
+					
+					if(!$("div.rowcontent:visible", filterTable).length) {
+						$(".viewbrowse", filterTable).show();
+					}
+				};
+				
+				$(".filterauto").submit(function(e) {
+					liveFilter($(this));
+					e.preventDefault();
+					return false;
+				}).submit();
+						
+				$(".filterauto .reset,.filterreset").click(function() {
+					filterForm = $(this).closest(".body").find(".filterauto");
+					$("input[type=search],select", filterForm).val("");
+					$("input[type=checkbox]", filterForm).prop("checked", false);
+					liveFilter(filterForm);
+					return false;
+				});
+				
+				$(".filterauto select").change(function() {
+					liveFilter($(this).closest(".filterauto"));
+				});
+
+				$(".filterauto input[type=checkbox]").change(function() {
+					liveFilter($(this).closest(".filterauto"));
+				});
+
+				$(".filterauto input[type=search]").on("keyup search change", function() {
+					liveFilter($(this).closest(".filterauto"));
+				});
+
+				viewBrowse = function(currentoption, response) {
+					if(response["success"]) {
+						if(response["labels"]) {
+							for (i in response["labels"]) {
+								currentoption.parent().find("."+i+"uniqueicon").attr("title", response["labels"][i]).html(response["labels"][i]).change();
+							}
+						}	
+					
+						if(response["action"] == "pin" && response["pinned"]) {
+							currentoption.closest(".row").hide().prependTo(currentoption.closest(".table")).fadeIn();
+						} else if(response["action"] == "delete") {
+							if(currentoption.closest(".row").next(".row").hasClass("rowcontentnext")) {
+								currentoption.closest(".row").next(".row").remove();
+							}
+							currentoption.closest(".row").slideUp(400, function(){$(this).remove();});
+						} else if(response["action"] == "ban") {
+							if(currentoption.text() == "Ban") {
+								currentoption.closest(".row").find(".statusbox").removeClass("statusboxbad");
+							} else {
+								currentoption.closest(".row").find(".statusbox").addClass("statusboxbad");
+							}
+						}
+					}
+				};
+$(".c76625d26ff7f0c55142db2c328da119watch").saveUpdate("watch", false);
+$(".44825bfc951a8ff5714f8bb710efda3freport").saveUpdate("report", false);
+
+					$(".downloadautotoggle").click(function(){
+						$(".downloadon").slideToggle();
+						return false;
+					});
+$(".togglertxinfo").click(function(e){
+				if($(this).attr("href") == "#rtxremix") {
+					localStorage.setItem("rtxtoggled", true);
+					$("#rtxremix").show();
+					return true;
+				} else {
+					localStorage.removeItem("rtxtoggled");
+					$("#rtxremix").hide();
+					return false;
+				}
+			});
+			
+			
+
+		function cookieScript(e) {
+			var status = CookieScript.instance.currentState().categories.includes("targeting") ? "false" : "true";
+			var cookies = CookieScript.instance.currentState().categories.includes("performance") ? "true" : "false";
+			var cookie_data = { npa : {status:status,cookies:cookies,version:"1.0.13",chosen:"true"}, expires : 365 };
+			Cookies.set("dfp-npa", cookie_data.npa, { expires: cookie_data.expires, secure: true });
+	if (typeof gamernetwork_piwik === "function" && cookie_data.npa.cookies == "true") { gamernetwork_piwik(); }
+
+	if (typeof gtag === "function") { gtag("consent", "update", {"ad_storage": cookie_data.npa.status == "false" ? "granted" : "denied", "ad_user_data": cookie_data.npa.status == "false" ? "granted" : "denied", "ad_personalization": cookie_data.npa.status == "false" ? "granted" : "denied", "analytics_storage": cookie_data.npa.cookies == "true" ? "granted" : "denied"}); }
+
+	if(cookie_data.npa.status == "false") {
+		// personalize
+		if (typeof permutive === "object") { permutive.consent({ "opt_in": true, "token": "Allow All" }); }
+	} else {
+		// don't personalize
+		if (typeof permutive === "object") { permutive.consent({ "opt_in": false }); }
+		Cookies.remove("permutive-id", { domain: "moddb.com", secure: true });
+	}
+		}
+
+		if(!Cookies.get("dfp-npa")) {
+			Cookies.set("dfp-npa", {status:"false",cookies:"true",version:"1.0.13",chosen:"false"}, { expires: 60, secure: true });
+		}
+
+		window.addEventListener("CookieScriptAcceptAll", cookieScript);
+		window.addEventListener("CookieScriptAccept", cookieScript);
+		window.addEventListener("CookieScriptReject", cookieScript);
+		window.addEventListener("CookieScriptClose", cookieScript);
+$("a.thickbox").click(function() { $.colorbox({href:$(this).attr("href"), rel:$(this).attr("rel"), open:true, onOpen:function(){ $(".nextmediabox").hide(); }, onClosed:function(){ $(".nextmediabox").show(); }}); return false; });
+ });
+</script>
+<script type="text/javascript" charset="UTF-8" src="//geo.cookie-script.com/s/02fe83eeed96d72125f64a74a34c1e06.js?country=gb&region=eu"></script>
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "8518622", cs_ucfr: "0" }); (function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; s.src = "https://sb.scorecardresearch.com/cs/8518622/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript><img src="https://b.scorecardresearch.com/p?c1=2&c2=8518622&cs_ucfr=0&cv=2.0&cj=1" height="1" width="1" alt="CS"></noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VBMFL9G8M0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {'ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','analytics_storage':'denied'});
+  gtag('js', new Date());
+  gtag('config', 'G-VBMFL9G8M0', { 'anonymize_ip':true,'store_gac':false });
+</script>
+<script>
+gamernetwork_piwik = function() {
+(function(window, document, dataLayerName, id) {
+window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+tags.async=!0,tags.src="https://rxreedpop.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+!function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+})(window, document, 'dataLayer', '7f2fd072-d2ec-454b-aaa9-c61be1d3606c');
+}
+</script>
+ </body>
+</html>
