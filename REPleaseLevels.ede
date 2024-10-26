@@ -1,0 +1,63 @@
+Game level progression is one of the main game design components that enables gamers to see their progress and improvement in a game. Level progression games give game designers a good opportunity to deliver the necessary content at the very moment when gamers are ready for it and pace the storytelling, develop the plot of the game, the player character, and open some supplementary features.
+
+Games with a leveling system can be traced back to the early RPGs. In RPG games, the core gameplay is in fact the leveling up (progress). Games encourage players to return and keep on playing to open new abilities or areas but at the same time, they keep the use of too powerful abilities and gears in check. Currently, level-based progression is used in almost all game genres and even in some non-gaming apps.
+
+Read more: App cohort analysis
+
+The level-based progression is always closely linked to the in-game economy and game balance. That’s why when analyzing a difficulty curve or a game balance we often see character levels on the horizontal axis. User engagement, their wish to pay, and therefore your income heavily depend on the difficulty and balance - on how suitable and well-balanced they are.
+
+Read more: Glossary of game analytics metrics
+
+Examples of game level progression
+Let’s take a look at several examples of how game level progression is used in games.
+
+How to analyze level-based progression in match-3 games
+Match-3 games are a type of puzzle game where a player needs to arrange together three or more pieces similar in color/shape/type. More than 500 areas are usually available in every game of this genre. At each location, a player can buy and use some special power-ups (boosters) and they can lose if they fail to complete a task in a certain number of moves.
+
+Watch our webinar on Analytics in game development
+
+Therefore a match-3 game developer has to make sure that the game is not too challenging and the users on the one hand don't feel frustrated after trying multiple times to get past a level, and on the other hand the game is not too easy and gamers can enjoy the feeling of winning and achievement. In this case only, the game will be able to convert users into paying players and keep them in the game for a long time.
+
+Most likely you are already familiar with the difficulty curve and know how to manage it. To put it short, the majority of game levels should be easy, but after a number of easy levels should follow one or some very difficult levels so that a gamer will have an incentive to buy something to improve their game character to pass the level.
+
+Ideal difficulty location game
+Screenshot from devtodev demo (In-game analysis -> Game structure)
+In this devtodev report you can see game locations with their progressive numbers, the rate of successful/unsuccessful level completion attempts, the percent of users who passed the level, and the average amount of coins spent during an unsuccessful attempt. Unsuccess/success column represents the difficulty of the location and you can see that the less difficult levels followed by more difficult levels (locations 33 and 37).
+
+devtodev pricing
+
+What is the ideal difficulty level in a match-3 game? Based on their experience, some developers set the difficulty of easy levels at 30-40% and difficult levels at 80-85%, other developers strike balance at 50-60% for easy levels and 90-95% for difficult ones. The perfect balance is something to be found for every game individually and the best way to find it is to run A/B tests on levels with different difficulty.
+
+While analyzing a difficulty curve you need to pay attention to the following indicators:
+
+the number of attempts needed to pass a location;
+
+how many more moves are needed to win (in case of an unsuccessful attempt);
+
+churn rate;
+
+how many gamers spend money at a particular location and how much it is
+
+What to do if the number of people who make payments is very low and changing the difficulty only influences the retention while doesn’t affect the monetization metrics at all? In this case, you need to pay closer attention to your in-game economy:
+
+how much currency do players have at hand while entering the location;
+
+how much they spend on successful and unsuccessful attempts to pass the location;
+
+which boosters and how many of them they use while trying.
+
+Game level coin balance analytics
+Screenshot from devtodev demo (In-game analysis -> Economy balance)
+It is possible that your gamers simply don’t need to buy in-game currency because they consume the maximum amount of available boosters while trying to pass the level and in case of failure they refill their booster tanks using the acquired resources. Or vice versa: the gamers have so little currency that they can’t afford boosters and they understand that buying one or two will not help them pass the location. So you must always analyze level difficulty in connection with the in-game economy. The one always influences the other.
+
+Level game economy progression
+Screenshot from devtodev demo (In-game analysis -> Virtual goods & purchases)
+Besides location progression, match-3 games may also have level progression. The gamer passes several locations, earns XP on each of them and then their level goes up. You should build your leveling system in a way that gamers rise at least one level per session and always leave the game feeling good. The leveling up has to be graphic and memorable, you need to reward gamers with some booster because it will encourage them to continue the game session.
+
+Read our free book on Analyzing promotional activities in games
+
+We increase user engagement and can analyze main metrics and user churn not only for each location individually but for a set of locations built of a single difficulty circle (a part of the difficulty curve from the easiest to the most difficult) or built based on a single game mechanic (a gamer entered N locations with blocked elements) and see how engaging each mechanic is. You can analyze levels using the same metrics as in location progression because this kind of analysis lets you look at locations and their monetization from a different perspective.
+
+Churn game payment analytics chart
+Screenshot from devtodev demo (In-game analysis -> Game structure)
+One more important addition: try to segment your users depending on their engagement level. There are completely different types of players in your game - some play for 5 minutes while drinking coffee, others play several times a day for 30 minutes. Metics and play styles of these gamers vary greatly. That’s why you shouldn’t analyze them as one dataset but rather break them down into several segments: for instance, whales/minnows or free users with different engagement levels. In this case, your hypotheses will be more precise and the results will be more predictable.
