@@ -1,0 +1,1663 @@
+
+<!DOCTYPE html><html lang="lt" itemscope="" itemtype="https://schema.org/BlogPosting" dir="ltr"><head><link rel="icon" href="https://www.unite.ai/favicon.ico?v=2" type="image/x-icon"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> <script type="module"> import {onCLS, onFID, onLCP} from 'https://unpkg.com/web-vitals@3/dist/web-vitals.attribution.js?module';
+function sendToGoogleAnalytics({name, delta, id, attribution}) {
+ let debug_target;
+ switch (name) {
+ case 'CLS':
+ debug_target = attribution.largestShiftTarget;
+ break;
+ case 'FID':
+ debug_target = attribution.eventTarget;
+ break;
+ case 'LCP':
+ debug_target = attribution.element;
+ break;
+ }
+ gtag('event', name, {
+ event_category: 'Web Vitals',
+ event_label: id,
+ value: Math.round(name === 'CLS' ? delta * 1000 : delta),
+ non_interaction: true,
+ dimension1: debug_target  });
+}
+onCLS(sendToGoogleAnalytics);
+onFID(sendToGoogleAnalytics);
+onLCP(sendToGoogleAnalytics); </script> <!--<link href="/lt/wp-content/themes/zox-news-child/font-awesome/webfonts/fa-solid-900.woff2" as="font" rel="preload" /><link href="/lt/wp-content/themes/zox-news-child/font-awesome/webfonts/fa-brands-400.woff2" as="font" rel="preload" /> --><link rel="preload" href="https://www.unite.ai/wp-content/themes/zox-news-child/font-awesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="https://www.unite.ai/wp-content/themes/zox-news-child/font-awesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="shortcut icon" href="https://www.unite.ai/wp-content/uploads/2023/11/favicon480x480-transparent.png"><link rel="pingback" href="https://www.unite.ai/xmlrpc.php"><meta property="og:type" content="article"><meta property="og:image" content="https://www.unite.ai/wp-content/uploads/2023/02/Types-of-chatbot-837x600.png"><meta name="twitter:image" content="https://www.unite.ai/wp-content/uploads/2023/02/Types-of-chatbot-837x600.png"><meta property="og:url" content="https://www.unite.ai/lt/pokalbi%C5%B3-roboto-k%C5%ABrimas-nuo-nulio-pradedan%C4%8Di%C5%B3j%C5%B3-vadovas/"><meta property="og:title" content="„Chatbot“ kūrimas nuo nulio: vadovas pradedančiajam"><meta name="twitter:card" content="summary"><meta name="twitter:url" content="https://www.unite.ai/lt/pokalbi%C5%B3-roboto-k%C5%ABrimas-nuo-nulio-pradedan%C4%8Di%C5%B3j%C5%B3-vadovas/"><meta name="twitter:title" content="„Chatbot“ kūrimas nuo nulio: vadovas pradedančiajam"><meta name="google-site-verification" content="ipICLvcMS0jk6O-1hMMxham1-kxHrdwXlTXmAdpl4eQ"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"><meta name="uri-translation" content="on"><link rel="alternate" hreflang="en" href="https://www.unite.ai/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="af" href="https://www.unite.ai/af/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="sq" href="https://www.unite.ai/sq/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ar" href="https://www.unite.ai/ar/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="hy" href="https://www.unite.ai/hy/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="bg" href="https://www.unite.ai/bg/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ca" href="https://www.unite.ai/ca/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="zh-CN" href="https://www.unite.ai/zh-CN/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="hr" href="https://www.unite.ai/hr/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="cs" href="https://www.unite.ai/cs/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="da" href="https://www.unite.ai/da/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="nl" href="https://www.unite.ai/nl/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="et" href="https://www.unite.ai/et/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="fi" href="https://www.unite.ai/fi/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="fr" href="https://www.unite.ai/fr/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ka" href="https://www.unite.ai/ka/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="de" href="https://www.unite.ai/de/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="el" href="https://www.unite.ai/el/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="he" href="https://www.unite.ai/iw/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="hi" href="https://www.unite.ai/hi/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="hu" href="https://www.unite.ai/hu/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="is" href="https://www.unite.ai/is/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="id" href="https://www.unite.ai/id/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ga" href="https://www.unite.ai/ga/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="it" href="https://www.unite.ai/it/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ja" href="https://www.unite.ai/ja/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ko" href="https://www.unite.ai/ko/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ku" href="https://www.unite.ai/ku/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="lo" href="https://www.unite.ai/lo/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="lv" href="https://www.unite.ai/lv/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="lt" href="https://www.unite.ai/lt/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="lb" href="https://www.unite.ai/lb/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="mk" href="https://www.unite.ai/mk/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="mt" href="https://www.unite.ai/mt/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="mi" href="https://www.unite.ai/mi/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="mn" href="https://www.unite.ai/mn/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="my" href="https://www.unite.ai/my/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="no" href="https://www.unite.ai/no/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="pl" href="https://www.unite.ai/pl/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="pt" href="https://www.unite.ai/pt/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ro" href="https://www.unite.ai/ro/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ru" href="https://www.unite.ai/ru/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="gd" href="https://www.unite.ai/gd/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="sr" href="https://www.unite.ai/sr/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="sk" href="https://www.unite.ai/sk/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="sl" href="https://www.unite.ai/sl/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="so" href="https://www.unite.ai/so/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="es" href="https://www.unite.ai/es/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="su" href="https://www.unite.ai/su/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="sw" href="https://www.unite.ai/sw/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="sv" href="https://www.unite.ai/sv/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ta" href="https://www.unite.ai/ta/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="te" href="https://www.unite.ai/te/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="th" href="https://www.unite.ai/th/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="tr" href="https://www.unite.ai/tr/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="uk" href="https://www.unite.ai/uk/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="ur" href="https://www.unite.ai/ur/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="uz" href="https://www.unite.ai/uz/creating-a-chatbot-from-scratch-a-beginners-guide/"><link rel="alternate" hreflang="vi" href="https://www.unite.ai/vi/creating-a-chatbot-from-scratch-a-beginners-guide/"> <!-- This site is optimized with the Yoast SEO plugin v23.7 - https://yoast.com/wordpress/plugins/seo/ --><title>Pokalbių roboto kūrimas nuo nulio: vadovas pradedančiajam – Unite.AI</title><meta name="description" content="Šiame straipsnyje mes išnagrinėsime, kaip sukurti paprastą pokalbių robotą Python, jo tipus, pranašumus ir būsimą pokalbių robotų potencialą."><link rel="canonical" href="https://www.unite.ai/lt/pokalbi%C5%B3-roboto-k%C5%ABrimas-nuo-nulio-pradedan%C4%8Di%C5%B3j%C5%B3-vadovas/"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Pokalbių roboto kūrimas nuo nulio: vadovas pradedančiajam – Unite.AI"><meta property="og:description" content="Šiame straipsnyje mes išnagrinėsime, kaip sukurti paprastą pokalbių robotą Python, jo tipus, pranašumus ir būsimą pokalbių robotų potencialą."><meta property="og:url" content="https://www.unite.ai/lt/pokalbi%C5%B3-roboto-k%C5%ABrimas-nuo-nulio-pradedan%C4%8Di%C5%B3j%C5%B3-vadovas/"><meta property="og:site_name" content="Unite.AI"><meta property="article:publisher" content="https://www.facebook.com/uniteai"><meta property="article:published_time" content="2023-02-16T20:39:13+00:00"><meta property="article:modified_time" content="2023-02-16T22:32:47+00:00"><meta property="og:image" content="https://www.unite.ai/wp-content/uploads/2023/02/Types-of-chatbot.png"><meta property="og:image:width" content="837"><meta property="og:image:height" content="628"><meta property="og:image:type" content="image/png"><meta name="author" content="Haziqa Sajid"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:creator" content="@UniteAI"><meta name="twitter:site" content="@UniteAI"><meta name="twitter:label1" content="Parašyta"><meta name="twitter:data1" content="Haziqa Sajid"><meta name="twitter:label2" content="Įvert. skaitymo laikas"><meta name="twitter:data2" content="6 minučių"> <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/#article","isPartOf":{"@id":"https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/"},"author":{"name":"Haziqa Sajid","@id":"https:\/\/www.unite.ai\/#\/schema\/person\/4fcf3d513660515d5ebc19514ebd8094"},"headline":"„Chatbot“ kūrimas nuo nulio: vadovas pradedančiajam","datePublished":"2023-02-16T20:39:13+00:00","dateModified":"2023-02-16T22:32:47+00:00","mainEntityOfPage":{"@id":"https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/"},"wordCount":1354,"publisher":{"@id":"https:\/\/www.unite.ai\/#organization"},"image":{"@id":"https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/#primaryimage"},"thumbnailUrl":"https:\/\/www.unite.ai\/wp-content\/uploads\/2023\/02\/Types-of-chatbot.png","keywords":["artificial intelligence","chatbot","natural language processing","python"],"articleSection":["AI 101"],"inLanguage":"lt"},{"@type":"WebPage","@id":"https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/","url":"https:\/\/www.unite.ai/lt\/pokalbi%C5%B3-roboto-k%C5%ABrimas-nuo-nulio-pradedan%C4%8Di%C5%B3j%C5%B3-vadovas\/","name":"Pokalbių roboto kūrimas nuo nulio: vadovas pradedančiajam – Unite.AI","isPartOf":{"@id":"https:\/\/www.unite.ai\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/#primaryimage"},"image":{"@id":"https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/#primaryimage"},"thumbnailUrl":"https:\/\/www.unite.ai\/wp-content\/uploads\/2023\/02\/Types-of-chatbot.png","datePublished":"2023-02-16T20:39:13+00:00","dateModified":"2023-02-16T22:32:47+00:00","description":"Šiame straipsnyje mes išnagrinėsime, kaip sukurti paprastą pokalbių robotą Python, jo tipus, pranašumus ir būsimą pokalbių robotų potencialą.","breadcrumb":{"@id":"https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/#breadcrumb"},"inLanguage":"lt","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/#primaryimage","url":"https:\/\/www.unite.ai\/wp-content\/uploads\/2023\/02\/Types-of-chatbot.png","contentUrl":"https:\/\/www.unite.ai\/wp-content\/uploads\/2023\/02\/Types-of-chatbot.png","width":837,"height":628,"caption":"pokalbis"},{"@type":"BreadcrumbList","@id":"https:\/\/www.unite.ai\/creating-a-chatbot-from-scratch-a-beginners-guide\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Pagrindinis","item":"https:\/\/www.unite.ai\/"},{"@type":"ListItem","position":2,"name":"„Chatbot“ kūrimas nuo nulio: vadovas pradedančiajam"}]},{"@type":"WebSite","@id":"https:\/\/www.unite.ai\/#website","url":"https:\/\/www.unite.ai/lt\/","name":"Unite.AI","description":"- AI naujienos","publisher":{"@id":"https:\/\/www.unite.ai\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.unite.ai/lt\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"lt"},{"@type":"Organization","@id":"https:\/\/www.unite.ai\/#organization","name":"Unite.AI","url":"https:\/\/www.unite.ai\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.unite.ai\/#\/schema\/logo\/image\/","url":"https:\/\/www.unite.ai\/wp-content\/uploads\/2022\/01\/1200-630b.png","contentUrl":"https:\/\/www.unite.ai\/wp-content\/uploads\/2022\/01\/1200-630b.png","width":1196,"height":628,"caption":"Unite.AI"},"image":{"@id":"https:\/\/www.unite.ai\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/uniteai","https:\/\/x.com\/UniteAI","https:\/\/www.linkedin.com\/company\/unite-ai"]},{"@type":"Person","@id":"https:\/\/www.unite.ai\/#\/schema\/person\/4fcf3d513660515d5ebc19514ebd8094","name":"Haziqa Sajid","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.unite.ai\/#\/schema\/person\/image\/","url":"https:\/\/secure.gravatar.com\/avatar\/3f0ad14401cf91052a9b72a841ea6896?s=96&d=mm&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/3f0ad14401cf91052a9b72a841ea6896?s=96&d=mm&r=g","caption":"Haziqa Sajid"},"description":"Haziqa yra duomenų mokslininkas, turintis didelę patirtį rašant techninį turinį AI ir SaaS įmonėms.","sameAs":["https:\/\/www.linkedin.com\/in\/haziqa-sajid-22b53245\/"],"url":"https:\/\/www.unite.ai/lt\/autorius\/haziqasajid\/"}]}</script> <!-- / Yoast SEO plugin. --><link rel="dns-prefetch" href="https://www.googletagmanager.com/"><link rel="dns-prefetch" href="https://fonts.googleapis.com/"><link rel="alternate" type="application/rss+xml" title="Unite.AI » Feed" href="https://www.unite.ai/feed/"><link rel="alternate" type="application/rss+xml" title="Unite.AI » Comments Feed" href="https://www.unite.ai/comments/feed/"><link rel="alternate" type="application/rss+xml" title="Unite.AI » Creating a Chatbot from Scratch: A Beginner’s Guide Comments Feed" href="https://www.unite.ai/creating-a-chatbot-from-scratch-a-beginners-guide/feed/"><link rel="stylesheet" id="cf7ic_style-css" href="https://www.unite.ai/wp-content/plugins/contact-form-7-image-captcha/css/cf7ic-style.css?ver=3.3.7" type="text/css" media="all"><link rel="stylesheet" id="wp-block-library-css" href="https://www.unite.ai/wp-includes/css/dist/block-library/style.min.css?ver=51021f44395e9d18d677f5d95f5e7390" type="text/css" media="all"> <style id="classic-theme-styles-inline-css" type="text/css"> /*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none} </style> <style id="global-styles-inline-css" type="text/css"> :root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;} </style><link rel="stylesheet" id="widgetopts-styles-css" href="https://www.unite.ai/wp-content/plugins/widget-options/assets/css/widget-options.css?ver=4.0.7" type="text/css" media="all"><link rel="stylesheet" id="megamenu-css" href="https://www.unite.ai/wp-content/uploads/maxmegamenu/style.css?ver=41ec12" type="text/css" media="all"><link rel="stylesheet" id="mvp-custom-style-css" href="https://www.unite.ai/wp-content/themes/zox-news/style.css?ver=1728686223" type="text/css" media="all"> <style id="mvp-custom-style-inline-css" type="text/css"> #mvp-wallpaper {
+ background: url() no-repeat 50% 0;
+ }
+#mvp-foot-copy a {
+ color: #ff005b;
+ }
+#mvp-content-main p a,
+.mvp-post-add-main p a {
+ box-shadow: inset 0 -4px 0 #ff005b;
+ }
+#mvp-content-main p a:hover,
+.mvp-post-add-main p a:hover {
+ background: #ff005b;
+ }
+a,
+a:visited,
+.post-info-name a,
+.woocommerce .woocommerce-breadcrumb a {
+ color: #ff005b;
+ }
+#mvp-side-wrap a:hover {
+ color: #ff005b;
+ }
+.mvp-fly-top:hover,
+.mvp-vid-box-wrap,
+ul.mvp-soc-mob-list li.mvp-soc-mob-com {
+ background: #ff0059;
+ }
+nav.mvp-fly-nav-menu ul li.menu-item-has-children:after,
+.mvp-feat1-left-wrap span.mvp-cd-cat,
+.mvp-widget-feat1-top-story span.mvp-cd-cat,
+.mvp-widget-feat2-left-cont span.mvp-cd-cat,
+.mvp-widget-dark-feat span.mvp-cd-cat,
+.mvp-widget-dark-sub span.mvp-cd-cat,
+.mvp-vid-wide-text span.mvp-cd-cat,
+.mvp-feat2-top-text span.mvp-cd-cat,
+.mvp-feat3-main-story span.mvp-cd-cat,
+.mvp-feat3-sub-text span.mvp-cd-cat,
+.mvp-feat4-main-text span.mvp-cd-cat,
+.woocommerce-message:before,
+.woocommerce-info:before,
+.woocommerce-message:before {
+ color: #ff0059;
+ }
+#searchform input,
+.mvp-authors-name {
+ border-bottom: 1px solid #ff0059;
+ }
+.mvp-fly-top:hover {
+ border-top: 1px solid #ff0059;
+ border-left: 1px solid #ff0059;
+ border-bottom: 1px solid #ff0059;
+ }
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+ background-color: #ff0059;
+ }
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+ border-top-color: #ff0059;
+ }
+ul.mvp-feat1-list-buts li.active span.mvp-feat1-list-but,
+span.mvp-widget-home-title,
+span.mvp-post-cat,
+span.mvp-feat1-pop-head {
+ background: #ff005b;
+ }
+.woocommerce span.onsale {
+ background-color: #ff005b;
+ }
+.mvp-widget-feat2-side-more-but,
+.woocommerce .star-rating span:before,
+span.mvp-prev-next-label,
+.mvp-cat-date-wrap .sticky {
+ color: #ff005b !important;
+ }
+#mvp-main-nav-top,
+#mvp-fly-wrap,
+.mvp-soc-mob-right,
+#mvp-main-nav-small-cont {
+ background: #000000;
+ }
+#mvp-main-nav-small .mvp-fly-but-wrap span,
+#mvp-main-nav-small .mvp-search-but-wrap span,
+.mvp-nav-top-left .mvp-fly-but-wrap span,
+#mvp-fly-wrap .mvp-fly-but-wrap span {
+ background: #e8e8e8;
+ }
+.mvp-nav-top-right .mvp-nav-search-but,
+span.mvp-fly-soc-head,
+.mvp-soc-mob-right i,
+#mvp-main-nav-small span.mvp-nav-search-but,
+#mvp-main-nav-small .mvp-nav-menu ul li a  {
+ color: #e8e8e8;
+ }
+#mvp-main-nav-small .mvp-nav-menu ul li.menu-item-has-children a:after {
+ border-color: #e8e8e8 transparent transparent transparent;
+ }
+#mvp-nav-top-wrap span.mvp-nav-search-but:hover,
+#mvp-main-nav-small span.mvp-nav-search-but:hover {
+ color: #ff0059;
+ }
+#mvp-nav-top-wrap .mvp-fly-but-wrap:hover span,
+#mvp-main-nav-small .mvp-fly-but-wrap:hover span,
+span.mvp-woo-cart-num:hover {
+ background: #ff0059;
+ }
+#mvp-main-nav-bot-cont {
+ background: #ffffff;
+ }
+#mvp-nav-bot-wrap .mvp-fly-but-wrap span,
+#mvp-nav-bot-wrap .mvp-search-but-wrap span {
+ background: #000000;
+ }
+#mvp-nav-bot-wrap span.mvp-nav-search-but,
+#mvp-nav-bot-wrap .mvp-nav-menu ul li a {
+ color: #000000;
+ }
+#mvp-nav-bot-wrap .mvp-nav-menu ul li.menu-item-has-children a:after {
+ border-color: #000000 transparent transparent transparent;
+ }
+.mvp-nav-menu ul li:hover a {
+ border-bottom: 5px solid #ffffff;
+ }
+#mvp-nav-bot-wrap .mvp-fly-but-wrap:hover span {
+ background: #ffffff;
+ }
+#mvp-nav-bot-wrap span.mvp-nav-search-but:hover {
+ color: #ffffff;
+ }
+body,
+.mvp-feat1-feat-text p,
+.mvp-feat2-top-text p,
+.mvp-feat3-main-text p,
+.mvp-feat3-sub-text p,
+#searchform input,
+.mvp-author-info-text,
+span.mvp-post-excerpt,
+.mvp-nav-menu ul li ul.sub-menu li a,
+nav.mvp-fly-nav-menu ul li a,
+.mvp-ad-label,
+span.mvp-feat-caption,
+.mvp-post-tags a,
+.mvp-post-tags a:visited,
+span.mvp-author-box-name a,
+#mvp-author-box-text p,
+.mvp-post-gallery-text p,
+ul.mvp-soc-mob-list li span,
+#comments,
+h3#reply-title,
+h2.comments,
+#mvp-foot-copy p,
+span.mvp-fly-soc-head,
+.mvp-post-tags-header,
+span.mvp-prev-next-label,
+span.mvp-post-add-link-but,
+#mvp-comments-button a,
+#mvp-comments-button span.mvp-comment-but-text,
+.woocommerce ul.product_list_widget span.product-title,
+.woocommerce ul.product_list_widget li a,
+.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
+.woocommerce div.product p.price,
+.woocommerce div.product p.price ins,
+.woocommerce div.product p.price del,
+.woocommerce ul.products li.product .price del,
+.woocommerce ul.products li.product .price ins,
+.woocommerce ul.products li.product .price,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce .widget_price_filter .price_slider_amount .button,
+.woocommerce span.onsale,
+.woocommerce-review-link,
+#woo-content p.woocommerce-result-count,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+a.mvp-inf-more-but,
+span.mvp-cont-read-but,
+span.mvp-cd-cat,
+span.mvp-cd-date,
+.mvp-feat4-main-text p,
+span.mvp-woo-cart-num,
+span.mvp-widget-home-title2,
+.wp-caption,
+#mvp-content-main p.wp-caption-text,
+.gallery-caption,
+.mvp-post-add-main p.wp-caption-text,
+#bbpress-forums,
+#bbpress-forums p,
+.protected-post-form input,
+#mvp-feat6-text p {
+ font-family: 'Gautami', sans-serif;
+ }
+.mvp-blog-story-text p,
+span.mvp-author-page-desc,
+#mvp-404 p,
+.mvp-widget-feat1-bot-text p,
+.mvp-widget-feat2-left-text p,
+.mvp-flex-story-text p,
+.mvp-search-text p,
+#mvp-content-main p,
+.mvp-post-add-main p,
+.rwp-summary,
+.rwp-u-review__comment,
+.mvp-feat5-mid-main-text p,
+.mvp-feat5-small-main-text p {
+ font-family: 'Aparajita', sans-serif;
+ }
+.mvp-nav-menu ul li a,
+#mvp-foot-menu ul li a {
+ font-family: 'Oswald', sans-serif;
+ }  .mvp-feat1-sub-text h2,
+.mvp-feat1-pop-text h2,
+.mvp-feat1-list-text h2,
+.mvp-widget-feat1-top-text h2,
+.mvp-widget-feat1-bot-text h2,
+.mvp-widget-dark-feat-text h2,
+.mvp-widget-dark-sub-text h2,
+.mvp-widget-feat2-left-text h2,
+.mvp-widget-feat2-right-text h2,
+.mvp-blog-story-text h2,
+.mvp-flex-story-text h2,
+.mvp-vid-wide-more-text p,
+.mvp-prev-next-text p,
+.mvp-related-text,
+.mvp-post-more-text p,
+h2.mvp-authors-latest a,
+.mvp-feat2-bot-text h2,
+.mvp-feat3-sub-text h2,
+.mvp-feat3-main-text h2,
+.mvp-feat4-main-text h2,
+.mvp-feat5-text h2,
+.mvp-feat5-mid-main-text h2,
+.mvp-feat5-small-main-text h2,
+.mvp-feat5-mid-sub-text h2,
+#mvp-feat6-text h2 {
+ font-family: 'Oswald', sans-serif;
+ }
+.mvp-feat2-top-text h2,
+.mvp-feat1-feat-text h2,
+h1.mvp-post-title,
+h1.mvp-post-title-wide,
+.mvp-drop-nav-title h4,
+#mvp-content-main blockquote p,
+.mvp-post-add-main blockquote p,
+#mvp-404 h1,
+#woo-content h1.page-title,
+.woocommerce div.product .product_title,
+.woocommerce ul.products li.product h3 {
+ font-family: 'Oswald', sans-serif;
+ }
+span.mvp-feat1-pop-head,
+.mvp-feat1-pop-text:before,
+span.mvp-feat1-list-but,
+span.mvp-widget-home-title,
+.mvp-widget-feat2-side-more,
+span.mvp-post-cat,
+span.mvp-page-head,
+h1.mvp-author-top-head,
+.mvp-authors-name,
+#mvp-content-main h1,
+#mvp-content-main h2,
+#mvp-content-main h3,
+#mvp-content-main h4,
+#mvp-content-main h5,
+#mvp-content-main h6,
+.woocommerce .related h2,
+.woocommerce div.product .woocommerce-tabs .panel h2,
+.woocommerce div.product .product_title,
+.mvp-feat5-side-list .mvp-feat1-list-img:after {
+ font-family: 'Roboto', sans-serif;
+ } 
+ .mvp-vid-box-wrap,
+ .mvp-feat1-left-wrap span.mvp-cd-cat,
+ .mvp-widget-feat1-top-story span.mvp-cd-cat,
+ .mvp-widget-feat2-left-cont span.mvp-cd-cat,
+ .mvp-widget-dark-feat span.mvp-cd-cat,
+ .mvp-widget-dark-sub span.mvp-cd-cat,
+ .mvp-vid-wide-text span.mvp-cd-cat,
+ .mvp-feat2-top-text span.mvp-cd-cat,
+ .mvp-feat3-main-story span.mvp-cd-cat {
+ color: #fff;
+ } 
+ #mvp-main-body-wrap {
+ padding-top: 20px;
+ }
+ #mvp-feat2-wrap,
+ #mvp-feat4-wrap,
+ #mvp-post-feat-img-wide,
+ #mvp-vid-wide-wrap {
+ margin-top: -20px;
+ }
+ @media screen and (max-width: 479px) {
+ #mvp-main-body-wrap {
+ padding-top: 15px;
+ }
+ #mvp-feat2-wrap,
+ #mvp-feat4-wrap,
+ #mvp-post-feat-img-wide,
+ #mvp-vid-wide-wrap {
+ margin-top: -15px;
+ }
+ } 
+ .mvp-nav-links {
+ display: none;
+ }<link href="https://fonts.googleapis.com/css?display=swap&family=Miriam+Libre:400,700&display=swap" rel="stylesheet"> </style><link rel="stylesheet" id="mvp-custom-child-style-css" href="https://www.unite.ai/wp-content/themes/zox-news-child/style.css?ver=1728686223" type="text/css" media="all"><link rel="stylesheet" id="others-style-css" href="https://www.unite.ai/wp-content/themes/zox-news-child/css/others.css?ver=1728686223" type="text/css" media="all"><link rel="stylesheet" id="mvp-reset-css" href="https://www.unite.ai/wp-content/themes/zox-news/css/reset.css?ver=1728686223" type="text/css" media="all"><link rel="stylesheet" id="fontawesome-css" href="https://www.unite.ai/wp-content/themes/zox-news-child/font-awesome/css/font-awesome.css?ver=1728686223" type="text/css" media="all"><style id="mvp-fonts-css" media="all">/* cyrillic-ext */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4qMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4jMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4kMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4pMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4nMm4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4qMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4jMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4kMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4pMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4nMm4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4qMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4jMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4kMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4pMm4bHQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/adventpro/v28/V8mVoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUC4nMm4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/anton/v25/1Ptgg87LROyAm3K8-C8QSw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/anton/v25/1Ptgg87LROyAm3K9-C8QSw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/anton/v25/1Ptgg87LROyAm3Kz-C8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* math */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* math */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* math */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752FD8Ghe4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752HT8Ghe4.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fj8Ghe4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fz8Ghe4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752GT8G.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752FD8Ghe4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752HT8Ghe4.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fj8Ghe4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fz8Ghe4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752GT8G.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752FD8Ghe4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752HT8Ghe4.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fj8Ghe4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fz8Ghe4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752GT8G.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752FD8Ghe4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752HT8Ghe4.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fj8Ghe4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fz8Ghe4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752GT8G.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752FD8Ghe4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752HT8Ghe4.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fj8Ghe4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fz8Ghe4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752GT8G.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752FD8Ghe4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752HT8Ghe4.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fj8Ghe4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752Fz8Ghe4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/oswald/v53/TK3iWkUHHAIjg752GT8G.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgVxFIzIFKw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgVxMIzIFKw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgVxEIzIFKw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgVxLIzIFKw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgVxGIzIFKw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgVxIIzI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style><link rel="stylesheet" id="mvp-media-queries-css" href="https://www.unite.ai/wp-content/themes/zox-news/css/media-queries.css?ver=1728686223" type="text/css" media="all"><link rel="stylesheet" id="tablepress-default-css" href="https://www.unite.ai/wp-content/tablepress-combined.min.css?ver=18" type="text/css" media="all"><link rel="stylesheet" id="tmm-css" href="https://www.unite.ai/wp-content/plugins/team-members/inc/css/tmm_style.css?ver=51021f44395e9d18d677f5d95f5e7390" type="text/css" media="all"> <script type="text/javascript" src="https://www.unite.ai/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-content/plugins/gspeech/includes/js/gspeech_front.js?g_indexsp___eqgspeech_front_script_n127gsp___delg_versiongsp___eq3_8_7gsp___delw_idgsp___eq93a624204a389f7d93a2efae9aadccafgsp___dels_encgsp___eq6341bfddc86cd3b5a74e076f073710c1f91691643fc947971256ca84afba6100969823bdd896a3afd85d18537eb98bc13acef82d6b0ae1f56b7b1026dcb7fff3cc9c3eafgsp___delh_encgsp___eqd37d84654bbf1b4f42c93e34761e19dcac7cd50d3181bb872d309dc8a5744809gsp___delhh_encgsp___eq01e268531ccc9754162ca32d5b872b3c1edd3e00a9b258b2ee77853ebe702f032da8a6257dabdf72b7dc52e89c3a1ff77efb6e2082b7ef3380710c847df2b6172730fc316fa1eaa92413e0ec50038e614ba1e50d8dcf9c68591643d336f83e777fcb48847fa02c3538fac2982ba7f19bgsp___dellazy_loadgsp___eq1gsp___delgt_wgsp___eqgsp_clgtranslate_wrappergsp___delvv_indexgsp___eq1&amp;ver=51021f44395e9d18d677f5d95f5e7390" id="wpgs-script777-js"></script> <!-- Google tag (gtag.js) snippet added by Site Kit --> <!-- Google Analytics snippet added by Site Kit --> <script defer="" type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-16GNP152GK" id="google_gtagjs-js" async=""></script> <script defer="" type="text/javascript" id="google_gtagjs-js-after"> /* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["www.unite.ai"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-16GNP152GK");
+/* ]]> */ </script> <!-- End Google tag (gtag.js) snippet added by Site Kit --> <!-- OG: 3.3.1 --><meta property="og:image" content="https://www.unite.ai/wp-content/uploads/2023/02/Types-of-chatbot.png"><meta property="og:image:secure_url" content="https://www.unite.ai/wp-content/uploads/2023/02/Types-of-chatbot.png"><meta property="og:image:width" content="837"><meta property="og:image:height" content="628"><meta property="og:image:alt" content="chatbot"><meta property="og:image:type" content="image/png"><meta property="og:description" content="Sparčiai didėjant dirbtinio intelekto ir kalbos modelių naudojimui įmonėse, žinoma, kad pokalbių robotų naudojimas ir toliau augs kaip galingas verslo įrankis. Prognozuojama, kad pokalbių robotų pramonė iki 3.62 m. pabaigos pasieks 2030 milijardo JAV dolerių rinkos dydį, o metinis augimas sieks 23.9%. Neseniai..."><meta property="og:type" content="article"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="Unite.AI"><meta property="og:title" content="„Chatbot“ kūrimas nuo nulio: vadovas pradedančiajam"><meta property="og:url" content="https://www.unite.ai/lt/pokalbi%C5%B3-roboto-k%C5%ABrimas-nuo-nulio-pradedan%C4%8Di%C5%B3j%C5%B3-vadovas/"><meta property="og:updated_time" content="2023-02-16T17:32:47-05:00"><meta property="article:tag" content="artificial intelligence"><meta property="article:tag" content="chatbot"><meta property="article:tag" content="natural language processing"><meta property="article:tag" content="python"><meta property="article:published_time" content="2023-02-16T20:39:13+00:00"><meta property="article:modified_time" content="2023-02-16T22:32:47+00:00"><meta property="article:section" content="AI 101"><meta property="article:author:first_name" content="Haziqa"><meta property="article:author:last_name" content="Sajid"><meta property="article:author:username" content="Haziqa Sajid"><meta property="twitter:partner" content="ogwp"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:image" content="https://www.unite.ai/wp-content/uploads/2023/02/Types-of-chatbot.png"><meta property="twitter:image:alt" content="chatbot"><meta property="twitter:title" content="„Chatbot“ kūrimas nuo nulio: vadovas pradedančiajam"><meta property="twitter:description" content="Sparčiai didėjant dirbtinio intelekto ir kalbos modelių naudojimui įmonėse, žinoma, kad pokalbių robotų naudojimas ir toliau augs kaip galingas verslo įrankis. Prognozuojama, kad pokalbių robotų pramonė..."><meta property="twitter:url" content="https://www.unite.ai/lt/pokalbi%C5%B3-roboto-k%C5%ABrimas-nuo-nulio-pradedan%C4%8Di%C5%B3j%C5%B3-vadovas/"><meta itemprop="image" content="https://www.unite.ai/wp-content/uploads/2023/02/Types-of-chatbot.png"><meta itemprop="name" content="Creating a Chatbot from Scratch: A Beginner’s Guide"><meta itemprop="description" content="With the rapid rise in the use of&nbsp; AI and language models in businesses, it’s a given that chatbot usage will continue to grow as a powerful business tool. The chatbot industry is predicted to reach a market size of $3.62 billion by the end of 2030, with a yearly growth of 23.9%. In recent..."><meta itemprop="datePublished" content="2023-02-16"><meta itemprop="dateModified" content="2023-02-16T22:32:47+00:00"><meta itemprop="author" content="Haziqa Sajid"><meta property="profile:first_name" content="Haziqa"><meta property="profile:last_name" content="Sajid"><meta property="profile:username" content="Haziqa Sajid"> <!-- /OG --><link rel="https://api.w.org/" href="https://www.unite.ai/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://www.unite.ai/wp-json/wp/v2/posts/186130"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.unite.ai/xmlrpc.php?rsd"><link rel="shortlink" href="https://www.unite.ai/lt/?p=186130"><link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href=""><link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href=""><meta name="cdp-version" content="1.4.9"> <style> .cta-button {
+ display: inline-block;
+ padding: 10px 20px;
+ font-size: 16px;
+ font-weight: bold;
+ color: #ff6a13 !important;
+ background-color: transparent !important;
+ border: 2px solid #FF6A13 !important;
+ border-radius: 20px !important;
+ text-align: center;
+ text-decoration: none !important;
+ box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+ transition: color 0.3s, background-color 0.3s !important;
+ }
+ .cta-button-primary {
+ display: inline-block;
+ vertical-align: middle;
+ padding: 15px 30px;
+ font-size: 18px;
+ font-weight: bold;
+ color: #ffffff !important;
+ background-color: #ff6a13 !important;
+ border-radius: 20px !important;
+ text-align: center;
+ text-decoration: none !important;
+ margin-right: 10px !important;
+ box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+ } </style><meta name="generator" content="Site Kit by Google 1.138.0"><script type="text/javascript">//<![CDATA[
+ function external_links_in_new_windows_loop() {
+ if (!document.links) {
+ document.links = document.getElementsByTagName('a');
+ }
+ var change_link = false;
+ var force = 'https://www.unite.ai/lt/goto/';
+ var ignore = '';
+ for (var t=0; t<document.links.length; t++) {
+ var all_links = document.links[t];
+ change_link = false; 
+ if(document.links[t].hasAttribute('onClick') == false) {
+ // forced if the address starts with http (or also https), but does not link to the current domain
+ if(all_links.href.search(/^http/) != -1 && all_links.href.search('www.unite.ai') == -1 && all_links.href.search(/^#/) == -1) {
+ // console.log('Changed ' + all_links.href);
+ change_link = true;
+ } 
+ if(force != '' && all_links.href.search(force) != -1) {
+ // forced
+ // console.log('force ' + all_links.href);
+ change_link = true;
+ } 
+ if(ignore != '' && all_links.href.search(ignore) != -1) {
+ // console.log('ignore ' + all_links.href);
+ // ignored
+ change_link = false;
+ }
+ if(change_link == true) {
+ // console.log('Changed ' + all_links.href);
+ document.links[t].setAttribute('onClick', 'javascript:window.open(\'' + all_links.href.replace(/'/g, '') + '\', \'_blank\', \'noopener\'); return false;');
+ document.links[t].removeAttribute('target');
+ }
+ }
+ }
+ } 
+ // Load
+ function external_links_in_new_windows_load(func)
+ { 
+ var oldonload = window.onload;
+ if (typeof window.onload != 'function'){
+ window.onload = func;
+ } else {
+ window.onload = function(){
+ oldonload();
+ func();
+ }
+ }
+ }
+ external_links_in_new_windows_load(external_links_in_new_windows_loop);
+ //]]></script> <!-- Google Tag Manager snippet added by Site Kit --> <script type="text/javascript"> /* <![CDATA[ */
+ ( function( w, d, s, l, i ) {
+ w[l] = w[l] || [];
+ w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+ var f = d.getElementsByTagName( s )[0],
+ j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+ j.async = true;
+ j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+ f.parentNode.insertBefore( j, f );
+ } )( window, document, 'script', 'dataLayer', 'GTM-W7MXCVW' ); 
+/* ]]> */ </script> <!-- End Google Tag Manager snippet added by Site Kit --> <style type="text/css">/** Mega Menu CSS: fs **/</style><link rel="dns-prefetch" href="https://google-analytics.com/" data-set-by="Speed Optimizer by SiteGround"><link rel="dns-prefetch" href="https://googletagmanager.com/" data-set-by="Speed Optimizer by SiteGround"></head><body class="post-template-default single single-post postid-186130 single-format-standard mega-menu-main-menu"><div id="mvp-fly-wrap"><div id="mvp-fly-menu-top" class="left relative"><div class="mvp-fly-top-out left relative"><div class="mvp-fly-top-in"><div id="mvp-fly-logo" class="left relative"> <a href="https://www.unite.ai/lt/"><img width="230" height="30" src="https://www.unite.ai/wp-content/uploads/2021/03/logoUNITE230X30WHITE-1.svg" alt="Susivienyti.AI" data-rjs="2"></a></div><!--mvp-fly-logo--></div><!--mvp-fly-top-in--><div class="mvp-fly-but-wrap mvp-fly-but-menu mvp-fly-but-click"> <span></span> <span></span> <span></span> <span></span></div><!--mvp-fly-but-wrap--></div><!--mvp-fly-top-out--></div><!--mvp-fly-menu-top--><div id="mvp-fly-menu-wrap"><nav class="mvp-fly-nav-menu left relative"><div class="menu-fly-out-menu-container"><ul id="menu-fly-out-menu" class="menu"><li id="menu-item-185256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-185256"><a>AI įrankiai</a><ul class="sub-menu"><li id="menu-item-192061" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-192061"><a href="https://www.unite.ai/lt/geriausi-AI-%C4%AFrankiai-verslui/">Atsakingas verslas</a></li><li id="menu-item-188765" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-188765"><a href="https://www.unite.ai/lt/pokalbi%C5%B3-svetain%C4%97s/">Pokalbiai</a></li><li id="menu-item-188764" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-188764"><a href="https://www.unite.ai/lt/geriausi-ai-kod%C5%B3-generatoriai/">Kodo generatoriai</a></li><li id="menu-item-185263" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185263"><a href="https://www.unite.ai/lt/10-geriausi%C5%B3-%C5%A1vietimo-priemoni%C5%B3/">Išsilavinimas</a></li><li id="menu-item-185265" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185265"><a href="https://www.unite.ai/lt/geriausi-ai-kriptovaliut%C5%B3-prekybos-robotai/">Prekyba kriptovaliutomis</a></li><li id="menu-item-192062" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-192062"><a href="https://www.unite.ai/lt/geriausi-ai-headshot-generatoriai/">Šūvio generatoriai</a></li><li id="menu-item-185257" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185257"><a href="https://www.unite.ai/lt/geriausi-AI-vaizdo-padidinimo-%C4%AFrankiai/">Vaizdo stiprikliai</a></li><li id="menu-item-185258" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185258"><a href="https://www.unite.ai/lt/ai-meno-generatoriai/">Vaizdo generatoriai</a></li><li id="menu-item-192060" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-192060"><a href="https://www.unite.ai/lt/10-geriausi%C5%B3-AI-rinkodaros-%C4%AFranki%C5%B3/">rinkodaros įrankiai</a></li><li id="menu-item-185259" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185259"><a href="https://www.unite.ai/lt/geriausi-ai-muzikos-generatoriai/">Muzikos generatoriai</a></li><li id="menu-item-185662" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185662"><a href="https://www.unite.ai/lt/SEO-%C4%AFrankiai/">SEO</a></li><li id="menu-item-185266" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185266"><a href="https://www.unite.ai/lt/akcij%C5%B3-prekybos-robotai/">Akcijų prekyba</a></li><li id="menu-item-185264" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185264"><a href="https://www.unite.ai/lt/geriausi-teksto-%C4%AF-kalb%C4%85-generatoriai/">Tekstas į kalbą</a></li><li id="menu-item-185267" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185267"><a href="https://www.unite.ai/lt/geriausios-ai-transkripcijos-programin%C4%97s-%C4%AFrangos-paslaugos/">Transkripcija</a></li><li id="menu-item-185268" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185268"><a href="https://www.unite.ai/lt/geriausi-ai-vertimo-programin%C4%97s-%C4%AFrangos-%C4%AFrankiai/">Vertimas</a></li><li id="menu-item-185695" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185695"><a href="https://www.unite.ai/lt/geriausios-vaizdo-%C4%AFra%C5%A1%C5%B3-tobulinimo-%C4%AFranki%C5%B3-programos/">Vaizdo įrašų stiprikliai</a></li><li id="menu-item-185260" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185260"><a href="https://www.unite.ai/lt/geriausi-ai-vaizdo-generatoriai/">Vaizdo įrašų generatoriai</a></li><li id="menu-item-185261" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185261"><a href="https://www.unite.ai/lt/balso-generatoriai/">Balso generatoriai</a></li><li id="menu-item-185262" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185262"><a href="https://www.unite.ai/lt/geriausios-AI-ra%C5%A1ymo-priemon%C4%97s/">Rašymo įrankiai</a></li></ul></li><li id="menu-item-168671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-168671"><a href="https://www.unite.ai/lt/konferencijos/">Renginiai</a><ul class="sub-menu"><li id="menu-item-170264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170264"><a href="https://www.unite.ai/lt/konferencijos/">AI konferencijos</a></li><li id="menu-item-200859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200859"><a href="https://www.unite.ai/lt/papildytos-konferencijos/">AR, VR ir XR konferencijos</a></li><li id="menu-item-170263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170263"><a href="https://www.unite.ai/lt/kibernetinio-saugumo-konferencijose/">Kibernetinio saugumo konferencijos</a></li><li id="menu-item-173318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173318"><a href="https://www.unite.ai/lt/robotikos-konferencijos/">Robotikos konferencijos</a></li><li id="menu-item-183119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183119"><a href="https://www.unite.ai/lt/seo-konferencijos/">SEO konferencijos</a></li></ul></li><li id="menu-item-168630" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-168630"><a href="https://www.unite.ai/lt/">Naujienos</a><ul class="sub-menu"><li id="menu-item-168632" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168632"><a href="https://www.unite.ai/lt/kategorija/dirbtinis-intelektas/">Dirbtinis intelektas</a></li><li id="menu-item-168631" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168631"><a href="https://www.unite.ai/lt/kategorija/AGI/">Bendrasis dirbtinis intelektas</a></li><li id="menu-item-168634" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168634"><a href="https://www.unite.ai/lt/kategorija/smegen%C5%B3-ma%C5%A1inos-s%C4%85saja/">Smegenų mašinos sąsaja</a></li><li id="menu-item-169601" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-169601"><a href="https://www.unite.ai/lt/kategorija/Kibernetin%C4%97-sauga/">Kibernetinė sauga</a></li><li id="menu-item-169137" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-169137"><a href="https://www.unite.ai/lt/kategorija/etika/">Etika</a></li><li id="menu-item-168639" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168639"><a href="https://www.unite.ai/lt/kategorija/sveikatos-prie%C5%BEi%C5%ABros/">Sveikatos apsauga</a></li><li id="menu-item-168670" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168670"><a href="https://www.unite.ai/lt/kategorija/interviu/">Interviu</a></li><li id="menu-item-168932" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168932"><a href="https://www.unite.ai/lt/kategorija/investicijos/">investicijos</a></li><li id="menu-item-168642" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168642"><a href="https://www.unite.ai/lt/kategorija/Kvantin%C4%97-kompiuterija/">Kvantinė kompiuterija</a></li><li id="menu-item-168643" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168643"><a href="https://www.unite.ai/lt/kategorija/reguliavimas/">Reguliavimas</a></li><li id="menu-item-168646" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168646"><a href="https://www.unite.ai/lt/kategorija/robot%C5%B3/">Robotai</a></li><li id="menu-item-170342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-170342"><a href="https://www.unite.ai/lt/kategorija/prie%C5%BEi%C5%ABra/">Priežiūra</a></li><li id="menu-item-169002" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-169002"><a href="https://www.unite.ai/lt/kategorija/min%C4%8Di%C5%B3-lyderiai/">Minties lyderiai</a></li></ul></li><li id="menu-item-173905" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-173905"><a>Sertifikatai</a><ul class="sub-menu"><li id="menu-item-174212" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-174212"><a href="https://www.unite.ai/lt/%E2%80%9Eblockchain%E2%80%9C-sertifikatai/">Blockchain</a></li><li id="menu-item-174203" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-174203"><a href="https://www.unite.ai/lt/7-geriausi-debes%C5%B3-sertifikatai/">debesis</a></li><li id="menu-item-173907" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-173907"><a href="https://www.unite.ai/lt/geriausi-kibernetinio-saugumo-sertifikatai/">Kibernetinė sauga</a></li><li id="menu-item-173999" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-173999"><a href="https://www.unite.ai/lt/geriausi-duomen%C5%B3-mokslo-sertifikatai/">duomenų Mokslas</a></li><li id="menu-item-173953" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-173953"><a href="https://www.unite.ai/lt/geriausi-ma%C5%A1ininio-mokymosi-sertifikatai/">Mašininis mokymasis</a></li><li id="menu-item-174184" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-174184"><a href="https://www.unite.ai/lt/5-geriausi-nlp-sertifikatai/">Gamtos kalbos apdorojimas</a></li><li id="menu-item-196546" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-196546"><a href="https://www.unite.ai/lt/greitus-in%C5%BEinerijos-kursus/">Greita inžinerija</a></li><li id="menu-item-173906" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-173906"><a href="https://www.unite.ai/lt/geriausi-python-sertifikatai/">Pitonas</a></li><li id="menu-item-174164" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-174164"><a href="https://www.unite.ai/lt/5-geriausi-RPA-sertifikatai/">Robotų procesų automatizavimas</a></li><li id="menu-item-173926" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-173926"><a href="https://www.unite.ai/lt/geriausi-tensorflow-sertifikatai/">TensorFlow</a></li><li id="menu-item-168673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168673"><a href="https://www.unite.ai/lt/kursai/">kursai</a></li></ul></li><li id="menu-item-182247" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-182247"><a>„Python“ bibliotekos</a><ul class="sub-menu"><li id="menu-item-182248" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-182248"><a href="https://www.unite.ai/lt/10-geriausi%C5%B3-duomen%C5%B3-mokslo-python-bibliotek%C5%B3/">duomenų Mokslas</a></li><li id="menu-item-182250" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-182250"><a href="https://www.unite.ai/lt/10-geriausi%C5%B3-python-bibliotek%C5%B3-giliam-mokymuisi/">Gilus mokymasis</a></li><li id="menu-item-182252" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-182252"><a href="https://www.unite.ai/lt/10-geriausi%C5%B3-%E2%80%9Epython%E2%80%9C-vaizdo-apdorojimo-bibliotek%C5%B3/">Vaizdo apdorojimas</a></li><li id="menu-item-182251" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-182251"><a href="https://www.unite.ai/lt/10-geriausi%C5%B3-python-bibliotek%C5%B3%2C-skirt%C5%B3-ma%C5%A1ininiam-mokymuisi/">Mašininis mokymasis</a></li><li id="menu-item-182249" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-182249"><a href="https://www.unite.ai/lt/10-geriausi%C5%B3-python-bibliotek%C5%B3%2C-skirt%C5%B3-nat%C5%ABralios-kalbos-apdorojimui/">Gamtos kalbos apdorojimas</a></li></ul></li><li id="menu-item-194993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-194993"><a href="https://www.unite.ai/lt/domenai/">Domenų vardai</a></li><li id="menu-item-184084" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-184084"><a href="https://www.unite.ai/lt/ai-naujienlai%C5%A1kiai/">Naujienų prenumerata</a></li><li id="menu-item-168676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168676"><a href="https://www.unite.ai/lt/susisiekite-su-mumis/">Kontaktai</a></li></ul></div></nav></div><!--mvp-fly-menu-wrap--><div id="mvp-fly-soc-wrap"> <span class="mvp-fly-soc-head">Susisiekti su mumis</span><ul class="mvp-fly-soc-list left relative"><li><a href="https://www.facebook.com/uniteai" target="_blank" class="fa fa-facebook fa-2"></a></li><li><a href="https://twitter.com/UniteAI" target="_blank" class="fa fa-twitter fa-2"></a></li><li><a href="https://www.unite.ai/lt/maitinti/" target="_blank" class="fa fa-google-plus fa-2"></a></li><li><a href="https://www.linkedin.com/company/unite-ai" target="_blank" class="fa fa-linkedin fa-2"></a></li></ul></div><!--mvp-fly-soc-wrap--></div><!--mvp-fly-wrap--><div id="mvp-site" class="left relative"><div id="mvp-search-wrap"><div id="mvp-search-box"><form method="get" id="searchform" action="https://www.unite.ai/lt/"> <input type="text" name="s" value="Search" onfocus="if (this.value == &quot;Search&quot;) { this.value = &quot;&quot;; }" onblur="if (this.value == &quot;&quot;) { this.value = &quot;Search&quot;; }" aria-label="searchform"> <input type="hidden" id="searchsubmit" value="Search"></form></div><!--mvp-search-box--><div class="mvp-search-but-wrap mvp-search-click"> <span></span> <span></span></div><!--mvp-search-but-wrap--></div><!--mvp-search-wrap--><div id="mvp-site-wall" class="left relative"><div id="mvp-site-main" class="left relative"><header id="mvp-main-head-wrap" class="left relative"><nav id="mvp-main-nav-wrap" class="left relative"><div id="mvp-main-nav-small" class="left relative"><div id="mvp-main-nav-small-cont" class="left"><div class="mvp-main-box"><div id="mvp-nav-small-wrap"><div class="mvp-nav-small-right-out left"><div class="mvp-nav-small-right-in"><div class="mvp-nav-small-cont left"><div class="mvp-nav-small-left-out right"><div id="mvp-nav-small-left" class="left relative"><div class="mvp-fly-but-wrap mvp-fly-but-click left relative"> <span></span> <span></span> <span></span> <span></span></div><!--mvp-fly-but-wrap--></div><!--mvp-nav-small-left--><div class="mvp-nav-small-left-in"><div class="mvp-nav-small-mid left"><div class="mvp-nav-small-logo left relative"> <a href="https://www.unite.ai/lt/"><img width="230" height="30" src="https://www.unite.ai/wp-content/uploads/2021/03/logoUNITE230X30BLACK-1.svg" alt="Susivienyti.AI" data-rjs="2"></a><h2 class="mvp-logo-title">Susivienyti.AI</h2></div><!--mvp-nav-small-logo--><div class="mvp-nav-small-mid-right left"><div class="mvp-drop-nav-title left"><h4>„Chatbot“ kūrimas nuo nulio: vadovas pradedančiajam</h4></div><!--mvp-drop-nav-title--><div class="mvp-nav-menu left"><div id="mega-menu-wrap-main-menu" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class="mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0" id="mega-toggle-block-0"><button aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button" aria-expanded="false"> <span class="mega-toggle-animated-box"> <span class="mega-toggle-animated-inner"></span> </span> </button></div></div></div><ul id="mega-menu-main-menu" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="768" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-185146" id="mega-menu-item-185146"><a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">AI įrankiai<span class="mega-indicator"></span></a><ul class="mega-sub-menu"><li class="mega-menu-row" id="mega-menu-185146-0"><ul class="mega-sub-menu"><li class="mega-menu-column mega-menu-columns-3-of-12" id="mega-menu-185146-0-0"><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-185185" id="mega-menu-item-185185"><a class="mega-menu-link">Generatyvinis AI<span class="mega-indicator"></span></a><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-198696" id="mega-menu-item-198696"><a class="mega-menu-link" href="https://www.unite.ai/lt/verslo-plan%C5%B3-generatoriai/">Verslo planai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-194548" id="mega-menu-item-194548"><a class="mega-menu-link" href="https://www.unite.ai/lt/10-geriausi%C5%B3-animacini%C5%B3-film%C5%B3-%C4%AFranki%C5%B3/">Karikatūra</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-188762" id="mega-menu-item-188762"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-kod%C5%B3-generatoriai/">kodas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-192048" id="mega-menu-item-192048"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-el.-pa%C5%A1to-generatoriai/">Parašyta</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-192047" id="mega-menu-item-192047"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-headshot-generatoriai/">Galvos smūgiai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185154" id="mega-menu-item-185154"><a class="mega-menu-link" href="https://www.unite.ai/lt/ai-meno-generatoriai/">Vaizdai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-194552" id="mega-menu-item-194552"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-medijos-rinkini%C5%B3-generatoriai/">Medijos rinkiniai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185152" id="mega-menu-item-185152"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-muzikos-generatoriai/">muzika</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-197170" id="mega-menu-item-197170"><a class="mega-menu-link" href="https://www.unite.ai/lt/pitch-denio-generatoriai/">Pitch Deck</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-196720" id="mega-menu-item-196720"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-pristatym%C5%B3-generatoriai/">Pristatymai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-194553" id="mega-menu-item-194553"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-eskizo-%C4%AF-vaizd%C4%85-atvaizdavimo-%C4%AFrankiai/">Eskizas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185149" id="mega-menu-item-185149"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-vaizdo-generatoriai/">Video</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185173" id="mega-menu-item-185173"><a class="mega-menu-link" href="https://www.unite.ai/lt/balso-generatoriai/">Balsas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185182" id="mega-menu-item-185182"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausios-AI-ra%C5%A1ymo-priemon%C4%97s/">Rašymo</a></li></ul></li></ul></li><li class="mega-menu-column mega-menu-columns-3-of-12 mega-hide-on-mobile" id="mega-menu-185146-0-1"><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-185184" id="mega-menu-item-185184"><a class="mega-menu-link">Verslo AI<span class="mega-indicator"></span></a><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185175" id="mega-menu-item-185175"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-AI-%C4%AFrankiai-verslui/">Atsakingas verslas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-188763" id="mega-menu-item-188763"><a class="mega-menu-link" href="https://www.unite.ai/lt/pokalbi%C5%B3-svetain%C4%97s/">Pokalbiai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-198280" id="mega-menu-item-198280"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-dokument%C5%B3-valdymo-sprendimai/">Doc Management</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185150" id="mega-menu-item-185150"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-etl-%C4%AFrankiai/">ETL</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-193917" id="mega-menu-item-193917"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-teisininkai-pad%C4%97j%C4%97jai/">Teisės padėjėjai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185179" id="mega-menu-item-185179"><a class="mega-menu-link" href="https://www.unite.ai/lt/10-geriausi%C5%B3-AI-rinkodaros-%C4%AFranki%C5%B3/">prekyba</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-194549" id="mega-menu-item-194549"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausios-vie%C5%A1ojo-kalb%C4%97jimo-priemon%C4%97s/">Viešojo kalbėjimo</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185180" id="mega-menu-item-185180"><a class="mega-menu-link" href="https://www.unite.ai/lt/ai-%C4%AFdarbinimo-%C4%AFrankiai/">Darbuotojų samdymas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-194547" id="mega-menu-item-194547"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-CV-k%C5%ABr%C4%97jai-cv-k%C5%ABr%C4%97jai/">CV ir CV</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185661" id="mega-menu-item-185661"><a class="mega-menu-link" href="https://www.unite.ai/lt/SEO-%C4%AFrankiai/">SEO</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185177" id="mega-menu-item-185177"><a class="mega-menu-link" href="https://www.unite.ai/lt/10-geriausi%C5%B3-socialin%C4%97s-%C5%BEiniasklaidos-priemoni%C5%B3/">Social Media</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185174" id="mega-menu-item-185174"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-teksto-%C4%AF-kalb%C4%85-generatoriai/">Tekstas į kalbą</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-195749" id="mega-menu-item-195749"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-baltos-etiket%C4%97s-ai-%C4%AFrankiai/">White Label</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-198281" id="mega-menu-item-198281"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-darbo-valdymo-programin%C4%97s-%C4%AFrangos-%C4%AFrankiai/">Darbo valdymas</a></li></ul></li></ul></li><li class="mega-menu-column mega-menu-columns-3-of-12" id="mega-menu-185146-0-2"><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-185183" id="mega-menu-item-185183"><a class="mega-menu-link">AI optimizavimas<span class="mega-indicator"></span></a><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185172" id="mega-menu-item-185172"><a class="mega-menu-link" href="https://www.unite.ai/lt/10-geriausi%C5%B3-ai-pad%C4%97j%C4%97j%C5%B3/">AI asistentai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-193923" id="mega-menu-item-193923"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-be-kodo-program%C5%B3-k%C5%ABr%C4%97jai/">Programėlių kūrėjai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-195341" id="mega-menu-item-195341"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-garso-stiprikliai/">Garso stiprikliai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-186570" id="mega-menu-item-186570"><a class="mega-menu-link" href="https://www.unite.ai/lt/chromo-pl%C4%97tiniai/">Chrome "plėtiniai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185181" id="mega-menu-item-185181"><a class="mega-menu-link" href="https://www.unite.ai/lt/10-geriausi%C5%B3-duomen%C5%B3-valymo-%C4%AFranki%C5%B3/">Duomenų valymas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185147" id="mega-menu-item-185147"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-AI-vaizdo-padidinimo-%C4%AFrankiai/">Vaizdo stiprikliai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-197682" id="mega-menu-item-197682"><a class="mega-menu-link" href="https://www.unite.ai/lt/10-geriausi%C5%B3-AI-vaizdo-pl%C4%97tini%C5%B3/">Vaizdo plėstuvai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-197172" id="mega-menu-item-197172"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-nemokami-ai-vaizdo-dyd%C5%BEio-keitimo-%C4%AFrankiai/">Image resizer</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-197171" id="mega-menu-item-197171"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-AI-nuotrauk%C5%B3-redagavimo-%C4%AFrankiai/">Nuotraukų redagavimas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185151" id="mega-menu-item-185151"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausios-ai-transkripcijos-programin%C4%97s-%C4%AFrangos-paslaugos/">Transkripcija</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185148" id="mega-menu-item-185148"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-vertimo-programin%C4%97s-%C4%AFrangos-%C4%AFrankiai/">Vertimas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185694" id="mega-menu-item-185694"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausios-vaizdo-%C4%AFra%C5%A1%C5%B3-tobulinimo-%C4%AFranki%C5%B3-programos/">Vaizdo įrašų stiprikliai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-193924" id="mega-menu-item-193924"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-svetaini%C5%B3-k%C5%ABr%C4%97jai/">Svetainių kūrėjai</a></li></ul></li></ul></li><li class="mega-menu-column mega-menu-columns-3-of-12" id="mega-menu-185146-0-3"><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-193921" id="mega-menu-item-193921"><a class="mega-menu-link">Įrankių rinkinys AI<span class="mega-indicator"></span></a><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-197169" id="mega-menu-item-197169"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausios-CRM-programin%C4%97s-%C4%AFrangos-platformos/">CRM platformos</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185178" id="mega-menu-item-185178"><a class="mega-menu-link" href="https://www.unite.ai/lt/ai-%C4%AFranki%C5%B3-duomen%C5%B3-analitikai/">Duomenų analitikai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185176" id="mega-menu-item-185176"><a class="mega-menu-link" href="https://www.unite.ai/lt/10-geriausi%C5%B3-%C5%A1vietimo-priemoni%C5%B3/">Išsilavinimas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-193922" id="mega-menu-item-193922"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-mados-dizainerio-%C4%AFrankiai/">Mados dizaineriai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-193918" id="mega-menu-item-193918"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-medicinos-ra%C5%A1tininkai/">Medicinos raštininkai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185153" id="mega-menu-item-185153"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ai-kriptovaliut%C5%B3-prekybos-robotai/">Prekybos kriptografija</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185155" id="mega-menu-item-185155"><a class="mega-menu-link" href="https://www.unite.ai/lt/akcij%C5%B3-prekybos-robotai/">Prekyba akcijomis</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-197168" id="mega-menu-item-197168"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-darbo-valdymo-programin%C4%97s-%C4%AFrangos-%C4%AFrankiai/">Užduočių valdymas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-197398" id="mega-menu-item-197398"><a class="mega-menu-link" href="https://www.unite.ai/lt/10-geriausi%C5%B3-tendencij%C5%B3-analiz%C4%97s-programin%C4%97s-%C4%AFrangos-ai-%C4%AFranki%C5%B3/">Tendencijų analizė</a></li></ul></li></ul></li></ul></li><li class="mega-menu-row" id="mega-menu-185146-2"><ul class="mega-sub-menu"><li class="mega-menu-column mega-menu-columns-3-of-12" id="mega-menu-185146-2-0"></li></ul></li><li class="mega-menu-row" id="mega-menu-185146-3"><ul class="mega-sub-menu"><li class="mega-menu-column mega-menu-columns-3-of-12" id="mega-menu-185146-3-0"></li></ul></li></ul></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-185162" id="mega-menu-item-185162"><a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Sertifikatai<span class="mega-indicator"></span></a><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-187839" id="mega-menu-item-187839"><a class="mega-menu-link" href="https://www.unite.ai/lt/%E2%80%9Eblockchain%E2%80%9C-sertifikatai/">Blockchain sertifikatai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185163" id="mega-menu-item-185163"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-chatbot-kursai/">Pokalbiai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185165" id="mega-menu-item-185165"><a class="mega-menu-link" href="https://www.unite.ai/lt/7-geriausi-debes%C5%B3-sertifikatai/">debesis</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-187836" id="mega-menu-item-187836"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-kibernetinio-saugumo-sertifikatai/">Kibernetinė sauga</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185168" id="mega-menu-item-185168"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-duomen%C5%B3-mokslo-sertifikatai/">duomenų Mokslas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185169" id="mega-menu-item-185169"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-ma%C5%A1ininio-mokymosi-sertifikatai/">Mašininis mokymasis</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185166" id="mega-menu-item-185166"><a class="mega-menu-link" href="https://www.unite.ai/lt/5-geriausi-nlp-sertifikatai/">Gamtos kalbos apdorojimas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-196545" id="mega-menu-item-196545"><a class="mega-menu-link" href="https://www.unite.ai/lt/greitus-in%C5%BEinerijos-kursus/">Greita inžinerija</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185171" id="mega-menu-item-185171"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-python-sertifikatai/">Pitonas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185167" id="mega-menu-item-185167"><a class="mega-menu-link" href="https://www.unite.ai/lt/5-geriausi-RPA-sertifikatai/">Robotų procesų automatizavimas</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-185170" id="mega-menu-item-185170"><a class="mega-menu-link" href="https://www.unite.ai/lt/geriausi-tensorflow-sertifikatai/">TensorFlow</a></li></ul></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-185156" id="mega-menu-item-185156"><a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Renginiai<span class="mega-indicator"></span></a><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-185245" id="mega-menu-item-185245"><a class="mega-menu-link" href="https://www.unite.ai/lt/konferencijos/">AI konferencijos</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-200860" id="mega-menu-item-200860"><a class="mega-menu-link" href="https://www.unite.ai/lt/papildytos-konferencijos/">AR, VR ir XR konferencijos</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-185159" id="mega-menu-item-185159"><a class="mega-menu-link" href="https://www.unite.ai/lt/kibernetinio-saugumo-konferencijose/">Kibernetinio saugumo konferencijos</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-185158" id="mega-menu-item-185158"><a class="mega-menu-link" href="https://www.unite.ai/lt/robotikos-konferencijos/">Robotikos konferencijos</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-185157" id="mega-menu-item-185157"><a class="mega-menu-link" href="https://www.unite.ai/lt/seo-konferencijos/">SEO konferencijos</a></li></ul></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-185186" id="mega-menu-item-185186"><a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Naujienos<span class="mega-indicator"></span></a><ul class="mega-sub-menu"><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-home mega-menu-item-185187" id="mega-menu-item-185187"><a class="mega-menu-link" href="https://www.unite.ai/lt/">Visi</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185199" id="mega-menu-item-185199"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/dirbtinis-intelektas/">Dirbtinis intelektas</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185198" id="mega-menu-item-185198"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/AGI/">Bendrasis dirbtinis intelektas</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185200" id="mega-menu-item-185200"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/Papildytos-realyb%C4%97s/">Papildytosios realybės</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185201" id="mega-menu-item-185201"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/smegen%C5%B3-ma%C5%A1inos-s%C4%85saja/">Smegenų mašinos sąsaja</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185196" id="mega-menu-item-185196"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/Kibernetin%C4%97-sauga/">Kibernetinė sauga</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185206" id="mega-menu-item-185206"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/etika/">Etika</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185207" id="mega-menu-item-185207"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/futuristinis-serialas/">Futuristų serija</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185189" id="mega-menu-item-185189"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/sveikatos-prie%C5%BEi%C5%ABros/">Sveikatos apsauga</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185209" id="mega-menu-item-185209"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/investicijos/">investicijos</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185210" id="mega-menu-item-185210"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/Kvantin%C4%97-kompiuterija/">Kvantinė kompiuterija</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185211" id="mega-menu-item-185211"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/reguliavimas/">Reguliavimas</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185188" id="mega-menu-item-185188"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/robot%C5%B3/">Robotai</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-185213" id="mega-menu-item-185213"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/prie%C5%BEi%C5%ABra/">Priežiūra</a></li></ul></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-align-bottom-left mega-menu-flyout mega-menu-item-185160" id="mega-menu-item-185160"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/interviu/" tabindex="0">Interviu</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-align-bottom-left mega-menu-flyout mega-menu-item-185161" id="mega-menu-item-185161"><a class="mega-menu-link" href="https://www.unite.ai/lt/kategorija/min%C4%8Di%C5%B3-lyderiai/" tabindex="0">Minties lyderiai</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-196906" id="mega-menu-item-196906"><a class="mega-menu-link" href="https://www.unite.ai/lt/domenai/" tabindex="0">.AI domenai</a></li></ul></div></div><!--mvp-nav-menu--></div><!--mvp-nav-small-mid-right--></div><!--mvp-nav-small-mid--></div><!--mvp-nav-small-left-in--></div><!--mvp-nav-small-left-out--></div><!--mvp-nav-small-cont--></div><!--mvp-nav-small-right-in--><div id="mvp-nav-small-right" class="right relative"> <span class="mvp-nav-search-but fa fa-search fa-2 mvp-search-click"></span></div><!--mvp-nav-small-right--></div><!--mvp-nav-small-right-out--></div><!--mvp-nav-small-wrap--></div><!--mvp-main-box--></div><!--mvp-main-nav-small-cont--></div><!--mvp-main-nav-small--></nav><!--mvp-main-nav-wrap--> <!-- SHOULD BE REMOVED<link rel="preload" href="/lt/wp-content/uploads/omgf/mvp-fonts/roboto-normal-400.woff2" as="font" crossorigin="anonymous"> --></header><!--mvp-main-head-wrap--><div id="mvp-main-body-wrap" class="left relative "> <script type="text/javascript"> function displayImageOnDesktop() {
+ var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+ if (screenWidth <= 768) { // If the screen width is less than or equal to 768px
+ document.getElementById('desktopImage').style.display = 'none'; // Hide the image
+ }
+ }
+</script><pre style="display:none"></pre><article id="mvp-article-wrap" itemscope="" itemtype="http://schema.org/NewsArticle" class="cat_menu__style2"><meta itemscope="" itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="https://www.unite.ai/creating-a-chatbot-from-scratch-a-beginners-guide/"><div id="mvp-article-cont" class="left relative "><div class="mvp-main-box"><div id="mvp-post-main" class="left relative"><div class="mvp-post-main-out left relative"><div id="mvp-side-wrap" class="left relative theiaStickySidebar"><section id="search-3" class="widget mvp-side-widget widget_search"><form method="get" id="searchform" action="https://www.unite.ai/lt/"> <input type="text" name="s" value="Search" onfocus="if (this.value == &quot;Search&quot;) { this.value = &quot;&quot;; }" onblur="if (this.value == &quot;&quot;) { this.value = &quot;Search&quot;; }" aria-label="searchform"> <input type="hidden" id="searchsubmit" value="Search"></form></section><section id="custom_html-8" class="widget_text widget mvp-side-widget widget_custom_html"><div class="textwidget custom-html-widget"></div></section></div><!--mvp-side-wrap--><div class="mvp-post-main-in"><header id="mvp-post-head" class="left relative"><h3 class="mvp-post-cat left relative"> <a class="mvp-post-cat-link" href="https://www.unite.ai/lt/kategorija/kas-101/"> <span class="mvp-post-cat left"> AI 101 m </span> </a></h3><h1 class="mvp-post-title left entry-title" itemprop="headline">„Chatbot“ kūrimas nuo nulio: vadovas pradedančiajam</h1><div class="mvp-author-info-wrap left relative top__author__info "><div class="mvp-author-info-thumb left relative"> <img alt="mm" src="https://www.unite.ai/wp-content/uploads/2022/12/haziqa-150x150.jpg" class="avatar avatar-46 photo" height="46" width="46"></div><!--mvp-author-info-thumb--><div class="mvp-author-info-text left relative"><div class="mvp-author-info-date left relative"> <span>Atnaujinta</span> <span>on</span> <span class="mvp-post-date updated"> <time class="post-date updated" itemprop="dateUpdated" datetime="2023-02-16">Vasaris 16, 2023</time> </span><meta itemprop="dateModified" content="2023-02-16"></div><!--mvp-author-info-date--><div class="mvp-author-info-name left relative" itemprop="author" itemscope="" itemtype="https://schema.org/Person"><p>By</p> <span class="author-name  light__gray vcard fn author" itemprop="name"> <a href="https://www.unite.ai/lt/autorius/haziqasajid/" title="Haziqa Sajid įrašai" rel="author">Haziqa Sajid</a> </span></div><!--mvp-author-info-name--></div><!--mvp-author-info-text--></div><!--mvp-author-info-wrap--></header><div id="mvp-post-content" class="left relative"><div class="table__of__content" style="display:none;"><h4><i class="fa fa-list" aria-hidden="true"></i> Turinys</h4><ul id="toc__list"></ul></div><div id="mvp-post-feat-img" class="left relative mvp-post-feat-img-wide2" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject"> <img width="837" height="628" src="https://www.unite.ai/wp-content/uploads/2023/02/Types-of-chatbot.png" class="attachment- size- wp-post-image" alt="pokalbis" decoding="async" fetchpriority="high" sizes="(max-width: 837px) 100vw, 837px"><meta itemprop="url" content="https://www.unite.ai/wp-content/uploads/2023/02/Types-of-chatbot-837x600.png"><meta itemprop="width" content="837"><meta itemprop="height" content="600"></div><!--mvp-post-feat-img--><div id="mvp-content-wrap" class="left relative"><div class="mvp-post-soc-out right relative"><div class="mvp-post-soc-in"><div id="mvp-content-body" class="left relative"><div id="mvp-content-body-top" class="left relative"><div id="mvp-content-main" class="left relative"><p class="gt-block">Sparčiai didėjant AI naudojimui ir <a href="https://builtin.com/data-science/beginners-guide-language-models">kalbos modeliai</a> įmonėse pokalbių robotų naudojimas ir toliau augs kaip galingas verslo įrankis. Prognozuojama, kad pokalbių robotų pramonė pasieks rinkos dydį <a href="https://www.globenewswire.com/news-release/2022/06/29/2471371/0/en/Chatbot-Market-Growth-is-projected-to-reach-USD-3-62-Billion-by-2030-growing-at-a-CAGR-of-23-9-Straits-Research.html">Iki 3.62 m. Pabaigos - 2030 milijardų dolerių</a>, metinis augimas 23.9%.</p><p>Pastaruoju metu verslo lyderiai kreipiasi į pokalbių robotus ir daug investuoja į jų kūrimą ir diegimą. Dėl didėjančios pranešimų siuntimo programų paklausos rinkodaros pasaulyje klesti pokalbių robotai.</p><p>Šiame straipsnyje mes išnagrinėsime, kaip sukurti paprastą pokalbių robotą Python, aptarsime jo tipus, pokalbių robotų naudojimo pranašumus ir būsimą pokalbių robotų potencialą.</p><h2>Kas yra „chatbot“?</h2><p>Pokalbių robotas yra programinė įranga arba kompiuterinė programa, kuri naudoja dirbtinio intelekto (AI) ir natūralios kalbos apdorojimo (NLP) metodus, kad automatizuotų atsakymus ir suprastų klientų klausimus, imituojant žmonių pokalbius.</p><p>Pavyzdžiui, OpenAI ChatGPT, pagrįstas GPT-3 kalbos modeliu, yra puikus pokalbių roboto pavyzdys. „ChatGPT“ yra pokalbio AI modelis, kuris buvo išmokytas naudoti didžiulius teksto kiekius iš interneto ir gali reaguoti į žmogaus įvestus duomenis.</p><p>Pokalbių robotai leidžia žmonėms bendrauti su skaitmeniniais įrenginiais, kurie yra analogiški žmonių bendravimui tarpusavyje.</p><h2>Kaip veikia pokalbių robotas?</h2><p>Sąvoka „chatbot“ yra plati, nes pokalbių robotai būna įvairių formų ir dydžių. Pokalbių robotai veikia atsakydami į jūsų užklausas, komentarus ir klausimus naudodami žiniatinklio pokalbių sąsają arba balso technologiją. Jie naudoja įvairias technologijas, įskaitant natūralios kalbos apdorojimą (NLP), automatizuotas taisykles, AI ir mašininį mokymąsi (ML).</p><p>Natūralios kalbos apdorojimas (NLP) naudoja kitų sričių, apimančių kalbotyrą, informatiką ir dirbtinį intelektą, sąvokas. Jis apdoroja žmonių kalbą naudodamas daug tekstinių duomenų, kad nuspėtų rezultatus.</p><p>Automatinės pokalbių roboto taisyklės reiškia iš anksto nustatytas sąlygas arba instrukcijas, kurios užprogramuotos suaktyvinti tam tikrus atsakymus, reaguojant į konkretų vartotojo įvestį.</p><p>Mašinų mokymasis yra AI polaukis, leidžiantis žiniatinklio programoms tiksliai numatyti rezultatus. Jis naudoja istorinius duomenis modeliams apmokyti ir pateikti tikslius rezultatus.</p><h2>Pokalbių robotų tipai</h2><p>Yra įvairių tipų pokalbių robotų, kurie išvardyti toliau:</p><ol><li>Taisyklėmis pagrįsti pokalbių robotai: šie pokalbių robotai sukurti taip, kad atitiktų tam tikrą taisyklių rinkinį ir pateiktų iš anksto nustatytus atsakymus į konkrečius klausimus ar komandas.</li><li>Raktinių žodžių atpažinimu pagrįsti pokalbių robotai: šie pokalbių robotai atpažįsta konkrečius raktinius žodžius arba raktinių žodžių derinius iš vartotojo užklausos turinio ir pateikia atitinkamą atsakymą pagal tuos raktinius žodžius.</li><li>Mašininio mokymosi pokalbių robotai: šie pokalbių robotai naudoja mašininio mokymosi (ML) metodus, kad suprastų vartotojo įvestį ir pateiktų atsiliepimus apie klausimus ir užklausas. Jie gali mokytis iš ankstesnės sąveikos ir atitinkamai pritaikyti savo atsakymus.</li><li>Hibridinis modelis: šio tipo pokalbių robotai yra ir automatizavimo, ir tiesioginio agento derinys, išnaudojantis stipriąsias puses, kad pateiktų lankstesnį sprendimą įprastinėms klientų aptarnavimo užduotims atlikti.</li><li>Balso įgalinti pokalbių robotai: šie pokalbių robotai yra skirti bendrauti su vartotojais naudojant balso komandas ir natūralios kalbos apdorojimą (NLP), todėl jie puikiai tinka balsu įjungiamiems virtualiems padėjėjams.</li></ol><h2>Sukurkite paprastą pokalbių robotą „Python“.</h2><p>Šiame skyriuje mes sukursime paprastą pokalbių robotą Python. Yra įvairių būdų, kaip sukurti pokalbių robotą, nuo paprastų iki sudėtingų. Čia mes naudosime tik funkciją ir sąlyginius teiginius, kad įdiegtume pokalbių roboto programą.</p><p>Pasinerkime į chatbot kodavimą!</p><table><tbody><tr><td><span style="font-weight: 400;">#Sukurkime paprastą pokalbių robotą „Python“. </span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">#apibūdinkite pasisveikinimo funkciją </span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">Gyn</span> <span style="font-weight: 400;">pasveikink</span><span style="font-weight: 400;">(bot_name, birth_year):</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">#atspausdinkite klausimo atsakymus </span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; spausdinti (</span><span style="font-weight: 400;">f"Chatbot: Sveiki, aš esu {bot_name}. Aš buvau sukurtas {birth_year}.</span><span style="font-weight: 400;">)</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; spausdinti (</span><span style="font-weight: 400;">„Chatbot: kaip aš galiu tau šiandien padėti?</span><span style="font-weight: 400;">)</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">#Atsakyti naudokite kitą funkciją </span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">Gyn</span> <span style="font-weight: 400;">atsakyti</span><span style="font-weight: 400;">(user_input):</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">#naudokite sąlyginius teiginius </span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; </span><span style="font-weight: 400;">if</span><span style="font-weight: 400;"> user_input.lower() == </span><span style="font-weight: 400;">"labas"</span> <span style="font-weight: 400;">or</span><span style="font-weight: 400;"> user_input.lower() == </span><span style="font-weight: 400;">"Sveiki"</span><span style="font-weight: 400;">:</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="font-weight: 400;">grįžti</span> <span style="font-weight: 400;">"Sveiki! Kaip aš galiu tau šiandien padėti?"</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; </span><span style="font-weight: 400;">Elif</span><span style="font-weight: 400;"> user_input.lower() == </span><span style="font-weight: 400;">"Ate"</span><span style="font-weight: 400;">:</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="font-weight: 400;">grįžti</span> <span style="font-weight: 400;">„Sudie! Geros dienos."</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; </span><span style="font-weight: 400;">Elif</span><span style="font-weight: 400;"> user_input.lower() == </span><span style="font-weight: 400;">"Koks tavo geras vardas?"</span><span style="font-weight: 400;">:</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="font-weight: 400;">grįžti</span> <span style="font-weight: 400;">„Mano vardas yra Chatbot“.</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; </span><span style="font-weight: 400;">Elif</span><span style="font-weight: 400;"> user_input.lower() == </span><span style="font-weight: 400;">"Kokie tavo gimimo metai?"</span><span style="font-weight: 400;">:</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="font-weight: 400;">grįžti</span> <span style="font-weight: 400;">„Aš buvau sukurtas 2021 m.</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; </span><span style="font-weight: 400;">Elif</span><span style="font-weight: 400;"> user_input.lower() == </span><span style="font-weight: 400;">"ką tu gali padaryti?"</span><span style="font-weight: 400;">:</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="font-weight: 400;">grįžti</span> <span style="font-weight: 400;">„Galiu atsakyti į jūsų klausimus, pasikalbėti su jumis ir atlikti pagrindines užduotis“.</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; </span><span style="font-weight: 400;">Elif</span> <span style="font-weight: 400;">"oras"</span> <span style="font-weight: 400;">in</span><span style="font-weight: 400;"> user_input.lower():</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="font-weight: 400;">grįžti</span> <span style="font-weight: 400;">„Šiuo metu negaliu patikrinti orų, atsiprašau.</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; </span><span style="font-weight: 400;">kitas</span><span style="font-weight: 400;">:</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="font-weight: 400;">grįžti</span> <span style="font-weight: 400;">„Atsiprašau, aš nesuprantu, ką tu nori pasakyti. Ar galėtumėte tai perfrazuoti?"</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">boto_pavadinimas = </span><span style="font-weight: 400;">„Chatbot“</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">gimimo_metai = </span><span style="font-weight: 400;">2021</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">pasveikinti (bot_vardas, gimimo_metai)</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">o</span> <span style="font-weight: 400;">Tiesa</span><span style="font-weight: 400;">:</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; user_input = input(</span><span style="font-weight: 400;">"Tu: "</span><span style="font-weight: 400;">)</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; atsakymas = atsakyti(vartotojo_įvestis)</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; spausdinti (</span><span style="font-weight: 400;">f"Chatbot: {atsakymas}"</span><span style="font-weight: 400;">)</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; </span><span style="font-weight: 400;">if</span><span style="font-weight: 400;"> user_input.lower() == </span><span style="font-weight: 400;">"Ate"</span><span style="font-weight: 400;">:</span><span style="font-weight: 400;"><br> </span><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; </span><span style="font-weight: 400;">pertrauka</span>&nbsp;</td></tr></tbody></table><pre><img decoding="async" class="wp-image-186132 size-full alignleft" src="https://www.unite.ai/wp-content/uploads/2023/02/code-image.png" alt="pokalbis" width="739" height="215" srcset="https://www.unite.ai/wp-content/uploads/2023/02/code-image.png 739w, https://www.unite.ai/wp-content/uploads/2023/02/code-image-300x87.png 300w, https://www.unite.ai/wp-content/uploads/2023/02/code-image-250x73.png 250w" sizes="(max-width: 739px) 100vw, 739px"></pre><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>Šiame pokalbių robote yra pasisveikinimo funkcija, kuri išspausdina pasisveikinimą vartotojui, kai prasideda pokalbių robotas. Atsakymo funkcija priima vartotojo įvestį ir grąžina atsakymą pagal vartotojo komandą. Pokalbių robotas gali atsakyti į klausimus apie savo gimimo metus ir vardą bei atlikti paprastas užduotis, pvz., pasisveikinti ir atsisveikinti. Jei vartotojas įveda ką nors, ko pokalbių robotas nesupranta, jis atsakys, kad vartotojas perfrazuotų savo komandą.</p><p>Programa parodo, kaip sukurti pagrindinį pokalbių robotą Python naudojant tik funkcijas ir sąlyginius teiginius. Taip pat rodoma, kaip užmegzti paprastą pokalbį su vartotoju naudojant įvesties ir išvesties teiginius.</p><h2>Kaip įmonės naudoja pokalbių robotus?</h2><p>Įmonės įvairiais būdais naudoja pokalbių robotus, siekdamos pagerinti klientų patirtį ir supaprastinti vidinius procesus. Pokalbių robotai įmonėms teikia įvairių privalumų, kurie išvardyti toliau.</p><ul><li><h3>Klientų aptarnavimas</h3></li></ul><p>Pokalbių robotai teikia greitą ir efektyvų klientų aptarnavimą atsakydami į dažniausiai užduodamus klausimus, išspręsdami problemas ir nukreipdami klientus į reikiamus išteklius. Tai padeda įmonėms susidoroti su klientų užklausų antplūdžiu ir užtikrinti pasiekiamumą 24 valandas per parą, 7 dienas per savaitę.</p><ul><li><h3>Pirkimas internetu</h3></li></ul><p>Pokalbių robotai gali būti integruoti į elektroninės prekybos svetaines, kad padėtų klientams apsipirkti. Jie gali padėti klientams naršyti svetainėje, rasti produktus ir atlikti operacijas.</p><ul><li><h3>Virtualūs padėjėjai</h3></li></ul><p>Jie gali būti naudojami kaip virtualūs asistentai, norint automatizuoti įprastas užduotis ir teikti informaciją. Pavyzdžiui, pokalbių robotai gali būti naudojami susitikimams planuoti, kalendoriams tvarkyti ir priminimams siųsti.</p><ul><li><h3>Automatizuota rinkodara ir pardavimas:</h3></li></ul><p>Pokalbių pokalbių robotai gali būti naudojami socialinių tinklų pardavimo kampanijoms. Jie ne tik valdo klientų sąveiką visuose pardavimo ciklo etapuose, bet ir prisideda prie pajamų augimo.</p><h2>Iššūkiai naudojant „Chatbots“.</h2><p>Pokalbių robotai tampa vis populiaresni kaip naujas įrankis įmonėms bendrauti su klientais ir teikti pagalbą. Tačiau yra keletas iššūkių, susijusių su pokalbių robotų naudojimu.</p><ul><li><h3>Ribotas žmogaus kalbos supratimas:</h3></li></ul><p>Vienas iš pagrindinių iššūkių yra NLP, nes jis apima sudėtingos ir niuansuotos žmogaus kalbos supratimą ir interpretavimą. Kitas iššūkis yra jų ribotas supratimas, nes jie gali suprasti tik tai, ko buvo apmokyti, ir gali nesugebėti atsakyti į netikėtus prašymus ar klausimus.</p><ul><li><h3>Privatumas ir saugumas</h3></li></ul><p>Kadangi pokalbių robotai fiksuoja ir saugo asmeninę vartotojų informaciją, taip pat kyla susirūpinimas dėl privatumo ir saugumo.</p><ul><li><h3>Vartotojo nusivylimas</h3></li></ul><p>Vartotojų nusivylimas yra dar vienas iššūkis, nes pokalbių robotai gali sukelti nusivylimą, kai nesupranta vartotojo užklausos arba pateikia neteisingus atsakymus.</p><ul><li><h3>Kaina</h3></li></ul><p>Pokalbių robotai yra brangūs, jei norite įdiegti įvairių tipų pokalbių robotus visose savo platformose (svetainėse, programose ir kt.), tai pareikalaus dar daugiau kodavimo ir padidins išlaidas.</p><h2>Kaip palengvinti gyvenimą: kaip „Chatbots“ keičia žaidimą?</h2><p class="gt-block">Kur yra <a href="https://www.unite.ai/lt/10-geriausi%C5%B3-ai-chatbot-platform%C5%B3/">pokalbių robotų revoliucija</a> vadovauja? Pokalbių robotai dar labiau padidina žmonių galimybes ir išlaisvina žmones būti novatoriškesniais, daugiau laiko skiriant strateginiam planavimui, o ne taktinei veiklai.</p><p class="gt-block">Netrukus, kai dirbtinis intelektas derės su 5G technologijos plėtra, įmonės greičiausiai galės mėgautis patobulintomis pokalbių roboto funkcijomis, tokiomis kaip greitos rekomendacijos ir prognozės bei lengva prieiga prie aukštos kokybės vaizdo konferencijų. Šie dalykai yra tyrimo stadijose ir greitai vystysis kaip <a href="https://www.unite.ai/lt/tolimos-ateities-5g-energijos-tiekimas-ir-ma%C5%A1ininis-mokymasis/">interneto ryšį, AI ir NLP pažangą</a>. Galiausiai kiekvienas žmogus gali turėti visiškai funkcionalų asmeninį asistentą savo kišenėje, todėl mūsų pasaulis taps labiau susijusi vieta dirbti ir gyventi.</p><p class="gt-block">Ar norite išmokti duomenų mokslo ir dirbtinio intelekto? Peržiūrėkite daugiau tinklaraščių <a href="https://www.unite.ai/lt/">vienytis.ai</a> ir ugdykite savo įgūdžius arba norite toliau mokytis „chatbot“, apsilankykite mūsų rekomenduojamoje <a href="https://www.unite.ai/lt/7-geriausi-pokalbi%C5%B3-robot%C5%B3-kursai/">Chatbot kursai ir sertifikatai</a>.</p> <style> .desktop-banner {
+ display: block;
+ }
+ .mobile-banner {
+ display: none;
+ }
+ @media screen and (max-width: 768px) {
+ .desktop-banner {
+ display: none;
+ }
+ .mobile-banner {
+ display: block;
+ }
+ } </style> <!-- Desktop Banner --> <a href="https://subscribe.unite.ai/" class="desktop-banner"> <img loading="lazy" decoding="async" class="alignnone wp-image-195394 size-full" src="https://www.unite.ai/wp-content/uploads/2022/10/join-the-future-newsletter.png" alt="" width="1099" height="628" srcset="https://www.unite.ai/wp-content/uploads/2022/10/join-the-future-newsletter.png 1099w, https://www.unite.ai/wp-content/uploads/2022/10/join-the-future-newsletter-300x171.png 300w, https://www.unite.ai/wp-content/uploads/2022/10/join-the-future-newsletter-250x143.png 250w, https://www.unite.ai/wp-content/uploads/2022/10/join-the-future-newsletter-768x439.png 768w" sizes="(max-width: 1099px) 100vw, 1099px"> </a> <!-- Mobile Banner --> <a href="https://subscribe.unite.ai/" class="mobile-banner"> <img loading="lazy" decoding="async" class="alignnone wp-image-195394 size-full" src="https://www.unite.ai/wp-content/uploads/2024/01/Unite-AI-Mobile-Newsletter-1.png" alt="" width="1099" height="628"> </a></div><!--mvp-content-main--><div id="mvp-content-bot" class="left"><div class="mvp-post-tags"> <span class="mvp-post-tags-header">Susijusios temos:</span><span itemprop="keywords"><a href="https://www.unite.ai/lt/tegus/dirbtinis-intelektas/" rel="tag">dirbtinis intelektas</a><a href="https://www.unite.ai/lt/tegus/pokalbis/" rel="tag">pokalbis</a><a href="https://www.unite.ai/lt/tegus/nat%C5%ABralus-kalbos-apdorojimas/" rel="tag">natūralus kalbos apdorojimas</a><a href="https://www.unite.ai/lt/tegus/pitonas/" rel="tag">pitonas</a></span></div><!--mvp-post-tags--><div class="posts-nav-link"></div><!--posts-nav-link--><div id="mvp-prev-next-wrap" class="left relative"><div class="mvp-next-post-wrap right relative"> <a href="https://www.unite.ai/lt/kas-yra-incident%C5%B3-automatizavimas/" rel="bookmark"><div class="mvp-prev-next-cont left relative"><div class="mvp-next-cont-out left relative"><div class="mvp-next-cont-in"><div class="mvp-prev-next-text left relative"> <span class="mvp-prev-next-label left relative">Kitas</span><p>Kas yra incidentų automatizavimas?</p></div><!--mvp-prev-next-text--></div><!--mvp-next-cont-in--> <span class="mvp-next-arr fa fa-chevron-right right"></span></div><!--mvp-prev-next-out--></div><!--mvp-prev-next-cont--> </a></div><!--mvp-next-post-wrap--><div class="mvp-prev-post-wrap left relative"> <a href="https://www.unite.ai/lt/sintetini%C5%B3-laikmen%C5%B3-tip%C5%B3-taikymo-etin%C4%97s-pasekm%C4%97s/" rel="bookmark"><div class="mvp-prev-next-cont left relative"><div class="mvp-prev-cont-out right relative"> <span class="mvp-prev-arr fa fa-chevron-left left"></span><div class="mvp-prev-cont-in"><div class="mvp-prev-next-text left relative"> <span class="mvp-prev-next-label left relative">Nepraleiskite</span><p>Sintetinės terpės – tipai, taikymas ir etiniai padariniai</p></div><!--mvp-prev-next-text--></div><!--mvp-prev-cont-in--></div><!--mvp-prev-cont-out--></div><!--mvp-prev-next-cont--> </a></div><!--mvp-prev-post-wrap--></div><!--mvp-prev-next-wrap--><div id="mvp-author-box-wrap" class="left relative "><div class="author__item"><div class="mvp-author-box-out right relative"><div id="mvp-author-box-img" class="left relative"> <img alt="mm" src="https://www.unite.ai/wp-content/uploads/2022/12/haziqa-150x150.jpg" class="avatar avatar-60 photo" height="60" width="60"></div><!--mvp-author-box-img--><div class="mvp-author-box-in"><div id="mvp-author-box-head" class="left relative"> <span class="mvp-author-box-name left relative"><a href="https://www.unite.ai/lt/autorius/haziqasajid/" title="Haziqa Sajid įrašai" rel="author">Haziqa Sajid</a></span><div id="mvp-author-box-soc-wrap" class="left relative"> <a href="https://www.linkedin.com/in/haziqa-sajid-22b53245/" alt="LinkedIn" target="_blank"><span class="mvp-author-box-soc fa fa-linkedin fa-2"></span></a></div><!--mvp-author-box-soc-wrap--></div><!--mvp-author-box-head--></div><!--mvp-author-box-in--></div><!--mvp-author-box-out--><div id="mvp-author-box-text" class="left relative"><p class="gt-block"><a href="https://www.linkedin.com/in/haziqa-sajid-22b53245/">Haziqa</a> yra duomenų mokslininkas, turintis didelę patirtį rašant techninį turinį AI ir SaaS įmonėms.</p></div><!--mvp-author-box-text--></div><!--author__item--></div><!--mvp-author-box-wrap--><div class="mvp-org-wrap" itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><div class="mvp-org-logo" itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject"> <img src="https://www.unite.ai/wp-content/uploads/2021/03/logoUNITE230X30BLACK-1.svg"><meta itemprop="url" content="https://www.unite.ai/wp-content/uploads/2021/03/logoUNITE230X30BLACK-1.svg"></div><!--mvp-org-logo--><meta itemprop="name" content="Unite.AI"></div><!--mvp-org-wrap--></div><!--mvp-content-bot--></div><!--mvp-content-body-top--><div class="mvp-cont-read-wrap"><div id="mvp-related-posts" class="left relative"><h4 class="mvp-widget-home-title"> <span class="mvp-widget-home-title">Jums gali patikti</span></h4><ul class="mvp-related-posts-list left related"> <a href="https://www.unite.ai/lt/ai-%C5%BEini%C5%B3-sprag%C5%B3-panaikinimas-skudur%C5%B3-technikomis-ir-strategijomis-siekiant-pagerinti-na%C5%A1um%C4%85/" rel="bookmark"><li><div class="mvp-related-img left relative"> <img width="400" height="240" src="https://www.unite.ai/wp-content/uploads/2024/10/DALL%C2%B7E-2024-10-14-08.57.56-An-abstract-bright-digital-representation-of-AI-knowledge-retrieval-and-generation-processes.-The-image-features-colorful-interconnected-data-nodes--400x240.webp" class="mvp-reg-img wp-post-image" alt="RAG AI žinių paieška" decoding="async" loading="lazy" sizes="(max-width: 400px) 100vw, 400px"> <img width="80" height="80" src="https://www.unite.ai/wp-content/uploads/2024/10/DALL%C2%B7E-2024-10-14-08.57.56-An-abstract-bright-digital-representation-of-AI-knowledge-retrieval-and-generation-processes.-The-image-features-colorful-interconnected-data-nodes--80x80.webp" class="mvp-mob-img wp-post-image" alt="RAG AI žinių paieška" decoding="async" loading="lazy"></div><!--mvp-related-img--><div class="mvp-related-text left relative"><p>AI žinių spragų panaikinimas naudojant RAG: geresnio našumo metodai ir strategijos</p></div><!--mvp-related-text--></li> </a> <a href="https://www.unite.ai/lt/Mosel-patobulina-kalbos-duomen%C5%B3-rinkim%C4%85-visomis-Europos-kalbomis/" rel="bookmark"><li><div class="mvp-related-img left relative"> <img width="400" height="240" src="https://www.unite.ai/wp-content/uploads/2024/10/alex_mc9997_The_diversity_of_european_languages_on_a_digital__3769296a-03d5-4d75-a0a7-cd308c0c67c0_3-400x240.png" class="mvp-reg-img wp-post-image" alt="" decoding="async" loading="lazy" sizes="(max-width: 400px) 100vw, 400px"> <img width="80" height="80" src="https://www.unite.ai/wp-content/uploads/2024/10/alex_mc9997_The_diversity_of_european_languages_on_a_digital__3769296a-03d5-4d75-a0a7-cd308c0c67c0_3-80x80.png" class="mvp-mob-img wp-post-image" alt="" decoding="async" loading="lazy"></div><!--mvp-related-img--><div class="mvp-related-text left relative"><p>MOSEL: Kalbos duomenų rinkimo visoms Europos kalboms tobulinimas</p></div><!--mvp-related-text--></li> </a> <a href="https://www.unite.ai/lt/transagentai-%E2%80%93-naujas-po%C5%BEi%C5%ABris-%C4%AF-literat%C5%ABros-k%C5%ABrini%C5%B3-ma%C5%A1inin%C4%AF-vertim%C4%85/" rel="bookmark"><li><div class="mvp-related-img left relative"> <img width="400" height="240" src="https://www.unite.ai/wp-content/uploads/2024/09/DALL%C2%B7E-2024-09-29-15.14.49-A-conceptual-illustration-depicting-the-theme-of-machine-translation-for-literary-works.-The-image-features-elements-representing-both-technology-and--400x240.webp" class="mvp-reg-img wp-post-image" alt="AI vertimo agentai literatūrai" decoding="async" loading="lazy" sizes="(max-width: 400px) 100vw, 400px"> <img width="80" height="80" src="https://www.unite.ai/wp-content/uploads/2024/09/DALL%C2%B7E-2024-09-29-15.14.49-A-conceptual-illustration-depicting-the-theme-of-machine-translation-for-literary-works.-The-image-features-elements-representing-both-technology-and--80x80.webp" class="mvp-mob-img wp-post-image" alt="AI vertimo agentai literatūrai" decoding="async" loading="lazy"></div><!--mvp-related-img--><div class="mvp-related-text left relative"><p>„TransAgents“: naujas požiūris į literatūros kūrinių mašininį vertimą</p></div><!--mvp-related-text--></li> </a> <a href="https://www.unite.ai/lt/ai-kain%C5%B3-karas%2C-kaip-ma%C5%BEesn%C4%97s-s%C4%85naudos-daro-ai-prieinamesn%C4%99/" rel="bookmark"><li><div class="mvp-related-img left relative"> <img width="400" height="240" src="https://www.unite.ai/wp-content/uploads/2024/09/price-drops-in-AI-400x240.webp" class="mvp-reg-img wp-post-image" alt="" decoding="async" loading="lazy" sizes="(max-width: 400px) 100vw, 400px"> <img width="80" height="80" src="https://www.unite.ai/wp-content/uploads/2024/09/price-drops-in-AI-80x80.webp" class="mvp-mob-img wp-post-image" alt="" decoding="async" loading="lazy"></div><!--mvp-related-img--><div class="mvp-related-text left relative"><p>AI kainų karas: kaip mažesnės sąnaudos daro AI prieinamesnį</p></div><!--mvp-related-text--></li> </a> <a href="https://www.unite.ai/lt/mokslininkai-in%C5%BEinieriai-molekuli%C5%B3-mastelio-atminties-b%C5%ABsenas-vir%C5%A1ija-tradicines-skai%C4%8Diavimo-ribas/" rel="bookmark"><li><div class="mvp-related-img left relative"> <img width="400" height="240" src="https://www.unite.ai/wp-content/uploads/2024/09/alex_mc9997_Futuristic_microscopic_view_of_glowing_molecules__4ea5b567-294d-4acf-b7fa-32b79e3af4a4_0-400x240.png" class="mvp-reg-img wp-post-image" alt="" decoding="async" loading="lazy" sizes="(max-width: 400px) 100vw, 400px"> <img width="80" height="80" src="https://www.unite.ai/wp-content/uploads/2024/09/alex_mc9997_Futuristic_microscopic_view_of_glowing_molecules__4ea5b567-294d-4acf-b7fa-32b79e3af4a4_0-80x80.png" class="mvp-mob-img wp-post-image" alt="" decoding="async" loading="lazy"></div><!--mvp-related-img--><div class="mvp-related-text left relative"><p>Mokslininkai inžinieriai molekulinės mastelio atminties būsenos, viršijančios tradicines skaičiavimo ribas</p></div><!--mvp-related-text--></li> </a> <a href="https://www.unite.ai/lt/asinchroninis-llm-api-i%C5%A1kvie%C4%8Dia-python-i%C5%A1sam%C5%B3-vadov%C4%85/" rel="bookmark"><li><div class="mvp-related-img left relative"> <img width="400" height="240" src="https://www.unite.ai/wp-content/uploads/2024/08/out-0-1-400x240.jpg" class="mvp-reg-img wp-post-image" alt="Asinchroniniai LLM API skambučiai Python: išsamus vadovas" decoding="async" loading="lazy" sizes="(max-width: 400px) 100vw, 400px"> <img width="80" height="80" src="https://www.unite.ai/wp-content/uploads/2024/08/out-0-1-80x80.jpg" class="mvp-mob-img wp-post-image" alt="Asinchroniniai LLM API skambučiai Python: išsamus vadovas" decoding="async" loading="lazy"></div><!--mvp-related-img--><div class="mvp-related-text left relative"><p>Asinchroniniai LLM API skambučiai Python: išsamus vadovas</p></div><!--mvp-related-text--></li> </a></ul></div><!--mvp-related-posts--></div><!--mvp-cont-read-wrap--></div><!--mvp-content-body--></div><!--mvp-post-soc-in--></div><!--mvp-post-soc-out--></div><!--mvp-content-wrap--></div><!--mvp-post-content--></div><!--mvp-post-main-in--></div><!--mvp-post-main-out--></div><!--mvp-post-main--></div><!--mvp-main-box--></div><!--mvp-article-cont--></article><!--mvp-article-wrap--></div><!--mvp-main-body-wrap--><footer id="footer__main" class="footer__main relative"><div class="mvp-main-box"><div class="foot__inner"><div class="foot__left"><div class="foot__left_nav"><div class="foot__nav"><ul id="foot-nav" class="menu"><li id="menu-item-185885" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-185885"><a href="https://www.unite.ai/lt/apie-mus/">Apie mus</a></li><li id="menu-item-172171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172171"><a href="https://www.unite.ai/lt/Susipa%C5%BEink-su-komanda/">Susipažinkite su komanda</a></li><li id="menu-item-172164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172164"><a href="https://www.unite.ai/lt/m%C5%ABs%C5%B3-chartija/">Mūsų chartija</a></li><li id="menu-item-194994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-194994"><a href="https://www.unite.ai/lt/domenai/">.AI domenų vardai</a></li><li id="menu-item-172170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172170"><a href="https://www.unite.ai/lt/spaudos-%C4%AFrankiai/">Paspauskite Tools</a></li><li id="menu-item-172163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172163"><a href="https://www.unite.ai/lt/susisiekite-su-mumis/">Kontaktai</a></li></ul></div></div><div class="foot__desclimer"><p class="gt-block"><strong>Reklamuotojo atskleidimas</strong>: Unite.AI yra įsipareigojusi laikytis griežtų redakcinių standartų, kad skaitytojams pateiktų tikslią informaciją ir naujienas. Galime gauti kompensaciją, kai spustelėsite nuorodas į mūsų peržiūrėtus produktus.</p><div class="gtranslate_wrapper" id="gt-wrapper-12736597"></div></div></div><div class="foot__right"><ul class="mvp-foot-soc-list left relative social__media"><li><a href="https://www.facebook.com/uniteai" target="_blank" class="fa fa-facebook fa-2"></a></li><li><a href="https://twitter.com/UniteAI" target="_blank" class="fa fa-twitter fa-2"></a></li><li><a href="https://www.linkedin.com/company/unite-ai" target="_blank" class="fa fa-linkedin fa-2"></a></li><li><a href="https://www.unite.ai/lt/maitinti/" target="_blank" class="fa-rss fas"></a></li></ul><div class="foot__copyright"><p class="copyright">Autorių teisės © 2024 Unite.AI</p></div><div class="foot__right_nav"><div class="foot__nav"><ul id="foot-nav" class="menu"><li id="menu-item-172167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172167"><a href="https://www.unite.ai/lt/redakcin%C4%97-politika/">Redakcijos politika</a></li><li id="menu-item-172165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-172165"><a rel="privacy-policy" href="https://www.unite.ai/lt/Privatumo-politika/">Privatumo politika</a></li><li id="menu-item-172166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172166"><a href="https://www.unite.ai/lt/Terminai-ir-s%C4%85lygos/">Terminai ir sąlygos</a></li></ul></div></div></div></div></div></footer></div><!--mvp-site-main--></div><!--mvp-site-wall--></div><!--mvp-site--><div class="mvp-fly-top back-to-top"> <i class="fa fa-angle-up fa-3"></i></div><!--mvp-fly-top--><div class="mvp-fly-fade mvp-fly-but-click"></div><!--mvp-fly-fade--> <!-- Google Tag Manager (noscript) snippet added by Site Kit --> <noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MXCVW" height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript> <!-- End Google Tag Manager (noscript) snippet added by Site Kit --> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-content/themes/zox-news-child/js/custom.js?ver=1728686223" id="custom-js"></script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-content/themes/zox-news/js/mvpcustom.js?ver=1728686223" id="mvp-custom-js"></script> <script defer="" type="text/javascript" id="mvp-custom-js-after"> /* <![CDATA[ */
+ jQuery(document).ready(function($) {
+ $(window).load(function(){
+ var leaderHeight = $("#mvp-leader-wrap").outerHeight();
+ var navHeight = $("#mvp-main-head-wrap").outerHeight();
+ var headerHeight = navHeight + leaderHeight;
+ var previousScroll = 0;
+ $(window).scroll(function(event){
+ var scroll = $(this).scrollTop();
+ if ($(window).scrollTop() > headerHeight){
+ $("#mvp-main-nav-small").addClass("mvp-nav-small-fixed");
+ $("#mvp-main-body-wrap").css("margin-top", navHeight );
+ } else {
+ $("#mvp-main-nav-small").removeClass("mvp-nav-small-fixed");
+ $("#mvp-main-body-wrap").css("margin-top","0");
+ }
+ if ($(window).scrollTop() > headerHeight + 50){
+ $("#mvp-main-nav-small").addClass("mvp-fixed");
+ $("#mvp-main-nav-small").addClass("mvp-fixed-shadow");
+ $(".mvp-fly-top").addClass("mvp-to-top");
+ if(scroll < previousScroll) {
+ $("#mvp-main-nav-small").removeClass("mvp-soc-mob-up");
+ $("#mvp-soc-mob-wrap").removeClass("mvp-soc-mob-up");
+ $(".mvp-drop-nav-title").removeClass("mvp-nav-small-post");
+ $(".mvp-nav-menu").show();
+ } else {
+ $("#mvp-main-nav-small").addClass("mvp-soc-mob-up");
+ $("#mvp-soc-mob-wrap").addClass("mvp-soc-mob-up");
+ $(".mvp-drop-nav-title").addClass("mvp-nav-small-post");
+ $(".mvp-nav-menu").hide();
+ }
+ } else {
+ $("#mvp-main-nav-small").removeClass("mvp-fixed");
+ $("#mvp-main-nav-small").removeClass("mvp-fixed-shadow");
+ $(".mvp-fly-top").removeClass("mvp-to-top");
+ }
+ previousScroll = scroll;
+ });
+ });
+ }); 
+ jQuery(document).ready(function($) {
+ $(".menu-item-has-children a").click(function(event){
+ event.stopPropagation(); 
+ });
+ $(".menu-item-has-children").click(function(){
+ $(this).addClass("toggled");
+ if($(".menu-item-has-children").hasClass("toggled"))
+ {
+ $(this).children("ul").toggle();
+ $(".mvp-fly-nav-menu").getNiceScroll().resize();
+ }
+ $(this).toggleClass("tog-minus");
+ return false;
+ });
+ // Main Menu Scroll
+ $(window).load(function(){
+ $(".mvp-fly-nav-menu").niceScroll({cursorcolor:"#888",cursorwidth: 7,cursorborder: 0,zindex:999999});
+ });
+ }); 
+ jQuery(document).ready(function($) {
+ $(".infinite-content").infinitescroll({
+ navSelector: ".mvp-nav-links",
+ nextSelector: ".mvp-nav-links a:first",
+ itemSelector: ".infinite-post",
+ errorCallback: function(){ $(".mvp-inf-more-but").css("display", "none") }
+ });
+ $(window).unbind(".infscr");
+ $(".mvp-inf-more-but").click(function(){
+ $(".infinite-content").infinitescroll("retrieve");
+ return false;
+ });
+ $(window).load(function(){
+ if ($(".mvp-nav-links a").length) {
+ $(".mvp-inf-more-but").css("display","inline-block");
+ } else {
+ $(".mvp-inf-more-but").css("display","none");
+ }
+ });
+ }); 
+/* ]]> */ </script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-content/themes/zox-news/js/scripts.js?ver=1728686223" id="zoxnews-js"></script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-content/themes/zox-news/js/retina.js?ver=1728686223" id="retina-js"></script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-content/themes/zox-news/js/flexslider.js?ver=1728686223" id="flexslider-js"></script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-content/themes/zox-news/js/jquery.infinitescroll.min.js?ver=1728686223" id="infinitescroll-js"></script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-includes/js/comment-reply.min.js?ver=51021f44395e9d18d677f5d95f5e7390" id="comment-reply-js" async="async" data-wp-strategy="async"></script> <script type="text/javascript" id="wpfront-scroll-top-js-extra"> /* <![CDATA[ */
+var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{display:none;position:fixed;cursor:pointer;z-index:9999;opacity:0}#wpfront-scroll-top-container div.text-holder{padding:3px 10px;border-radius:3px;-webkit-border-radius:3px;-webkit-box-shadow:4px 4px 5px 0 rgba(50,50,50,.5);-moz-box-shadow:4px 4px 5px 0 rgba(50,50,50,.5);box-shadow:4px 4px 5px 0 rgba(50,50,50,.5)}#wpfront-scroll-top-container a{outline-style:none;box-shadow:none;text-decoration:none}#wpfront-scroll-top-container {left: 20px;bottom: 20px;}        #wpfront-scroll-top-container img {\n            width: auto;\n            height: auto;\n        }\n        ","html":"<div id=\"wpfront-scroll-top-container\"><img src=\"https:\/\/www.unite.ai/lt\/wp-content\/plugins\/wpfront-scroll-top\/images\/icons\/1.png\" alt=\"\" title=\"\" \/><\/div>","data":{"hide_iframe":false,"button_fade_duration":200,"auto_hide":false,"auto_hide_after":2,"scroll_offset":100,"button_opacity":0.8000000000000000444089209850062616169452667236328125,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":0,"scroll_duration":400}}};
+/* ]]> */ </script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.2.10081" id="wpfront-scroll-top-js"></script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script> <script type="text/javascript" id="megamenu-js-extra"> /* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */ </script> <script defer="" type="text/javascript" src="https://www.unite.ai/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.3.1.2" id="megamenu-js"></script> <script type="text/javascript" id="gt_widget_script_12736597-js-before"> /* <![CDATA[ */
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['12736597'] = {"default_language":"en","languages":["af","sq","ar","hy","bg","ca","zh-CN","hr","cs","da","nl","en","et","fi","fr","ka","de","el","iw","hi","hu","is","id","ga","it","ja","ko","ku","lo","lv","lt","lb","mk","mt","mi","mn","my","no","pl","pt","ro","ru","gd","sr","sk","sl","so","es","su","sw","sv","ta","te","th","tr","uk","ur","uz","vi"],"url_structure":"sub_directory","flag_style":"2d","flag_size":24,"wrapper_selector":"#gt-wrapper-12736597","alt_flags":{"en":"usa"},"horizontal_position":"inline","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+/* ]]> */ </script><script src="https://www.unite.ai/wp-content/plugins/gtranslate/js/flags.js?ver=51021f44395e9d18d677f5d95f5e7390" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/creating-a-chatbot-from-scratch-a-beginners-guide/" data-gt-orig-domain="www.unite.ai" data-gt-widget-id="12736597" defer=""></script><script>window.GA_ID='UA-144204508-1'</script><script src="https://www.unite.ai/wp-content/plugins/flying-analytics/js/gtag.js" defer=""></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-144204508-1');</script><div id="gsp_data_html" data-g_version="3.8.7" data-w_id="93a624204a389f7d93a2efae9aadccaf" data-s_enc="6341bfddc86cd3b5a74e076f073710c1f91691643fc947971256ca84afba6100969823bdd896a3afd85d18537eb98bc13acef82d6b0ae1f56b7b1026dcb7fff3cc9c3eaf" data-h_enc="d37d84654bbf1b4f42c93e34761e19dcac7cd50d3181bb872d309dc8a5744809" data-hh_enc="01e268531ccc9754162ca32d5b872b3c1edd3e00a9b258b2ee77853ebe702f032da8a6257dabdf72b7dc52e89c3a1ff77efb6e2082b7ef3380710c847df2b6172730fc316fa1eaa92413e0ec50038e614ba1e50d8dcf9c68591643d336f83e777fcb48847fa02c3538fac2982ba7f19b" data-lazy_load="1" data-gt-w="gsp_clgtranslate_wrapper" data-vv_index="1" data-ref=""></div><script data-cfasync="false" src="https://tdns4.gtranslate.net/tdn-bin/queue.js"></script></body></html>
